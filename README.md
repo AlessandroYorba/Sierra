@@ -1,4 +1,4 @@
-![Screenshot Sierra]()
+![Screenshot Sierra](https://cloud.githubusercontent.com/assets/11221489/12941822/f50aee0c-cf8a-11e5-8fd4-0af7c70f6a2d.jpg)
 
 # Sierra #
 
