@@ -5,14 +5,34 @@
 
 A Vim colorscheme for Terminal Vim and GUI Vim. 
 
-### Inspirations ###
+### Inspiration ###
 
-Sierra is a modern spin-off of Hans Fugal's ![Desert](https://github.com/fugalh/desert.vim) colorscheme that features High Desert Colors. Cool hues for 'Statements', 'Functions', and 'Variables' and warm colors for 'Constants', 'String', and 'Booleans'. As you can see in the Screenshot below that Sierra has a range of background settings which you can tailor in your vimrc
+Sierra is a derivative of Hans Fugal's [Desert](https://github.com/fugalh/desert.vim). 'Statements', 'Functions', and 'Variables' are colored in cooler hues while 'Constants', 'String', and 'Booleans' are set to warmer reds. Sierra comes with a range of settings which you can tailor to fit your needs.
 
-### Screenshots ###
+### Custom Options ###
 
-The following screenshot of Sierra were made and tested using a default Vi IMproved 7.3 in [iTerm 2.1.4](https://www.iterm2.com) and the Vi IMproved 7.4 GUI MacVim app. Extended syntax for JavaScript provided by Jose Elera Campana's Plug-in [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax). Enjoy!!
+#### Day ####
+
+    colorscheme sierra
+
+#### Twilight ####
+
+    let g:sierra_Twilight = 1
+    colorscheme sierra
+
+#### Midnight ####
+
+    let g:sierra_Midnight = 1
+    colorscheme sierra
+
+#### Pitch ####
+
+    "let g:sierra_Pitch = 1
+    colorscheme sierra
+
+### Moar Screenshots ###
+[Screenshots](https://github.com/AlessandroYorba/Sierra/issues/1)
+
+The screenshots of Sierra were made and tested using a default Vi IMproved 7.3 in [iTerm 2.1.4](https://www.iterm2.com) and the Vi IMproved 7.4 GUI MacVim app. Extended syntax for JavaScript provided by Jose Elera Campana's Plug-in [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax). Enjoy!!
 
 
-#### JavaScript ####
-![Screenshot JavaScript]()
