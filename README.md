@@ -27,7 +27,7 @@ Sierra is a derivative of Hans Fugal's [Desert](https://github.com/fugalh/desert
 
 #### Pitch ####
 
-    "let g:sierra_Pitch = 1
+    let g:sierra_Pitch = 1
     colorscheme sierra
 
 ### Moar Screenshots ###
