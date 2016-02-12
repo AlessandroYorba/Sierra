@@ -10,10 +10,10 @@
 " A Terminal Vim colorscheme 
 " Author:       Alessandro Yorba 
 " Maintainer:   Alessandro Yorba
-" Script URL:   
+" Script URL:   https://github.com/AlessandroYorba/Sierra
 " License:      MIT
 " Version:      0.0.0
-" Last Change:  February 8th, 2016
+" Last Change:  February 11th, 2016
 
 
 " --------------------------------
