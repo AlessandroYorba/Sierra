@@ -12,7 +12,7 @@
 " Maintainer:   Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Sierra
 " License:      MIT
-" Version:      0.0.0
+" Version:      0.1.0
 " Last Change:  February 11th, 2016
 
 
@@ -164,7 +164,7 @@ call s:HL( 'CursorLineNR', 'Graphite', '', 'none' )
 "call s:HL( 'CursorColumn', '', '', '' )
 "call s:HL( 'SignColumn', '', '', '' )      
 "call s:HL( 'FoldColumn', '', '', '' )
-"call s:HL( 'Folded', '', '', 'none' )
+call s:HL( 'Folded', 'Dune', 'Lake', 'none' )
 
 
 " --------------------------------------------------------------------------------
