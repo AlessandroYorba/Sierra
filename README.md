@@ -33,6 +33,6 @@ Sierra is a derivative of Hans Fugal's [Desert](https://github.com/fugalh/desert
 ### Moar Screenshots ###
 [Screenshots](https://github.com/AlessandroYorba/Sierra/issues/1)
 
-The screenshots of Sierra were made and tested using a default Vi IMproved 7.3 in [iTerm 2.1.4](https://www.iterm2.com) and the Vi IMproved 7.4 GUI MacVim app. Extended syntax for JavaScript provided by Jose Elera Campana's Plug-in [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax). Enjoy!!
+The screenshots of Sierra were made and tested using a default Vi IMproved 7.3 in [iTerm 2.1.4](https://www.iterm2.com) and the Vi IMproved 7.4 in the GUI MacVim app. Extended syntax for JavaScript provided by Jose Elera Campana's Plug-in [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax). Enjoy!!
 
 
