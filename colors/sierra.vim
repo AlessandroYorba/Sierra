@@ -12,7 +12,7 @@
 " Maintainer:   Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Sierra
 " License:      MIT
-" Version:      0.1.0
+" Version:      1.0.0
 " Last Change:  February 11th, 2016
 
 
@@ -28,7 +28,7 @@ let g:colors_name="sierra"
 
 "
 "----------------------------------------------------------------
-"               Day - Twilight - Midnight
+"               Day - Twilight - Midnight - Pitch
 "----------------------------------------------------------------
 
 
@@ -71,6 +71,7 @@ let s:sierra.Firecracker = [ 'af5f5f', 131 ]
 let s:sierra.Evening     = [ 'af8787', 138 ]
 "let s:sierra.Shrub      = [ 'afaf5f', 143 ]
 let s:sierra.Flats       = [ 'afaf87', 144 ]
+let s:sierra.Lavender    = [ 'afafd7', 146 ]
 let s:sierra.Nolana      = [ 'afd7d7', 152 ]
 "let s:sierra.Aloe       = [ 'afff87', 156 ]
 let s:sierra.Rose        = [ 'd75f5f', 167 ]
@@ -152,27 +153,27 @@ endfunction
 call s:HL( 'Normal', 'Cloud', 'Day', 'none' )
 call s:HL( 'CursorLine', '', 'Shade', 'none' )
 call s:HL( 'LineNr', 'Pebble', 'Day','none' )
+call s:HL( 'CursorLineNR', 'Graphite', '', 'none' )
 "TODO
 "call s:HL( 'Cursor', '', '',          '' )
-call s:HL( 'CursorLineNR', 'Graphite', '', 'none' )
 
 
 " --------------------------------------------------------------------------------
 "                               Number Column:
 " --------------------------------------------------------------------------------
+call s:HL( 'Folded', 'Dune', 'Lake', 'none' )
 "TODO
 "call s:HL( 'CursorColumn', '', '', '' )
 "call s:HL( 'SignColumn', '', '', '' )      
 "call s:HL( 'FoldColumn', '', '', '' )
-call s:HL( 'Folded', 'Dune', 'Lake', 'none' )
 
 
 " --------------------------------------------------------------------------------
 "                           WindowTab Delimiters:
 " --------------------------------------------------------------------------------
-call s:HL( 'VertSplit', 'Shade', 'Twilight', 'none' )
-call s:HL( 'TabLine', 'Shade', 'Twilight', 'none' )
-call s:HL( 'TabLineFill', '', 'Twilight', 'none' )
+call s:HL( 'VertSplit', 'Shade', 'Shadow', 'none' )
+call s:HL( 'TabLine', 'Pebble', 'Shadow', 'none' )
+call s:HL( 'TabLineFill', '', 'Shadow', 'none' )
 "TODO
 "call s:HL( 'ColorColumn', '', '', '' )
 "call s:HL( 'TabLineSel', '', '', 'none' )
@@ -183,6 +184,7 @@ call s:HL( 'TabLineFill', '', 'Twilight', 'none' )
 " --------------------------------------------------------------------------------
 call s:HL( 'Directory', 'Evening', '', 'none' )
 call s:HL( 'Search', 'Dune', 'Dusk', 'none' )
+"TODO
 "call s:HL( 'IncSearch', '', '', 'reverse' )
 
 
@@ -190,7 +192,7 @@ call s:HL( 'Search', 'Dune', 'Dusk', 'none' )
 "                             Prompt Status:
 " --------------------------------------------------------------------------------
 call s:HL( 'StatusLine', 'Shadow', 'Flats', 'none' )
-call s:HL( 'StatusLineNC', 'Shade', 'Twilight', 'none' )
+call s:HL( 'StatusLineNC', 'Slate', 'Shadow', 'none' )
 call s:HL( 'WildMenu', 'Dune', 'Dusk', 'none' )
 call s:HL( 'Title', 'Bellflower', '', 'none' )
 call s:HL( 'ModeMsg', 'Flats', '', 'none' )
@@ -209,10 +211,10 @@ call s:HL( 'Todo', 'Flats', 'Twilight', 'italic' )
 call s:HL( 'Error', 'Firecracker', 'Shadow', 'reverse' )
 call s:HL( 'ErrorMsg', 'Firecracker', 'Shadow', 'reverse' )
 call s:HL( 'SpecialKey', 'Azure', '', '' )
+call s:HL( 'Underlined', 'Azure', '', 'none' )
 "TODO
 "call s:HL( 'Ignore', '', '', '' )
 "call s:HL( 'VisualNOS', '', '', 'underline' )
-call s:HL( 'Underlined', 'Azure', '', 'none' )
 "call s:HL( 'WarningMsg', '', '', 'none' )
 
 
@@ -255,12 +257,13 @@ call s:HL( 'Special', 'Mallow', '', 'none' )
 "                                C Like:
 " --------------------------------------------------------------------------------
 call s:HL( 'PreProc', 'Rose', '', 'none' )
+call s:HL( 'Type', 'Evening', '', 'none' )
+"TODO
 "call s:HL( 'Include', '', '', 'none' )
 "call s:HL( 'Define', '', '', 'none' )
 "call s:HL( 'Macro', '', '', 'none' )
 "call s:HL( 'PreCondit', '', '', 'none' )
 
-call s:HL( 'Type', 'Evening', '', 'none' )
 "call s:HL( 'StorageClass', '', '', 'none' )
 "call s:HL( 'Structure', '', '', 'none' )
 "call s:HL( 'Typedef', '', '', 'none' )
@@ -270,16 +273,17 @@ call s:HL( 'Type', 'Evening', '', 'none' )
 "                                 HTML:                             |
 "--------------------------------------------------------------------
 call s:HL( 'htmlItalic', 'Rose', '', 'none' )
+call s:HL( 'htmlArg', 'Mallow', '', 'none' )
+"TODO
 "call s:HL( 'htmlSpecialTagName', 'Mallow', '', 'none' )
 "call s:HL( 'htmlTagName', '', '', 'none' )
-call s:HL( 'htmlArg', 'Mallow', '', 'none' )
 
 
 "--------------------------------------------------------------------
 "                                Diff:                              |
 "--------------------------------------------------------------------
 "TODO
-call s:HL( 'DiffAdd', 'Twilight', 'Lake', 'none' )
+call s:HL( 'DiffAdd', 'Twilight', 'Lavender', 'none' )
 call s:HL( 'DiffChange', 'Twilight', 'Lilac', 'none' )
 call s:HL( 'DiffDelete', 'Twilight', 'Firecracker', 'none' )
 call s:HL( 'DiffText', 'Twilight', 'Heather', 'none' )
@@ -287,7 +291,7 @@ call s:HL( 'DiffText', 'Twilight', 'Heather', 'none' )
 "--------------------------------------------------------------------
 "                           Completion Menu:                        |
 "--------------------------------------------------------------------
-call s:HL( 'Pmenu', 'Pebble', 'Midnight', 'none' )
+call s:HL( 'Pmenu', 'Slate', 'Shadow', 'none' )
 call s:HL( 'PmenuSel', 'Dune', 'Dusk', 'none' )
 "call s:HL( 'PmenuSbar', '', '', 'none' )
 "call s:HL( 'PmenuThumb', '', '', '' )
@@ -308,10 +312,15 @@ call s:HL( 'PmenuSel', 'Dune', 'Dusk', 'none' )
 if g:sierra_Twilight 
     call s:HL( 'Normal', 'Stars', 'Twilight', 'none' )
     call s:HL( 'LineNr', '', 'Twilight', 'none' )
-    call s:HL( 'VertSplit', '', 'Midnight', 'none' )
+    call s:HL( 'VertSplit', 'Day', 'Midnight', 'none' )
     call s:HL( 'CursorLine', '', 'Shadow', 'none' )
     call s:HL( 'TabLineFill', '', 'Midnight', 'none' )
     call s:HL( 'StatusLineNc', '', 'Midnight', 'none' )
+    call s:HL( 'Pmenu', '', '', 'none' )
+    call s:HL( 'Error', 'Firecracker', 'Twilight', 'reverse' )
+    call s:HL( 'ErrorMsg', 'Firecracker', 'Twilight', 'reverse' )
+    call s:HL( 'CursorLineNR', '', '', 'none' )
+    call s:HL( 'Comment', '', '', 'none' )
 end
 
 "233
@@ -344,6 +353,7 @@ if g:sierra_Pitch
     call s:HL( 'Comment', 'Pebble', '', 'none' )
 end
 
+"MatchParen Underline
 if g:sierra_MatchParen_Underline
     call s:HL( 'MatchParen', 'Salt', 'Pitch', 'underline' )
 end
