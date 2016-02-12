@@ -1,0 +1,349 @@
+
+"    ███████╗██╗███████╗██████╗ ██████╗  █████╗
+"    ██╔════╝██║██╔════╝██╔══██╗██╔══██╗██╔══██╗
+"    ███████╗██║█████╗  ██████╔╝██████╔╝███████║
+"    ╚════██║██║██╔══╝  ██╔══██╗██╔══██╗██╔══██║
+"    ███████║██║███████╗██║  ██║██║  ██║██║  ██║
+"    ╚══════╝╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
+
+
+" A Terminal Vim colorscheme 
+" Author:       Alessandro Yorba 
+" Maintainer:   Alessandro Yorba
+" Script URL:   
+" License:      MIT
+" Version:      0.0.0
+" Last Change:  February 8th, 2016
+
+
+" --------------------------------
+set background=dark
+" --------------------------------
+
+highlight clear
+if exists("syntax_on")
+    syntax reset
+endif
+let g:colors_name="sierra"
+
+"
+"----------------------------------------------------------------
+"               Day - Twilight - Midnight
+"----------------------------------------------------------------
+
+
+"Background = 234
+if !exists("g:sierra_Twilight") " {{{
+    let g:sierra_Twilight = 0
+endif " }}}
+
+"Background = 233
+if !exists("g:sierra_Midnight") " {{{
+    let g:sierra_Midnight = 0
+endif " }}}
+
+"Background = 232
+if !exists("g:sierra_Pitch") " {{{
+    let g:sierra_Pitch = 0
+endif " }}}
+
+if !exists("g:sierra_MatchParen_Underline") " {{{
+    let g:sierra_MatchParen_Underline = 0
+endif " }}}
+
+"----------------------------------------------------------------
+
+let s:sierra = {}
+
+let s:sierra.Abyss       = [ '000000', 16  ]
+let s:sierra.Lilac       = [ '5f5f87', 60  ]
+let s:sierra.Cactus      = [ '5f8700', 64  ]
+let s:sierra.Lake        = [ '5f8787', 66  ]
+let s:sierra.Dusk        = [ '875f5f', 95  ]
+let s:sierra.Heather     = [ '8787af', 103 ]
+let s:sierra.Sage        = [ '87af5f', 107 ]
+let s:sierra.Marsh       = [ '87af87', 108 ]
+let s:sierra.Oasis       = [ '87afaf', 109 ]
+let s:sierra.Azure       = [ '87afd7', 110 ]
+"let s:sierra.Agave      = [ '87d787', 114 ]
+"let s:sierra.Bluebells  = [ 'af5f00', 130 ]
+let s:sierra.Firecracker = [ 'af5f5f', 131 ]
+let s:sierra.Evening     = [ 'af8787', 138 ]
+"let s:sierra.Shrub      = [ 'afaf5f', 143 ]
+let s:sierra.Flats       = [ 'afaf87', 144 ]
+let s:sierra.Nolana      = [ 'afd7d7', 152 ]
+"let s:sierra.Aloe       = [ 'afff87', 156 ]
+let s:sierra.Rose        = [ 'd75f5f', 167 ]
+let s:sierra.Bellflower  = [ 'd78787', 174 ]
+let s:sierra.Mallow      = [ 'dfaf5f', 179 ]
+"let s:sierra.Primrose   = [ 'dfdf87', 186 ]
+let s:sierra.Dune        = [ 'dfdfaf', 187 ]
+let s:sierra.Stars       = [ 'dfdfdf', 188 ]
+"let s:sierra.Wildflower = [ 'dfff87', 192 ]
+let s:sierra.Claret      = [ 'ff8787', 210 ]
+let s:sierra.Sunset      = [ 'ffafaf', 217 ]
+"let s:sierra.Marigold   = [ 'ffff87', 228 ]
+"let s:sierra.Sunflower  = [ 'ffffaf', 229 ]
+let s:sierra.Salt        = [ 'ffffff', 231 ]
+let s:sierra.Pitch       = [ '080808', 232 ]
+let s:sierra.Midnight    = [ '121212', 233 ]
+let s:sierra.Twilight    = [ '1c1c1c', 234 ]
+let s:sierra.Shadow      = [ '262626', 235 ]
+let s:sierra.Day         = [ '303030', 236 ]
+let s:sierra.Shade       = [ '3a3a3a', 237 ]
+let s:sierra.Pebble      = [ '4e4e4e', 239 ]
+let s:sierra.Graphite    = [ '585858', 240 ]
+let s:sierra.Slate       = [ '767676', 243 ]
+let s:sierra.Stone       = [ '8a8a8a', 245 ]
+let s:sierra.Cloud       = [ 'e4e4e4', 254 ]
+
+
+
+function! s:HL(group, fg, ...)
+    " Arguments: group, guifg, guibg, gui, guisp
+
+    let highlightString = 'hi ' . a:group . ' '
+
+    " Settings for highlight group ctermfg & guifg 
+    if strlen(a:fg)
+        if a:fg == 'fg'
+            let highlightString .= 'guifg=fg ctermfg=fg '
+        else
+            let color = get(s:sierra, a:fg)
+            let highlightString .= 'guifg=#' . color[0] . ' ctermfg=' . color[1] . ' '
+        endif
+    endif
+
+    " Settings for highlight group termbg & guibg 
+    if a:0 >= 1 && strlen(a:1)
+        if a:1 == 'bg'
+            let highlightString .= 'guibg=bg ctermbg=bg '
+        else
+            let color = get(s:sierra, a:1)
+            let highlightString .= 'guibg=#' . color[0] . ' ctermbg=' . color[1] . ' '
+        endif
+    endif
+
+    " Settings for highlight group cterm & gui 
+    if a:0 >= 2 && strlen(a:2)
+        let highlightString .= 'gui=' . a:2 . ' cterm=' . a:2 . ' '
+    endif
+
+    " Settings for highlight guisp
+    if a:0 >= 3 && strlen(a:3)
+        let color = get(s:sierra, a:3)
+        let highlightString .= 'guisp=#' . color[0] . ' '
+    endif
+
+    " echom highlightString
+
+    execute highlightString
+endfunction
+
+
+" --------------------------------------------------------------------------------
+"                               DAY SETTINGS:
+" --------------------------------------------------------------------------------
+
+" 
+" --------------------------------------------------------------------------------
+"                               Editor Settings:
+" --------------------------------------------------------------------------------
+call s:HL( 'Normal', 'Cloud', 'Day', 'none' )
+call s:HL( 'CursorLine', '', 'Shade', 'none' )
+call s:HL( 'LineNr', 'Pebble', 'Day','none' )
+"TODO
+"call s:HL( 'Cursor', '', '',          '' )
+call s:HL( 'CursorLineNR', 'Graphite', '', 'none' )
+
+
+" --------------------------------------------------------------------------------
+"                               Number Column:
+" --------------------------------------------------------------------------------
+"TODO
+"call s:HL( 'CursorColumn', '', '', '' )
+"call s:HL( 'SignColumn', '', '', '' )      
+"call s:HL( 'FoldColumn', '', '', '' )
+"call s:HL( 'Folded', '', '', 'none' )
+
+
+" --------------------------------------------------------------------------------
+"                           WindowTab Delimiters:
+" --------------------------------------------------------------------------------
+call s:HL( 'VertSplit', 'Shade', 'Twilight', 'none' )
+call s:HL( 'TabLine', 'Shade', 'Twilight', 'none' )
+call s:HL( 'TabLineFill', '', 'Twilight', 'none' )
+"TODO
+"call s:HL( 'ColorColumn', '', '', '' )
+"call s:HL( 'TabLineSel', '', '', 'none' )
+
+
+" --------------------------------------------------------------------------------
+"                             File Navigation: 
+" --------------------------------------------------------------------------------
+call s:HL( 'Directory', 'Evening', '', 'none' )
+call s:HL( 'Search', 'Dune', 'Dusk', 'none' )
+"call s:HL( 'IncSearch', '', '', 'reverse' )
+
+
+" --------------------------------------------------------------------------------
+"                             Prompt Status:
+" --------------------------------------------------------------------------------
+call s:HL( 'StatusLine', 'Shadow', 'Flats', 'none' )
+call s:HL( 'StatusLineNC', 'Shade', 'Twilight', 'none' )
+call s:HL( 'WildMenu', 'Dune', 'Dusk', 'none' )
+call s:HL( 'Title', 'Bellflower', '', 'none' )
+call s:HL( 'ModeMsg', 'Flats', '', 'none' )
+"TODO
+"call s:HL( 'Question', '', '', '' )
+"call s:HL( 'MoreMsg', '', '', 'none' )
+
+
+" --------------------------------------------------------------------------------
+"                              Visual Aid: 
+" --------------------------------------------------------------------------------
+call s:HL( 'MatchParen', 'Midnight', 'Stone', 'none' )
+call s:HL( 'Visual', 'Dune', 'Dusk', 'none' )
+call s:HL( 'NonText', 'Shade', '', 'none' )
+call s:HL( 'Todo', 'Flats', 'Twilight', 'italic' )
+call s:HL( 'Error', 'Firecracker', 'Shadow', 'reverse' )
+call s:HL( 'ErrorMsg', 'Firecracker', 'Shadow', 'reverse' )
+call s:HL( 'SpecialKey', 'Azure', '', '' )
+"TODO
+"call s:HL( 'Ignore', '', '', '' )
+"call s:HL( 'VisualNOS', '', '', 'underline' )
+call s:HL( 'Underlined', 'Azure', '', 'none' )
+"call s:HL( 'WarningMsg', '', '', 'none' )
+
+
+
+" --------------------------------------------------------------------------------
+"                             Variable Types:
+" --------------------------------------------------------------------------------
+call s:HL( 'Constant', 'Claret', '', 'none' )
+call s:HL( 'String', 'Sunset', '', 'none' )
+call s:HL( 'Identifier', 'Oasis', '', 'none' )
+call s:HL( 'Function', 'Nolana', '', 'none' )
+"TODO
+"call s:HL( 'StringDelimiter', '', '', '' )
+"call s:HL( 'Character', '', '', 'none' )
+"call s:HL( 'Number', '', '', 'none' )
+"call s:HL( 'Boolean', '', '', 'none' )
+"call s:HL( 'Float', '', '', 'none' )
+
+
+" --------------------------------------------------------------------------------
+"                           Language Constructs:
+" --------------------------------------------------------------------------------
+call s:HL( 'Statement', 'Lake', '', 'none' )
+call s:HL( 'Operator', 'Dune', '', 'none' )
+call s:HL( 'Comment', 'Slate', '', 'none' )
+call s:HL( 'Special', 'Mallow', '', 'none' )
+"TODO
+"call s:HL( 'SpecialChar', '', '', '' )
+"call s:HL( 'Tag', '', '', '' )
+"call s:HL( 'Delimiter', '', '', '' )
+"call s:HL( 'SpecialComment', '', '', '' )
+"call s:HL( 'Debug', '', '', '' )
+"call s:HL( 'Conditional', '', '', 'none' )
+"call s:HL( 'Repeat', '', '', 'none' )
+"call s:HL( 'Label', '', '', 'none' )
+"call s:HL( 'Keyword', '', '', 'none' )
+"call s:HL( 'Exception', '', '', 'none' )
+
+" --------------------------------------------------------------------------------
+"                                C Like:
+" --------------------------------------------------------------------------------
+call s:HL( 'PreProc', 'Rose', '', 'none' )
+"call s:HL( 'Include', '', '', 'none' )
+"call s:HL( 'Define', '', '', 'none' )
+"call s:HL( 'Macro', '', '', 'none' )
+"call s:HL( 'PreCondit', '', '', 'none' )
+
+call s:HL( 'Type', 'Evening', '', 'none' )
+"call s:HL( 'StorageClass', '', '', 'none' )
+"call s:HL( 'Structure', '', '', 'none' )
+"call s:HL( 'Typedef', '', '', 'none' )
+
+
+"--------------------------------------------------------------------
+"                                 HTML:                             |
+"--------------------------------------------------------------------
+call s:HL( 'htmlItalic', 'Rose', '', 'none' )
+"call s:HL( 'htmlSpecialTagName', 'Mallow', '', 'none' )
+"call s:HL( 'htmlTagName', '', '', 'none' )
+call s:HL( 'htmlArg', 'Mallow', '', 'none' )
+
+
+"--------------------------------------------------------------------
+"                                Diff:                              |
+"--------------------------------------------------------------------
+"TODO
+call s:HL( 'DiffAdd', 'Twilight', 'Lake', 'none' )
+call s:HL( 'DiffChange', 'Twilight', 'Lilac', 'none' )
+call s:HL( 'DiffDelete', 'Twilight', 'Firecracker', 'none' )
+call s:HL( 'DiffText', 'Twilight', 'Heather', 'none' )
+
+"--------------------------------------------------------------------
+"                           Completion Menu:                        |
+"--------------------------------------------------------------------
+call s:HL( 'Pmenu', 'Pebble', 'Midnight', 'none' )
+call s:HL( 'PmenuSel', 'Dune', 'Dusk', 'none' )
+"call s:HL( 'PmenuSbar', '', '', 'none' )
+"call s:HL( 'PmenuThumb', '', '', '' )
+
+"--------------------------------------------------------------------
+"                             Spelling:                             |
+"--------------------------------------------------------------------
+"TODO
+"call s:HL( 'SpellBad', '', '', 'undercurl' )
+"call s:HL( 'SpellCap', '', '', '' )
+"call s:HL( 'SpellLocal', '', '', '' )
+"call s:HL( 'SpellRare', '', '', '' )
+
+"--------------------------------------------------------------------
+"                          Custom Options: 
+"--------------------------------------------------------------------
+"234
+if g:sierra_Twilight 
+    call s:HL( 'Normal', 'Stars', 'Twilight', 'none' )
+    call s:HL( 'LineNr', '', 'Twilight', 'none' )
+    call s:HL( 'VertSplit', '', 'Midnight', 'none' )
+    call s:HL( 'CursorLine', '', 'Shadow', 'none' )
+    call s:HL( 'TabLineFill', '', 'Midnight', 'none' )
+    call s:HL( 'StatusLineNc', '', 'Midnight', 'none' )
+end
+
+"233
+if g:sierra_Midnight
+    call s:HL( 'Normal', 'Stars', 'Midnight', 'none')
+    call s:HL( 'LineNr', 'Pebble', 'Midnight', 'none')
+    call s:HL( 'VertSplit', 'Twilight', 'Pitch', 'none' )
+    call s:HL( 'CursorLine', '', 'Twilight', 'none' )
+    call s:HL( 'TabLineFill', '', 'Pitch', 'none' )
+    call s:HL( 'StatusLineNc', '','Pitch', 'none' )
+    call s:HL( 'Pmenu', 'Pebble', 'Pitch', 'none' )
+    call s:HL( 'Error', 'Firecracker', 'Twilight', 'reverse' )
+    call s:HL( 'ErrorMsg', 'Firecracker', 'Twilight', 'reverse' )
+    call s:HL( 'CursorLineNR', 'Shade', '', 'none' )
+    call s:HL( 'Comment', 'Graphite', '', 'none' )
+end
+
+"232
+if g:sierra_Pitch
+    call s:HL( 'Normal', 'Stars', 'Pitch', 'none')
+    call s:HL( 'LineNr', 'Twilight', 'Pitch', 'none')
+    call s:HL( 'VertSplit', 'Twilight', 'Abyss', 'none' )
+    call s:HL( 'CursorLine', '', 'Midnight', 'none' )
+    call s:HL( 'TabLineFill', '', 'Abyss', 'none' )
+    call s:HL( 'StatusLineNc', '','Abyss', 'none' )
+    call s:HL( 'Pmenu', 'Pebble', 'Abyss', 'none' )
+    call s:HL( 'Error', 'Firecracker', 'Twilight', 'reverse' )
+    call s:HL( 'ErrorMsg', 'Firecracker', 'Twilight', 'reverse' )
+    call s:HL( 'CursorLineNR', 'Shade', '', 'none' )
+    call s:HL( 'Comment', 'Pebble', '', 'none' )
+end
+
+if g:sierra_MatchParen_Underline
+    call s:HL( 'MatchParen', 'Salt', 'Pitch', 'underline' )
+end
