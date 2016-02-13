@@ -65,7 +65,7 @@ let s:sierra.Sage        = [ '87af5f', 107 ]
 let s:sierra.Marsh       = [ '87af87', 108 ]
 let s:sierra.Oasis       = [ '87afaf', 109 ]
 let s:sierra.Azure       = [ '87afd7', 110 ]
-"let s:sierra.Agave      = [ '87d787', 114 ]
+let s:sierra.Agave      = [ '87d787', 114 ]
 "let s:sierra.Bluebells  = [ 'af5f00', 130 ]
 let s:sierra.Firecracker = [ 'af5f5f', 131 ]
 let s:sierra.Evening     = [ 'af8787', 138 ]
@@ -153,7 +153,7 @@ endfunction
 call s:HL( 'Normal', 'Cloud', 'Day', 'none' )
 call s:HL( 'CursorLine', '', 'Shade', 'none' )
 call s:HL( 'LineNr', 'Pebble', 'Day','none' )
-call s:HL( 'CursorLineNR', 'Graphite', '', 'none' )
+call s:HL( 'CursorLineNR', 'Slate', '', 'none' )
 "TODO
 "call s:HL( 'Cursor', '', '',          '' )
 
@@ -206,7 +206,7 @@ call s:HL( 'ModeMsg', 'Flats', '', 'none' )
 " --------------------------------------------------------------------------------
 call s:HL( 'MatchParen', 'Midnight', 'Stone', 'none' )
 call s:HL( 'Visual', 'Dune', 'Dusk', 'none' )
-call s:HL( 'NonText', 'Shade', '', 'none' )
+call s:HL( 'NonText', 'Pebble', '', 'none' )
 call s:HL( 'Todo', 'Flats', 'Twilight', 'italic' )
 call s:HL( 'Error', 'Firecracker', 'Shadow', 'reverse' )
 call s:HL( 'ErrorMsg', 'Firecracker', 'Shadow', 'reverse' )
@@ -311,46 +311,49 @@ call s:HL( 'PmenuSel', 'Dune', 'Dusk', 'none' )
 "234
 if g:sierra_Twilight 
     call s:HL( 'Normal', 'Stars', 'Twilight', 'none' )
-    call s:HL( 'LineNr', '', 'Twilight', 'none' )
+    call s:HL( 'LineNr', 'Shade', 'Twilight', 'none' )
+    call s:HL( 'NonText', 'Shade', '', '' )
     call s:HL( 'VertSplit', 'Day', 'Midnight', 'none' )
     call s:HL( 'CursorLine', '', 'Shadow', 'none' )
+    call s:HL( 'CursorLineNR', 'Graphite', '', 'none' )
+    call s:HL( 'Comment', 'Slate', '', 'none' )
     call s:HL( 'TabLineFill', '', 'Midnight', 'none' )
     call s:HL( 'StatusLineNc', '', 'Midnight', 'none' )
     call s:HL( 'Pmenu', '', '', 'none' )
     call s:HL( 'Error', 'Firecracker', 'Twilight', 'reverse' )
     call s:HL( 'ErrorMsg', 'Firecracker', 'Twilight', 'reverse' )
-    call s:HL( 'CursorLineNR', '', '', 'none' )
-    call s:HL( 'Comment', '', '', 'none' )
 end
 
 "233
 if g:sierra_Midnight
     call s:HL( 'Normal', 'Stars', 'Midnight', 'none')
-    call s:HL( 'LineNr', 'Pebble', 'Midnight', 'none')
+    call s:HL( 'LineNr', 'Shade', 'Midnight', 'none')
+    call s:HL( 'NonText', 'Shade', '', '' )
     call s:HL( 'VertSplit', 'Twilight', 'Pitch', 'none' )
     call s:HL( 'CursorLine', '', 'Twilight', 'none' )
+    call s:HL( 'CursorLineNR', 'Pebble', '', 'none' )
+    call s:HL( 'Comment', 'Graphite', '', 'none' )
     call s:HL( 'TabLineFill', '', 'Pitch', 'none' )
     call s:HL( 'StatusLineNc', '','Pitch', 'none' )
     call s:HL( 'Pmenu', 'Pebble', 'Pitch', 'none' )
-    call s:HL( 'Error', 'Firecracker', 'Twilight', 'reverse' )
-    call s:HL( 'ErrorMsg', 'Firecracker', 'Twilight', 'reverse' )
-    call s:HL( 'CursorLineNR', 'Shade', '', 'none' )
-    call s:HL( 'Comment', 'Graphite', '', 'none' )
+    call s:HL( 'Error', 'Firecracker', 'Midnight', 'reverse' )
+    call s:HL( 'ErrorMsg', 'Firecracker', 'Midnight', 'reverse' )
 end
 
 "232
 if g:sierra_Pitch
     call s:HL( 'Normal', 'Stars', 'Pitch', 'none')
-    call s:HL( 'LineNr', 'Twilight', 'Pitch', 'none')
+    call s:HL( 'LineNr', 'Shadow', 'Pitch', 'none')
+    call s:HL( 'NonText', 'Shadow', '', '' )
     call s:HL( 'VertSplit', 'Twilight', 'Abyss', 'none' )
     call s:HL( 'CursorLine', '', 'Midnight', 'none' )
+    call s:HL( 'CursorLineNR', 'Shade', '', 'none' )
+    call s:HL( 'Comment', 'Pebble', '', 'none' )
     call s:HL( 'TabLineFill', '', 'Abyss', 'none' )
     call s:HL( 'StatusLineNc', '','Abyss', 'none' )
     call s:HL( 'Pmenu', 'Pebble', 'Abyss', 'none' )
-    call s:HL( 'Error', 'Firecracker', 'Twilight', 'reverse' )
-    call s:HL( 'ErrorMsg', 'Firecracker', 'Twilight', 'reverse' )
-    call s:HL( 'CursorLineNR', 'Shade', '', 'none' )
-    call s:HL( 'Comment', 'Pebble', '', 'none' )
+    call s:HL( 'Error', 'Firecracker', 'Pitch', 'reverse' )
+    call s:HL( 'ErrorMsg', 'Firecracker', 'Pitch', 'reverse' )
 end
 
 "MatchParen Underline

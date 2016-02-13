@@ -40,4 +40,5 @@ Sierra is a derivative of Hans Fugal's [Desert](https://github.com/fugalh/desert
 
 The screenshots of Sierra were made and tested using a default Vi IMproved 7.3 in [iTerm 2.1.4](https://www.iterm2.com) and the Vi IMproved 7.4 in the GUI MacVim app. Extended syntax for JavaScript provided by Jose Elera Campana's Plug-in [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax). Enjoy!!
 
-
+### Related ###
+Please note that sierra is still brand new and I'm certain it will evolve over time. I'd love to hear from you guys if you have any feedback, suggestions or issues that you encounter. Just open an Issue ticket for fixes; and if sierra made your day, please leave a star! Also, if you like Sierra you might want to chack out my other Vim theme [Alduin](https://github.com/AlessandroYorba/Alduin)
