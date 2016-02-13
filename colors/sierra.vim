@@ -12,8 +12,6 @@
 " Maintainer:   Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Sierra
 " License:      MIT
-" Version:      1.0.0
-" Last Change:  February 11th, 2016
 
 
 " --------------------------------
