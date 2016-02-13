@@ -12,23 +12,28 @@ Sierra is a derivative of Hans Fugal's [Desert](https://github.com/fugalh/desert
 ### Custom Options ###
 
 #### Day ####
+![Day](https://cloud.githubusercontent.com/assets/11221489/13024532/c71bd480-d1aa-11e5-9439-8c1ed4072c47.png)
 
     colorscheme sierra
 
 #### Twilight ####
+![Twilight](https://cloud.githubusercontent.com/assets/11221489/13024534/ddcf3e88-d1aa-11e5-9831-6a2285fc25d3.png)
 
     let g:sierra_Twilight = 1
     colorscheme sierra
 
 #### Midnight ####
+![Midnight](https://cloud.githubusercontent.com/assets/11221489/13024540/f4572828-d1aa-11e5-97e7-3e407d897b2d.png)
 
     let g:sierra_Midnight = 1
     colorscheme sierra
 
 #### Pitch ####
+![Pitch](https://cloud.githubusercontent.com/assets/11221489/13024546/0579d77c-d1ab-11e5-857c-701abb1a9320.png)
 
     let g:sierra_Pitch = 1
     colorscheme sierra
+
 
 ### Moar Screenshots ###
 [Screenshots](https://github.com/AlessandroYorba/Sierra/issues/1)
