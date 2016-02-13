@@ -12,24 +12,24 @@ Sierra is a derivative of Hans Fugal's [Desert](https://github.com/fugalh/desert
 ### Custom Options ###
 
 #### Day ####
-![Day](https://cloud.githubusercontent.com/assets/11221489/13024532/c71bd480-d1aa-11e5-9439-8c1ed4072c47.png)
+![Day](https://cloud.githubusercontent.com/assets/11221489/13026632/f1a86bda-d1e3-11e5-8319-bc51e6feb26c.png)
 
     colorscheme sierra
 
 #### Twilight ####
-![Twilight](https://cloud.githubusercontent.com/assets/11221489/13024534/ddcf3e88-d1aa-11e5-9831-6a2285fc25d3.png)
+![Twilight](https://cloud.githubusercontent.com/assets/11221489/13026633/f7453c6c-d1e3-11e5-8116-1687009a7b28.png)
 
     let g:sierra_Twilight = 1
     colorscheme sierra
 
 #### Midnight ####
-![Midnight](https://cloud.githubusercontent.com/assets/11221489/13024540/f4572828-d1aa-11e5-97e7-3e407d897b2d.png)
+![Midnight](https://cloud.githubusercontent.com/assets/11221489/13026634/fdd2160e-d1e3-11e5-9e00-702c2cc9e00b.png)
 
     let g:sierra_Midnight = 1
     colorscheme sierra
 
 #### Pitch ####
-![Pitch](https://cloud.githubusercontent.com/assets/11221489/13024546/0579d77c-d1ab-11e5-857c-701abb1a9320.png)
+![Pitch](https://cloud.githubusercontent.com/assets/11221489/13026637/04503aec-d1e4-11e5-9459-2dfbdae70e1b.png)
 
     let g:sierra_Pitch = 1
     colorscheme sierra
