@@ -63,8 +63,8 @@ let s:sierra.Sage        = [ '87af5f', 107 ]
 let s:sierra.Marsh       = [ '87af87', 108 ]
 let s:sierra.Oasis       = [ '87afaf', 109 ]
 let s:sierra.Azure       = [ '87afd7', 110 ]
-let s:sierra.Agave      = [ '87d787', 114 ]
-"let s:sierra.Bluebells  = [ 'af5f00', 130 ]
+let s:sierra.Agave       = [ '87d787', 114 ]
+let s:sierra.Bluebells   = [ 'af5f00', 130 ]
 let s:sierra.Firecracker = [ 'af5f5f', 131 ]
 let s:sierra.Evening     = [ 'af8787', 138 ]
 "let s:sierra.Shrub      = [ 'afaf5f', 143 ]
@@ -194,9 +194,8 @@ call s:HL( 'StatusLineNC', 'Slate', 'Shadow', 'none' )
 call s:HL( 'WildMenu', 'Dune', 'Dusk', 'none' )
 call s:HL( 'Title', 'Bellflower', '', 'none' )
 call s:HL( 'ModeMsg', 'Flats', '', 'none' )
-"TODO
-"call s:HL( 'Question', '', '', '' )
-"call s:HL( 'MoreMsg', '', '', 'none' )
+call s:HL( 'Question', 'Mallow', '', '' )
+call s:HL( 'MoreMsg', 'Mallow', '', 'none' )
 
 
 " --------------------------------------------------------------------------------
@@ -213,7 +212,7 @@ call s:HL( 'Underlined', 'Azure', '', 'none' )
 "TODO
 "call s:HL( 'Ignore', '', '', '' )
 "call s:HL( 'VisualNOS', '', '', 'underline' )
-"call s:HL( 'WarningMsg', '', '', 'none' )
+call s:HL( 'WarningMsg', 'Bluebells', '', 'none' )
 
 
 
@@ -295,7 +294,7 @@ call s:HL( 'PmenuSel', 'Dune', 'Dusk', 'none' )
 "call s:HL( 'PmenuThumb', '', '', '' )
 
 "--------------------------------------------------------------------
-"                             Spelling:                             |
+"                          Spelling:                             
 "--------------------------------------------------------------------
 "TODO
 "call s:HL( 'SpellBad', '', '', 'undercurl' )
@@ -304,7 +303,7 @@ call s:HL( 'PmenuSel', 'Dune', 'Dusk', 'none' )
 "call s:HL( 'SpellRare', '', '', '' )
 
 "--------------------------------------------------------------------
-"                          Custom Options: 
+"                          Twilight: 
 "--------------------------------------------------------------------
 "234
 if g:sierra_Twilight 
@@ -316,12 +315,16 @@ if g:sierra_Twilight
     call s:HL( 'CursorLineNR', 'Graphite', '', 'none' )
     call s:HL( 'Comment', 'Slate', '', 'none' )
     call s:HL( 'TabLineFill', '', 'Midnight', 'none' )
+    call s:HL( 'TabLine', 'Shade', 'Midnight', 'none' )
     call s:HL( 'StatusLineNc', '', 'Midnight', 'none' )
-    call s:HL( 'Pmenu', '', '', 'none' )
+    call s:HL( 'Pmenu', '', 'Shadow', 'none' )
     call s:HL( 'Error', 'Firecracker', 'Twilight', 'reverse' )
     call s:HL( 'ErrorMsg', 'Firecracker', 'Twilight', 'reverse' )
 end
 
+"--------------------------------------------------------------------
+"                          Midnight: 
+"--------------------------------------------------------------------
 "233
 if g:sierra_Midnight
     call s:HL( 'Normal', 'Stars', 'Midnight', 'none')
@@ -332,11 +335,16 @@ if g:sierra_Midnight
     call s:HL( 'CursorLineNR', 'Pebble', '', 'none' )
     call s:HL( 'Comment', 'Graphite', '', 'none' )
     call s:HL( 'TabLineFill', '', 'Pitch', 'none' )
+    call s:HL( 'TabLine', 'Shade', 'Pitch', 'none' )
     call s:HL( 'StatusLineNc', '','Pitch', 'none' )
-    call s:HL( 'Pmenu', 'Pebble', 'Pitch', 'none' )
+    call s:HL( 'Pmenu', 'Pebble', 'Twilight', 'none' )
     call s:HL( 'Error', 'Firecracker', 'Midnight', 'reverse' )
     call s:HL( 'ErrorMsg', 'Firecracker', 'Midnight', 'reverse' )
 end
+
+"--------------------------------------------------------------------
+"                          Pitch: 
+"--------------------------------------------------------------------
 
 "232
 if g:sierra_Pitch
@@ -348,8 +356,9 @@ if g:sierra_Pitch
     call s:HL( 'CursorLineNR', 'Shade', '', 'none' )
     call s:HL( 'Comment', 'Pebble', '', 'none' )
     call s:HL( 'TabLineFill', '', 'Abyss', 'none' )
+    call s:HL( 'TabLine', 'Shadow', 'Abyss', 'none' )
     call s:HL( 'StatusLineNc', '','Abyss', 'none' )
-    call s:HL( 'Pmenu', 'Pebble', 'Abyss', 'none' )
+    call s:HL( 'Pmenu', 'Pebble', 'Midnight', 'none' )
     call s:HL( 'Error', 'Firecracker', 'Pitch', 'reverse' )
     call s:HL( 'ErrorMsg', 'Firecracker', 'Pitch', 'reverse' )
 end
