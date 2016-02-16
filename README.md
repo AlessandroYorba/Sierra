@@ -34,31 +34,6 @@ Sierra is a derivative of Hans Fugal's [Desert](https://github.com/fugalh/desert
     let g:sierra_Pitch = 1
     colorscheme sierra
 
-### Option / Have Vim automatically change the mode depending on the time of day ###
-I kept finding myself opening my vimrc and changing the modes for sierra throughout the day. And now I just use the following snippet to automate the process. It uses a 24-hour clock to tell Vim which mode to use when Vim is launched. 
-    
-    " Sierra Time Cycle:
-    let hour = strftime("%H") 
-
-    " Day: 7am - 5pm
-    if 7 <= hour && hour < 17
-        colorscheme sierra
-
-    " Twilight: 5pm - 10pm
-    elseif 17 <= hour && hour < 22
-        let g:sierra_Twilight = 1
-    
-    " Midnight: 10pm - 1am
-    elseif 22 <= hour && hour < 1
-        let g:sierra_Midnight = 1
-
-    " Pitch: 1am to 7am
-    elseif                           
-        let g:sierra_Pitch = 1
-    endif
-
-    colorscheme sierra
-
 ### Moar Screenshots ###
 [Screenshots](https://github.com/AlessandroYorba/Sierra/issues/1)
 
