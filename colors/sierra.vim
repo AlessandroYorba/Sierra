@@ -160,10 +160,10 @@ call s:HL( 'CursorLineNR', 'Slate', '', 'none' )
 "                               Number Column:
 " --------------------------------------------------------------------------------
 call s:HL( 'Folded', 'Dune', 'Lake', 'none' )
+call s:HL( 'FoldColumn', 'Oasis', 'Day', '' )
 "TODO
 "call s:HL( 'CursorColumn', '', '', '' )
 "call s:HL( 'SignColumn', '', '', '' )      
-"call s:HL( 'FoldColumn', '', '', '' )
 
 
 " --------------------------------------------------------------------------------
@@ -209,10 +209,10 @@ call s:HL( 'Error', 'Firecracker', 'Shadow', 'reverse' )
 call s:HL( 'ErrorMsg', 'Firecracker', 'Shadow', 'reverse' )
 call s:HL( 'SpecialKey', 'Azure', '', '' )
 call s:HL( 'Underlined', 'Azure', '', 'none' )
+call s:HL( 'WarningMsg', 'Bluebells', '', 'none' )
 "TODO
 "call s:HL( 'Ignore', '', '', '' )
 "call s:HL( 'VisualNOS', '', '', 'underline' )
-call s:HL( 'WarningMsg', 'Bluebells', '', 'none' )
 
 
 
@@ -290,14 +290,15 @@ call s:HL( 'DiffText', 'Twilight', 'Heather', 'none' )
 "--------------------------------------------------------------------
 call s:HL( 'Pmenu', 'Slate', 'Shadow', 'none' )
 call s:HL( 'PmenuSel', 'Dune', 'Dusk', 'none' )
+"TODO
 "call s:HL( 'PmenuSbar', '', '', 'none' )
 "call s:HL( 'PmenuThumb', '', '', '' )
 
 "--------------------------------------------------------------------
 "                          Spelling:                             
 "--------------------------------------------------------------------
+call s:HL( 'SpellBad', 'Firecracker', '', 'undercurl' )
 "TODO
-"call s:HL( 'SpellBad', '', '', 'undercurl' )
 "call s:HL( 'SpellCap', '', '', '' )
 "call s:HL( 'SpellLocal', '', '', '' )
 "call s:HL( 'SpellRare', '', '', '' )
@@ -320,6 +321,7 @@ if g:sierra_Twilight
     call s:HL( 'Pmenu', '', 'Shadow', 'none' )
     call s:HL( 'Error', 'Firecracker', 'Twilight', 'reverse' )
     call s:HL( 'ErrorMsg', 'Firecracker', 'Twilight', 'reverse' )
+    call s:HL( 'FoldColumn', 'Oasis', 'Twilight', '' )
 end
 
 "--------------------------------------------------------------------
@@ -340,6 +342,7 @@ if g:sierra_Midnight
     call s:HL( 'Pmenu', 'Pebble', 'Twilight', 'none' )
     call s:HL( 'Error', 'Firecracker', 'Midnight', 'reverse' )
     call s:HL( 'ErrorMsg', 'Firecracker', 'Midnight', 'reverse' )
+    call s:HL( 'FoldColumn', 'Oasis', 'Midnight', '' )
 end
 
 "--------------------------------------------------------------------
@@ -361,6 +364,7 @@ if g:sierra_Pitch
     call s:HL( 'Pmenu', 'Pebble', 'Midnight', 'none' )
     call s:HL( 'Error', 'Firecracker', 'Pitch', 'reverse' )
     call s:HL( 'ErrorMsg', 'Firecracker', 'Pitch', 'reverse' )
+    call s:HL( 'FoldColumn', 'Oasis', 'Pitch', '' )
 end
 
 "MatchParen Underline
