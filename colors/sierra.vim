@@ -350,24 +350,5 @@ end
 
 " Campfire:
 "--------------------------------------------------------------------
-if g:sierra_Campfire
-    let sierra_Hour = strftime("%H") 
-
-    if 7 <= sierra_Hour && sierra_Hour < 17
-        let g:sierra_Twilight = 0
-        let g:sierra_Midnight = 0
-        let g:sierra_Pitch = 0
-
-    elseif 17 <= sierra_Hour && sierra_Hour < 22
-        let g:sierra_Twilight = 1
-
-    elseif 22 <= sierra_Hour && sierra_Hour > 2 
-        let g:sierra_Twilight = 0
-        let g:sierra_Midnight = 1
-
-    else
-        let g:sierra_Midnight = 0
-        let g:sierra_Pitch = 1
-
-    endif
-end
+"if g:sierra_Campfire
+"end
