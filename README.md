@@ -40,6 +40,12 @@ Add the following to your .vimrc for the darkest version of Sierra:
     let g:sierra_Pitch = 1
     colorscheme sierra
 
+#### Campfire ####
+This option was designed so that you do not have to continually change your vimrc throughout the day when you want a darker version of sierra. Sierra will now automatically cycle through each of it's modes starting at 5pm. With Campfire, when you launch Vim between 7am and 5pm the default Day mode will be the active setting. After 5pm, Twilight mode is scheduled to run. From 8pm to 12am, Midnight mode and then Pitch Mode after till 7am morning. **Please note that this is experimental.
+
+    " Automatically Cycle thru Sierra
+    let g:sierra_Campfire = 1
+    colorscheme sierra
 
 Moar Screenshots
 ----------------
