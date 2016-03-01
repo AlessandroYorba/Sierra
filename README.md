@@ -4,7 +4,7 @@
 Sierra
 ------
 
-A Vim colorscheme for Terminal Vim and GUI Vim. 
+A Vim colorscheme. 
 
 Inspiration
 -----------
