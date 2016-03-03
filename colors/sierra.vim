@@ -151,9 +151,9 @@ call s:HL( 'CursorLineNR', 'Dune', '', 'none' )
 "--------------------------------------------------------------------------------
 call s:HL( 'Folded', 'Dune', 'Lake', 'none' )
 call s:HL( 'FoldColumn', 'Oasis', 'Day', '' )
+call s:HL( 'SignColumn', 'Marsh', 'Day', 'none' )      
 "TODO
 "call s:HL( 'CursorColumn', '', '', '' )
-"call s:HL( 'SignColumn', '', '', '' )      
 
 
 " WindowTab Delimiters:
@@ -254,8 +254,10 @@ call s:HL( 'Type', 'Evening', '', 'none' )
 call s:HL( 'htmlItalic', 'Rose', '', 'none' )
 call s:HL( 'htmlArg', 'Mallow', '', 'none' )
 "TODO
-"call s:HL( 'htmlSpecialTagName', 'Mallow', '', 'none' )
 "call s:HL( 'htmlTagName', '', '', 'none' )
+"call s:HL( 'htmlTag', '', '', 'none' )
+"call s:HL( 'htmlEndTag', '', '', 'none' )
+"call s:HL( 'htmlSpecialTagName', 'Mallow', '', 'none' )
 
 
 " Diff:
@@ -289,6 +291,7 @@ call s:HL( 'SpellBad', 'Firecracker', '', 'undercurl' )
 if g:sierra_Twilight 
     call s:HL( 'Normal', 'Stars', 'Twilight', 'none' )
     call s:HL( 'LineNr', 'Slate', 'Twilight', 'none' )
+    call s:HL( 'SignColumn', 'Marsh', 'Twilight', 'none' )      
     call s:HL( 'NonText', 'Shade', '', '' )
     call s:HL( 'VertSplit', 'Day', 'Midnight', 'none' )
     call s:HL( 'CursorLine', '', 'Shadow', 'none' )
@@ -308,6 +311,7 @@ end
 if g:sierra_Midnight
     call s:HL( 'Normal', 'Stars', 'Midnight', 'none')
     call s:HL( 'LineNr', 'Graphite', 'Midnight', 'none')
+    call s:HL( 'SignColumn', 'Marsh', 'Midnight', 'none' )      
     call s:HL( 'NonText', 'Shade', '', '' )
     call s:HL( 'VertSplit', 'Twilight', 'Pitch', 'none' )
     call s:HL( 'CursorLine', '', 'Twilight', 'none' )
@@ -327,6 +331,7 @@ end
 if g:sierra_Pitch
     call s:HL( 'Normal', 'Stars', 'Pitch', 'none')
     call s:HL( 'LineNr', 'Pebble', 'Pitch', 'none')
+    call s:HL( 'SignColumn', 'Marsh', 'Pitch', 'none' )      
     call s:HL( 'NonText', 'Shadow', '', '' )
     call s:HL( 'VertSplit', 'Twilight', 'Abyss', 'none' )
     call s:HL( 'CursorLine', '', 'Midnight', 'none' )
