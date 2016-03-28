@@ -141,7 +141,7 @@ endfunction
 "--------------------------------------------------------------------------------
 call s:HL( 'Normal', 'Cloud', 'Day', 'none' )
 call s:HL( 'CursorLine', '', 'Shade', 'none' )
-call s:HL( 'LineNr', 'Slate', 'Day','none' )
+call s:HL( 'LineNr', 'Slate', '','none' )
 call s:HL( 'CursorLineNR', 'Dune', '', 'none' )
 "TODO
 "call s:HL( 'Cursor', '', '',          '' )
@@ -290,7 +290,7 @@ call s:HL( 'SpellBad', 'Firecracker', '', 'undercurl' )
 "--------------------------------------------------------------------
 if g:sierra_Twilight 
     call s:HL( 'Normal', 'Stars', 'Twilight', 'none' )
-    call s:HL( 'LineNr', 'Slate', 'Twilight', 'none' )
+    call s:HL( 'LineNr', 'Slate', '', 'none' )
     call s:HL( 'SignColumn', 'Marsh', 'Twilight', 'none' )      
     call s:HL( 'NonText', 'Shade', '', '' )
     call s:HL( 'VertSplit', 'Day', 'Midnight', 'none' )
@@ -310,7 +310,7 @@ end
 "--------------------------------------------------------------------
 if g:sierra_Midnight
     call s:HL( 'Normal', 'Stars', 'Midnight', 'none')
-    call s:HL( 'LineNr', 'Graphite', 'Midnight', 'none')
+    call s:HL( 'LineNr', 'Graphite', '', 'none')
     call s:HL( 'SignColumn', 'Marsh', 'Midnight', 'none' )      
     call s:HL( 'NonText', 'Shade', '', '' )
     call s:HL( 'VertSplit', 'Twilight', 'Pitch', 'none' )
@@ -330,7 +330,7 @@ end
 "--------------------------------------------------------------------
 if g:sierra_Pitch
     call s:HL( 'Normal', 'Stars', 'Pitch', 'none')
-    call s:HL( 'LineNr', 'Pebble', 'Pitch', 'none')
+    call s:HL( 'LineNr', 'Pebble', '', 'none')
     call s:HL( 'SignColumn', 'Marsh', 'Pitch', 'none' )      
     call s:HL( 'NonText', 'Shadow', '', '' )
     call s:HL( 'VertSplit', 'Twilight', 'Abyss', 'none' )
