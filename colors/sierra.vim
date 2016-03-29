@@ -161,9 +161,9 @@ call s:HL( 'SignColumn', 'Marsh', 'Day', 'none' )
 call s:HL( 'VertSplit', 'Shade', 'Shadow', 'none' )
 call s:HL( 'TabLine', 'Pebble', 'Shadow', 'none' )
 call s:HL( 'TabLineFill', '', 'Shadow', 'none' )
+call s:HL( 'TabLineSel', 'Shadow', 'Flats', 'none' )
 "TODO
 "call s:HL( 'ColorColumn', '', '', '' )
-"call s:HL( 'TabLineSel', '', '', 'none' )
 
 
 " File Navigation: 
