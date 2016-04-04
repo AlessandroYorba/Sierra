@@ -272,9 +272,8 @@ call s:HL( 'DiffText', 'Twilight', 'Heather', 'none' )
 "--------------------------------------------------------------------
 call s:HL( 'Pmenu', 'Slate', 'Shadow', 'none' )
 call s:HL( 'PmenuSel', 'Dune', 'Dusk', 'none' )
-"TODO
-"call s:HL( 'PmenuSbar', '', '', 'none' )
-"call s:HL( 'PmenuThumb', '', '', '' )
+call s:HL( 'PmenuSbar', '', 'Shadow', 'none' )
+call s:HL( 'PmenuThumb', 'Flats', '', '' )
 
 
 " Spelling:                             
@@ -299,7 +298,7 @@ if g:sierra_Twilight
     call s:HL( 'TabLineFill', '', 'Midnight', 'none' )
     call s:HL( 'TabLine', 'Slate', 'Midnight', 'none' )
     call s:HL( 'StatusLineNc', '', 'Midnight', 'none' )
-    call s:HL( 'Pmenu', '', 'Shadow', 'none' )
+    "call s:HL( 'Pmenu', '', 'Shadow', 'none' )
     call s:HL( 'Error', 'Firecracker', 'Twilight', 'reverse' )
     call s:HL( 'ErrorMsg', 'Firecracker', 'Twilight', 'reverse' )
     call s:HL( 'FoldColumn', 'Oasis', 'Twilight', '' )
@@ -319,7 +318,7 @@ if g:sierra_Midnight
     call s:HL( 'TabLineFill', '', 'Pitch', 'none' )
     call s:HL( 'TabLine', 'Graphite', 'Pitch', 'none' )
     call s:HL( 'StatusLineNc', '','Pitch', 'none' )
-    call s:HL( 'Pmenu', 'Pebble', 'Twilight', 'none' )
+    "call s:HL( 'Pmenu', 'Pebble', 'Twilight', 'none' )
     call s:HL( 'Error', 'Firecracker', 'Midnight', 'reverse' )
     call s:HL( 'ErrorMsg', 'Firecracker', 'Midnight', 'reverse' )
     call s:HL( 'FoldColumn', 'Oasis', 'Midnight', '' )
@@ -339,7 +338,7 @@ if g:sierra_Pitch
     call s:HL( 'TabLineFill', '', 'Abyss', 'none' )
     call s:HL( 'TabLine', 'Pebble', 'Abyss', 'none' )
     call s:HL( 'StatusLineNc', '','Abyss', 'none' )
-    call s:HL( 'Pmenu', 'Pebble', 'Midnight', 'none' )
+    "call s:HL( 'Pmenu', 'Pebble', 'Midnight', 'none' )
     call s:HL( 'Error', 'Firecracker', 'Pitch', 'reverse' )
     call s:HL( 'ErrorMsg', 'Firecracker', 'Pitch', 'reverse' )
     call s:HL( 'FoldColumn', 'Oasis', 'Pitch', '' )
