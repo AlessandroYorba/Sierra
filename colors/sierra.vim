@@ -252,7 +252,7 @@ call s:HL( 'Type', 'Evening', '', 'none' )
 " HTML:
 "--------------------------------------------------------------------
 call s:HL( 'htmlItalic', 'Rose', '', 'none' )
-call s:HL( 'htmlArg', 'Mallow', '', 'none' )
+call s:HL( 'htmlArg', 'Dune', '', 'none' )
 "TODO
 "call s:HL( 'htmlTagName', '', '', 'none' )
 "call s:HL( 'htmlTag', '', '', 'none' )
