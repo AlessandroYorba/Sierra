@@ -58,7 +58,7 @@ colorscheme sierra
 ```
 
 #### ColorColumn ####
-Adds a ColorColumn at that matches the CursorLine background
+Adds a ColorColumn at column 80 which matches the CursorLine background
 
 ```VimL
 " Add ColorColumn to match CursorLine
