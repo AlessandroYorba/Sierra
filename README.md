@@ -57,6 +57,15 @@ let g:sierra_Campfire = 1
 colorscheme sierra
 ```
 
+#### ColorColumn ####
+Adds a ColorColumn at that matches the CursorLine background
+
+```VimL
+" Add ColorColumn to match CursorLine
+let g:sierra_ColorColumn = 1
+colorscheme sierra
+```
+
 Moar Screenshots
 ----------------
 [Screenshots](https://github.com/AlessandroYorba/Sierra/issues/1)

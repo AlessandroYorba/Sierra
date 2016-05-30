@@ -46,6 +46,11 @@ if !exists("g:sierra_MatchParen_Underline") " {{{
     let g:sierra_MatchParen_Underline = 0
 endif " }}}
 
+" Add ColorColumn to match CursorLine
+if !exists( "g:sierra_ColorColumn" ) "{{{
+    let g:sierra_ColorColumn = 0
+endif
+
 
 " Colors:
 "----------------------------------------------------------------
@@ -351,6 +356,11 @@ if g:sierra_MatchParen_Underline
     call s:HL( 'MatchParen', 'Salt', 'Pitch', 'underline' )
 end
 
+" ColorColumn:
+if g:sierra_ColorColumn
+    execute "set colorcolumn=" . join(range(81,335), ',')
+    hi! link ColorColumn CursorLine
+end
 
 " Campfire:
 "--------------------------------------------------------------------
