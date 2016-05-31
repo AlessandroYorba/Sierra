@@ -164,7 +164,7 @@ call s:HL( 'TabLine', 'Slate', 'Shadow', 'none' )
 call s:HL( 'TabLineFill', '', 'Shadow', 'none' )
 call s:HL( 'TabLineSel', 'Shadow', 'Flats', 'none' )
 "TODO
-"call s:HL( 'ColorColumn', '', '', '' )
+call s:HL( 'ColorColumn', '', 'Shade', '' )
 
 
 " File Navigation: 
@@ -295,6 +295,7 @@ if g:sierra_Twilight
     call s:HL( 'NonText', 'Shade', '', '' )
     call s:HL( 'VertSplit', 'Day', 'Midnight', 'none' )
     call s:HL( 'CursorLine', '', 'Shadow', 'none' )
+    call s:HL( 'ColorColumn', '', 'Shadow', '' )
     call s:HL( 'Comment', 'Slate', '', 'none' )
     call s:HL( 'TabLineFill', '', 'Midnight', 'none' )
     call s:HL( 'TabLine', 'Slate', 'Midnight', 'none' )
@@ -315,6 +316,7 @@ if g:sierra_Midnight
     call s:HL( 'NonText', 'Shade', '', '' )
     call s:HL( 'VertSplit', 'Twilight', 'Pitch', 'none' )
     call s:HL( 'CursorLine', '', 'Twilight', 'none' )
+    call s:HL( 'ColorColumn', '', 'Twilight', '' )
     call s:HL( 'Comment', 'Graphite', '', 'none' )
     call s:HL( 'TabLineFill', '', 'Pitch', 'none' )
     call s:HL( 'TabLine', 'Graphite', 'Pitch', 'none' )
@@ -335,6 +337,7 @@ if g:sierra_Pitch
     call s:HL( 'NonText', 'Shadow', '', '' )
     call s:HL( 'VertSplit', 'Twilight', 'Abyss', 'none' )
     call s:HL( 'CursorLine', '', 'Midnight', 'none' )
+    call s:HL( 'ColorColumn', '', 'Midnight', '' )
     call s:HL( 'Comment', 'Pebble', '', 'none' )
     call s:HL( 'TabLineFill', '', 'Abyss', 'none' )
     call s:HL( 'TabLine', 'Pebble', 'Abyss', 'none' )
