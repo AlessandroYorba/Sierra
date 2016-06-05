@@ -33,8 +33,6 @@ let g:sierra_Pitch = 1                 " Enable the Darkest Mode
 let g:sierra_Campfire = 1              " Cycles thru darker modes after 5pm
 let g:sierra_MatchParen_Underline = 1  " Underline Matching Parens
 ```
-colorscheme sierra
-```
 
 Moar Screenshots
 ----------------
