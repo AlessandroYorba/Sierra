@@ -3,17 +3,8 @@ Sierra
 
 A Vim colorscheme. 
 
-###### Enable sierra
-```VimL
-colorscheme sierra
-```
 ![Screenshot Sierra](https://cloud.githubusercontent.com/assets/11221489/15807696/af9f38e2-2b19-11e6-916e-105d35414bd7.png)
 
-###### Enable sierra Midnight mode
-```VimL
-let g:sierra_Midnight = 1              " Enable Even Darker Mode
-colorscheme alduin
-```
 ![Screenshots of Backgrounds](https://cloud.githubusercontent.com/assets/11221489/15807708/cc41b5ec-2b19-11e6-80d1-13485f79fb68.png)
 
 
