@@ -19,7 +19,7 @@ colorscheme alduin
 
 Installation
 ---------------
-There a few ways to install alduin. The first option is by using your favorite vim package manager. The second way is by manual download.
+There a few ways to install sierra. The first option is by using your favorite vim package manager. The second way is by manual download.
 
 ###### Package Manager Option
 | Manager          |                 |                                                                           |
