@@ -3,8 +3,8 @@ Sierra
 
 A Vim colorscheme. 
 
-![Screenshot Sierra](https://cloud.githubusercontent.com/assets/11221489/12998696/988748a2-d0fb-11e5-8a21-5ed1cb4f713b.jpg)
-![Screenshots of Backgrounds](https://cloud.githubusercontent.com/assets/11221489/12998707/c49087ce-d0fb-11e5-9cfd-63ecd78544c6.png)
+![Screenshot Sierra](https://cloud.githubusercontent.com/assets/11221489/15807696/af9f38e2-2b19-11e6-916e-105d35414bd7.png)
+![Screenshots of Backgrounds](https://cloud.githubusercontent.com/assets/11221489/15807708/cc41b5ec-2b19-11e6-80d1-13485f79fb68.png)
 
 
 Installation
@@ -24,7 +24,7 @@ Download the .zip and copy `sierra.vim` to `~/.vim/colors` (on Windows `<your-vi
 
 Sierra Settings
 ---------------
-There are several options that you can enable for sierra. You can activate them by adding the following variables to your .vimrc. Just remember to place the variable before you declare `colorscheme sierra`.
+There are several options that you can enable for sierra. You can activate them by adding the following variables to your .vimrc. Just remember to place the variables before you declare `colorscheme sierra`.
 
 ```VimL
 let g:sierra_Twilight = 1              " Enable Dark Mode
