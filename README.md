@@ -2,11 +2,10 @@ Sierra
 ------
 
 A Vim colorscheme. 
-
-![Screenshot Sierra](https://cloud.githubusercontent.com/assets/11221489/15807696/af9f38e2-2b19-11e6-916e-105d35414bd7.png)
-
-![Screenshots of Backgrounds](https://cloud.githubusercontent.com/assets/11221489/15807708/cc41b5ec-2b19-11e6-80d1-13485f79fb68.png)
-
+![Screenshot](http://bit.ly/1OcsXoW)
+```VimL
+colorscheme sierra
+```
 
 Installation
 ---------------
