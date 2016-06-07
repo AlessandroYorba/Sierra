@@ -25,15 +25,16 @@ Download the .zip and copy `sierra.vim` to `~/.vim/colors` (on Windows `<your-vi
 
 Sierra Settings
 ---------------
-There are several options that you can enable for sierra. You can activate them by adding the following variables to your .vimrc. Just remember to place the variables before you declare `colorscheme sierra`.
+There are several options that you can enable for sierra. You can activate them by adding the your favorite sierra variables to your .vimrc. Just remember to place the variables before you declare `colorscheme alduin`.
 
-```VimL
-let g:sierra_Twilight = 1              " Enable Dark Mode
-let g:sierra_Midnight = 1              " Enable Even Darker Mode
-let g:sierra_Pitch = 1                 " Enable the Darkest Mode
-let g:sierra_Campfire = 1              " Cycles thru darker modes after 5pm
-let g:sierra_MatchParen_Underline = 1  " Underline Matching Parens
-```
+| Setting                            | Add to .vimrc                            | Screenshot                                                                |
+|------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
+| Enable Default                     | `colorscheme sierra`                     | [example](http://bit.ly/1OcsXoW)|
+| Enable Dark Mode                   | `let g:sierra_Twilight = 1`              | [example](http://bit.ly/28iLTc7)|
+| Enable Even Darker Mode            | `let g:sierra_Midnight = 1`              | [example](http://bit.ly/1YdvFN4)|
+| Enable the Darkest Mode            | `let g:sierra_Pitch = 1`                 | [example](http://bit.ly/1Ydv2Do)|
+| Cycles thru darker modes after 5pm | `let g:sierra_Campfire = 1`              | [example](http://bit.ly/1Ydv2Do)|
+| Underline Matching Parens          | `let g:sierra_MatchParen_Underline = 1`  | [example](http://bit.ly/1TY28XX)|
 
 Moar Screenshots
 ----------------
