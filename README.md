@@ -9,7 +9,7 @@ colorscheme sierra
 
 Installation
 ---------------
-There a few ways to install sierra. The first option is by using your favorite vim package manager. The second way is by manual download.
+There are few ways to install sierra. The first option is by using your favorite vim package manager. The second way is by manual download.
 
 ###### Package Manager Option
 | Manager          |                 |                                                                           |
@@ -24,7 +24,7 @@ Download the .zip and copy `sierra.vim` to `~/.vim/colors` (on Windows `<your-vi
 
 Sierra Settings
 ---------------
-There are several options that you can enable for sierra. You can activate them by adding the your favorite sierra variables to your .vimrc. Just remember to place the variables before you declare `colorscheme alduin`.
+There are several options that you can enable for sierra. You can activate them by adding each of the following variables to your .vimrc. Remember to place the variables before declaring `colorscheme alduin`.
 
 | Setting                            | Add to .vimrc                            | Screenshot                                                                |
 |------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
