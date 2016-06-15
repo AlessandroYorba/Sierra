@@ -9,7 +9,7 @@ colorscheme sierra
 
 Installation
 ---------------
-There are few ways to install sierra. The first option is by using your favorite vim package manager. The second way is by manual download.
+There are a few ways to install sierra. The first option is by using your favorite vim package manager and the second is by manual download.
 
 ###### Package Manager Option
 | Manager          |                 |                                                                           |
