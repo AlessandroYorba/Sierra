@@ -24,7 +24,7 @@ Download the .zip and copy `sierra.vim` to `~/.vim/colors` (on Windows `<your-vi
 
 Sierra Settings
 ---------------
-There are several options that you can enable for sierra. You can activate them by adding each of the following variables to your .vimrc. Remember to place the variables before declaring `colorscheme alduin`.
+There are several options that you can enable for sierra. You can activate them by adding each of the following variables to your .vimrc. Remember to place the variables before declaring `colorscheme sierra`.
 
 | Setting                            | Add to .vimrc                            | Screenshot                                                                |
 |------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
