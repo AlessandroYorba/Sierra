@@ -3,9 +3,6 @@ Sierra
 
 A Vim colorscheme. 
 ![Screenshot](http://bit.ly/1OcsXoW)
-```VimL
-colorscheme sierra
-```
 
 Installation
 ---------------
