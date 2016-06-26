@@ -26,7 +26,7 @@ There are several options that you can enable for sierra. You can activate them 
 | Background Colors                  | Add to .vimrc                            | Screenshot                                                                |
 |------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
 | ![](http://bit.ly/28YzZOF)         | `colorscheme sierra`                     | [example](http://bit.ly/1OcsXoW)|
-| ![](http://bit.ly/28YAo3o)         | `let g:sierra_Sundown = 1`               | [example](http://bit.ly/28Vckeo)|
+| ![](http://bit.ly/28YAo3o)         | `let g:sierra_Sunset = 1`                | [example](http://bit.ly/28Vckeo)|
 | ![](http://bit.ly/28WuA8s)         | `let g:sierra_Twilight = 1`              | [example](http://bit.ly/28iLTc7)|
 | ![](http://bit.ly/28U8st4)         | `let g:sierra_Midnight = 1`              | [example](http://bit.ly/1YdvFN4)|
 | ![](http://bit.ly/28VtEUF)         | `let g:sierra_Pitch = 1`                 | [example](http://bit.ly/1Ydv2Do)|
