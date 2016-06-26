@@ -25,9 +25,10 @@ There are several options that you can enable for sierra. You can activate them 
 
 | Setting                            | Add to .vimrc                            | Screenshot                                                                |
 |------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
-| Enable Default                     | `colorscheme sierra`                     | [example](http://bit.ly/1OcsXoW)|
-| Enable Dark Mode                   | `let g:sierra_Twilight = 1`              | [example](http://bit.ly/28iLTc7)|
-| Enable Even Darker Mode            | `let g:sierra_Midnight = 1`              | [example](http://bit.ly/1YdvFN4)|
+| Default                            | `colorscheme sierra`                     | [example](http://bit.ly/1OcsXoW)|
+| A Slightly Darker Version          | `let g:sierra_Shadow = 1`                | [example](http://bit.ly/28UnKAe)|
+| An Even Darker Mode                | `let g:sierra_Twilight = 1`              | [example](http://bit.ly/28iLTc7)|
+| Yet Even Darker                    | `let g:sierra_Midnight = 1`              | [example](http://bit.ly/1YdvFN4)|
 | Enable the Darkest Mode            | `let g:sierra_Pitch = 1`                 | [example](http://bit.ly/1Ydv2Do)|
 | Cycles thru darker modes after 5pm | `let g:sierra_Campfire = 1`              | [example](http://bit.ly/1Ydv2Do)|
 | Underline Matching Parens          | `let g:sierra_MatchParen_Underline = 1`  | [example](http://bit.ly/1TY28XX)|
