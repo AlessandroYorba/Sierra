@@ -23,14 +23,14 @@ Sierra Settings
 ---------------
 There are several options that you can enable for sierra. You can activate them by adding each of the following variables to your .vimrc. Remember to place the variables before declaring `colorscheme sierra`.
 
-| Setting                            | Add to .vimrc                            | Screenshot                                                                |
+| Background Color                   | Add to .vimrc                            | Screenshot                                                                |
 |------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
-| Default                            | `colorscheme sierra`                     | [example](http://bit.ly/1OcsXoW)|
-| A Slightly Darker Version          | `let g:sierra_Shadow = 1`                | [example](http://bit.ly/28UnKAe)|
-| An Even Darker Mode                | `let g:sierra_Twilight = 1`              | [example](http://bit.ly/28iLTc7)|
-| Yet Even Darker                    | `let g:sierra_Midnight = 1`              | [example](http://bit.ly/1YdvFN4)|
-| Enable the Darkest Mode            | `let g:sierra_Pitch = 1`                 | [example](http://bit.ly/1Ydv2Do)|
-| Cycles thru darker modes after 5pm | `let g:sierra_Campfire = 1`              | [example](http://bit.ly/1Ydv2Do)|
+| ![](http://bit.ly/28YzZOF)         | `colorscheme sierra`                     | [example](http://bit.ly/1OcsXoW)|
+| ![](http://bit.ly/28YAo3o)         | `let g:sierra_Sundown = 1`               | [example]()|
+| ![](http://bit.ly/28WuA8s)         | `let g:sierra_Twilight = 1`              | [example](http://bit.ly/28iLTc7)|
+| ![](http://bit.ly/28U8st4)         | `let g:sierra_Midnight = 1`              | [example](http://bit.ly/1YdvFN4)|
+| ![](http://bit.ly/28VtEUF)         | `let g:sierra_Pitch = 1`                 | [example](http://bit.ly/1Ydv2Do)|
+| Cycles thru modes after 5pm        | `let g:sierra_Campfire = 1`              | [example](http://bit.ly/1Ydv2Do)|
 | Underline Matching Parens          | `let g:sierra_MatchParen_Underline = 1`  | [example](http://bit.ly/1TY28XX)|
 
 Moar Screenshots
