@@ -55,8 +55,13 @@ if !exists("g:sierra_Campfire")
 endif 
 
 
-if !exists("g:sierra_MatchParen_Underline") 
-    let g:sierra_MatchParen_Underline = 0
+if !exists("g:sierra_Clear_Skies")
+    let g:sierra_Clear_Skies = 0
+endif
+
+
+if !exists("g:sierra_Nevada") 
+    let g:sierra_Nevada = 0
 endif 
 
 
@@ -368,8 +373,14 @@ if g:sierra_Pitch
 end
 
 
-if g:sierra_MatchParen_Underline
+" Underline MatchParens:
+if g:sierra_Nevada
     call s:HL( 'MatchParen', 'Salt', 'Pitch', 'underline' )
+end
+
+" Turn CursorLine Off:
+if g:sierra_Clear_Skies
+    hi CursorLine ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE
 end
 
 
