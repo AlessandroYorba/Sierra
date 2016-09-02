@@ -9,10 +9,87 @@
 
 " A Terminal Vim colorscheme 
 " Author:       Alessandro Yorba 
-" Maintainer:   Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Sierra
 " License:      MIT
 
+"================================================================================
+"COLOR PALETTE:
+"================================================================================
+
+"White:                   
+"================================================================================
+"Salt           231      #ffffff      http://www.colorhexa.com/ffffff
+"Cloud          254      #e4e4e4      http://www.colorhexa.com/e4e4e4
+
+"Black:                   
+"================================================================================
+"Abyss          16       #000000      http://www.colorhexa.com/000000
+"Pitch          232      #080808      http://www.colorhexa.com/080808
+"Midnight       233      #121212      http://www.colorhexa.com/121212
+"Twilight       234      #1c1c1c      http://www.colorhexa.com/1c1c1c
+
+"Gray:                    
+"================================================================================
+"Stars          188      #dfdfdf      http://www.colorhexa.com/dfdfdf
+"Sunset         235      #262626      http://www.colorhexa.com/262626
+"Day            236      #303030      http://www.colorhexa.com/303030
+"Shade          237      #3a3a3a      http://www.colorhexa.com/3a3a3a
+"Pebble         239      #4e4e4e      http://www.colorhexa.com/4e4e4e
+"Graphite       240      #585858      http://www.colorhexa.com/585858
+"Charcoal       242      #6c6c6c      http://www.colorhexa.com/6c6c6c
+"Slate          243      #767676      http://www.colorhexa.com/767676
+"Stone          245      #8a8a8a      http://www.colorhexa.com/8a8a8a
+
+"Red:                      
+"================================================================================
+"Dusk           95       #875f5f      http://www.colorhexa.com/875f5f
+"Firecracker    131      #af5f5f      http://www.colorhexa.com/af5f5f
+"Evening        138      #af8787      http://www.colorhexa.com/af8787
+"Rose           167      #d75f5f      http://www.colorhexa.com/d75f5f
+"Bellflower     174      #d78787      http://www.colorhexa.com/d78787
+"Claret         210      #ff8787      http://www.colorhexa.com/ff8787
+"Daybreak       217      #ffafaf      http://www.colorhexa.com/ffafaf
+
+"Green:
+"================================================================================
+"Cactus         64       #5f8700      http://www.colorhexa.com/5f8700
+"Sage           107      #87af5f      http://www.colorhexa.com/87af5f
+"Marsh          108      #87af87      http://www.colorhexa.com/87af87
+"Agave          114      #87d787      http://www.colorhexa.com/87d787
+
+"Yellow:
+"================================================================================
+"Flats          144      #afaf87      http://www.colorhexa.com/afaf87
+"Dune           187      #dfdfaf      http://www.colorhexa.com/dfdfaf
+
+"Cyan:
+"================================================================================
+"Lilac          60       #5f5f87      http://www.colorhexa.com/5f5f87
+"Lake           66       #5f8787      http://www.colorhexa.com/5f8787
+"Oasis          109      #87afaf      http://www.colorhexa.com/87afaf
+"Nolana         152      #afd7d7      http://www.colorhexa.com/afd7d7
+
+"Blue:
+"================================================================================
+"Heather        103      #8787af      http://www.colorhexa.com/8787af
+"Azure          110      #87afd7      http://www.colorhexa.com/87afd7
+
+"Purple:
+"================================================================================
+"Lavender       146      #afafd7      http://www.colorhexa.com/afafd7
+
+"Orange:
+"================================================================================
+"Bluebells      130     #af5f00       http://www.colorhexa.com/af5f00
+"Mallow         179     #dfaf5f       http://www.colorhexa.com/dfaf5f
+
+"TODO
+"let s:sierra.Shrub      = [ 'afaf5f', 143 ]
+"let s:sierra.Marigold   = [ 'ffff87', 228 ]
+"let s:sierra.Sunflower  = [ 'ffffaf', 229 ]
+"let s:sierra.Wildflower = [ 'dfff87', 192 ]
+"let s:sierra.Primrose   = [ 'dfdf87', 186 ]
+"let s:sierra.Aloe       = [ 'afff87', 156 ]
 
 set background=dark
 
@@ -22,9 +99,9 @@ if exists("syntax_on")
 endif
 
 
-"-------------------------------------------
+"================================================================================
 " SET DEFAULT PARAMETERS:
-"-------------------------------------------
+"================================================================================
 
 
 let g:colors_name="sierra"
@@ -64,330 +141,307 @@ if !exists("g:sierra_Nevada")
     let g:sierra_Nevada = 0
 endif 
 
-
-"-------------------------------------------
-" ALL COLORS:
-"-------------------------------------------
-
-
-let s:sierra = {}
+if !exists("g:sierra_Stargaze")
+    let g:sierra_Stargaze = 0
+endif
 
 
-" Variable ColorName       [   gui    term ] 
-let s:sierra.Abyss       = [ '000000', 16  ]
-let s:sierra.Lilac       = [ '5f5f87', 60  ]
-let s:sierra.Cactus      = [ '5f8700', 64  ]
-let s:sierra.Lake        = [ '5f8787', 66  ]
-let s:sierra.Dusk        = [ '875f5f', 95  ]
-let s:sierra.Heather     = [ '8787af', 103 ]
-let s:sierra.Sage        = [ '87af5f', 107 ]
-let s:sierra.Marsh       = [ '87af87', 108 ]
-let s:sierra.Oasis       = [ '87afaf', 109 ]
-let s:sierra.Azure       = [ '87afd7', 110 ]
-let s:sierra.Agave       = [ '87d787', 114 ]
-let s:sierra.Bluebells   = [ 'af5f00', 130 ]
-let s:sierra.Firecracker = [ 'af5f5f', 131 ]
-let s:sierra.Evening     = [ 'af8787', 138 ]
-"let s:sierra.Shrub      = [ 'afaf5f', 143 ]
-let s:sierra.Flats       = [ 'afaf87', 144 ]
-let s:sierra.Lavender    = [ 'afafd7', 146 ]
-let s:sierra.Nolana      = [ 'afd7d7', 152 ]
-"let s:sierra.Aloe       = [ 'afff87', 156 ]
-let s:sierra.Rose        = [ 'd75f5f', 167 ]
-let s:sierra.Bellflower  = [ 'd78787', 174 ]
-let s:sierra.Mallow      = [ 'dfaf5f', 179 ]
-"let s:sierra.Primrose   = [ 'dfdf87', 186 ]
-let s:sierra.Dune        = [ 'dfdfaf', 187 ]
-let s:sierra.Stars       = [ 'dfdfdf', 188 ]
-"let s:sierra.Wildflower = [ 'dfff87', 192 ]
-let s:sierra.Claret      = [ 'ff8787', 210 ]
-let s:sierra.Daybreak      = [ 'ffafaf', 217 ]
-"let s:sierra.Marigold   = [ 'ffff87', 228 ]
-"let s:sierra.Sunflower  = [ 'ffffaf', 229 ]
-let s:sierra.Salt        = [ 'ffffff', 231 ]
-let s:sierra.Pitch       = [ '080808', 232 ]
-let s:sierra.Midnight    = [ '121212', 233 ]
-let s:sierra.Twilight    = [ '1c1c1c', 234 ]
-let s:sierra.Sunset     = [ '262626', 235 ]
-let s:sierra.Day         = [ '303030', 236 ]
-let s:sierra.Shade       = [ '3a3a3a', 237 ]
-let s:sierra.Pebble      = [ '4e4e4e', 239 ]
-let s:sierra.Graphite    = [ '585858', 240 ]
-let s:sierra.Charcoal    = [ '6c6c6c', 242 ]
-let s:sierra.Slate       = [ '767676', 243 ]
-let s:sierra.Stone       = [ '8a8a8a', 245 ]
-let s:sierra.Cloud       = [ 'e4e4e4', 254 ]
-
-
-function! s:HL(group, fg, ...)
-    " Arguments: group, guifg, guibg, gui, guisp
-
-    let highlightString = 'hi ' . a:group . ' '
-
-    " Settings for highlight group ctermfg & guifg 
-    if strlen(a:fg)
-        if a:fg == 'fg'
-            let highlightString .= 'guifg=fg ctermfg=fg '
-        else
-            let color = get(s:sierra, a:fg)
-            let highlightString .= 'guifg=#' . color[0] . ' ctermfg=' . color[1] . ' '
-        endif
-    endif
-
-    " Settings for highlight group termbg & guibg 
-    if a:0 >= 1 && strlen(a:1)
-        if a:1 == 'bg'
-            let highlightString .= 'guibg=bg ctermbg=bg '
-        else
-            let color = get(s:sierra, a:1)
-            let highlightString .= 'guibg=#' . color[0] . ' ctermbg=' . color[1] . ' '
-        endif
-    endif
-
-    " Settings for highlight group cterm & gui 
-    if a:0 >= 2 && strlen(a:2)
-        let highlightString .= 'gui=' . a:2 . ' cterm=' . a:2 . ' '
-    endif
-
-    " Settings for highlight guisp
-    if a:0 >= 3 && strlen(a:3)
-        let color = get(s:sierra, a:3)
-        let highlightString .= 'guisp=#' . color[0] . ' '
-    endif
-
-    " echom highlightString
-
-    execute highlightString
-endfunction
-
-
-"--------------------------------------------------------------------
-" HIGLIGHT GROUPS:
-"--------------------------------------------------------------------
-
+"================================================================================
+" DAY:
+"================================================================================
 
 " Editor Settings:
-call s:HL( 'Normal', 'Cloud', 'Day', 'none' )
-call s:HL( 'CursorLine', '', 'Shade', 'none' )
-call s:HL( 'LineNr', 'Slate', '','none' )
-call s:HL( 'CursorLineNR', 'Dune', '', 'none' )
-"call s:HL( 'Cursor', '', '',          '' )
-
+hi Normal           ctermfg=254        guifg=#e4e4e4     ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
+hi LineNr           ctermfg=243        guifg=#767676     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi CursorLineNR     ctermfg=187        guifg=#dfdfaf     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi CursorLine       ctermfg=NONE       guifg=NONE        ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
 
 " Number Column:
-call s:HL( 'Folded', 'Dune', 'Lake', 'none' )
-call s:HL( 'FoldColumn', 'Oasis', 'Day', '' )
-call s:HL( 'SignColumn', 'Marsh', 'Day', 'none' )      
-"call s:HL( 'CursorColumn', '', '', '' )
+hi Folded           ctermfg=187        guifg=#dfdfaf     ctermbg=66       guibg=#5f8787      cterm=NONE     gui=NONE
+hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE 
+hi SignColumn       ctermfg=108        guifg=#87af87     ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
 
 
 " WindowTab Delimiters:
-call s:HL( 'VertSplit', 'Shade', 'Sunset', 'none' )
-call s:HL( 'TabLine', 'Slate', 'Sunset', 'none' )
-call s:HL( 'TabLineFill', '', 'Sunset', 'none' )
-call s:HL( 'TabLineSel', 'Sunset', 'Flats', 'none' )
-call s:HL( 'ColorColumn', '', 'Shade', '' )
-
+hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
+hi VertSplit        ctermfg=237        guifg=#3a3a3a     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+hi TabLine          ctermfg=243        guifg=#767676     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+hi TabLineSel       ctermfg=235        guifg=#262626     ctermbg=144      guibg=#afaf87      cterm=NONE     gui=NONE
 
 " File Navigation: 
-call s:HL( 'Directory', 'Evening', '', 'none' )
-call s:HL( 'Search', 'Dune', 'Dusk', 'none' )
-"call s:HL( 'IncSearch', '', '', 'reverse' )
+hi Directory        ctermfg=138       guifg=#af8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi Search           ctermfg=187       guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE 
 
 
 " Prompt Status:
-call s:HL( 'StatusLine', 'Sunset', 'Flats', 'none' )
-call s:HL( 'StatusLineNC', 'Slate', 'Sunset', 'none' )
-call s:HL( 'WildMenu', 'Dune', 'Dusk', 'none' )
-call s:HL( 'Title', 'Bellflower', '', 'none' )
-call s:HL( 'ModeMsg', 'Flats', '', 'none' )
-call s:HL( 'Question', 'Mallow', '', '' )
-call s:HL( 'MoreMsg', 'Mallow', '', 'none' )
-
+hi Title             ctermfg=174      guifg=#d78787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi ModeMsg           ctermfg=144      guifg=#afaf87      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi MoreMsg           ctermfg=179      guifg=#dfaf5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi Question          ctermfg=179      guifg=#dfaf5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi StatusLine        ctermfg=235      guifg=#262626      ctermbg=144      guibg=#afaf87      cterm=NONE     gui=NONE
+hi StatusLineNC      ctermfg=243      guifg=#767676      ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+hi WildMenu          ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
 
 " Visual Aid: 
-call s:HL( 'MatchParen', 'Midnight', 'Stone', 'none' )
-call s:HL( 'Visual', 'Dune', 'Dusk', 'none' )
-call s:HL( 'NonText', 'Pebble', '', 'none' )
-call s:HL( 'Todo', 'Flats', 'Twilight', 'italic' )
-call s:HL( 'Error', 'Firecracker', 'Sunset', 'reverse' )
-call s:HL( 'ErrorMsg', 'Firecracker', 'Sunset', 'reverse' )
-call s:HL( 'SpecialKey', 'Azure', '', '' )
-call s:HL( 'Underlined', 'Azure', '', 'none' )
-call s:HL( 'WarningMsg', 'Bluebells', '', 'none' )
-"call s:HL( 'Ignore', '', '', '' )
-"call s:HL( 'VisualNOS', '', '', 'underline' )
-
+hi NonText           ctermfg=239      guifg=#4e4e4e      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi SpecialKey        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE 
+hi Underlined        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE 
+hi WarningMsg        ctermfg=130      guifg=#af5f00      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi MatchParen        ctermfg=233      guifg=#121212      ctermbg=245      guibg=#8a8a8a      cterm=NONE     gui=NONE
+hi Visual            ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
+hi Todo              ctermfg=144      guifg=#afaf87      ctermbg=234      guibg=#1c1c1c      cterm=italic   gui=italic
+hi Error             ctermfg=131      guifg=#af5f5f      ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
+hi ErrorMsg          ctermfg=131      guifg=#af5f5f      ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
 
 
 " Variable Types:
-call s:HL( 'Constant', 'Claret', '', 'none' )
-call s:HL( 'String', 'Daybreak', '', 'none' )
-call s:HL( 'Identifier', 'Oasis', '', 'none' )
-call s:HL( 'Function', 'Nolana', '', 'none' )
-"call s:HL( 'StringDelimiter', '', '', '' )
-"call s:HL( 'Character', '', '', 'none' )
-"call s:HL( 'Number', '', '', 'none' )
-"call s:HL( 'Boolean', '', '', 'none' )
-"call s:HL( 'Float', '', '', 'none' )
+hi Constant          ctermfg=210      guifg=#ff8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi String            ctermfg=217      guifg=#ffafaf      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi Identifier        ctermfg=109      guifg=#87afaf      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi Function          ctermfg=152      guifg=#afd7d7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
 
 " Language Constructs:
-call s:HL( 'Statement', 'Lake', '', 'none' )
-call s:HL( 'Operator', 'Dune', '', 'none' )
-call s:HL( 'Comment', 'Slate', '', 'none' )
-call s:HL( 'Special', 'Mallow', '', 'none' )
-"call s:HL( 'SpecialChar', '', '', '' )
-"call s:HL( 'Tag', '', '', '' )
-"call s:HL( 'Delimiter', '', '', '' )
-"call s:HL( 'SpecialComment', '', '', '' )
-"call s:HL( 'Debug', '', '', '' )
-"call s:HL( 'Conditional', '', '', 'none' )
-"call s:HL( 'Repeat', '', '', 'none' )
-"call s:HL( 'Label', '', '', 'none' )
-"call s:HL( 'Keyword', '', '', 'none' )
-"call s:HL( 'Exception', '', '', 'none' )
-
+hi Statement         ctermfg=66       guifg=#5f8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi Operator          ctermfg=187      guifg=#dfdfaf      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi Comment           ctermfg=243      guifg=#767676      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi Special           ctermfg=179      guifg=#dfaf5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
 " C Like:
-call s:HL( 'PreProc', 'Rose', '', 'none' )
-call s:HL( 'Type', 'Evening', '', 'none' )
-"call s:HL( 'Include', '', '', 'none' )
-"call s:HL( 'Define', '', '', 'none' )
-"call s:HL( 'Macro', '', '', 'none' )
-"call s:HL( 'PreCondit', '', '', 'none' )
-"call s:HL( 'StorageClass', '', '', 'none' )
-"call s:HL( 'Structure', '', '', 'none' )
-"call s:HL( 'Typedef', '', '', 'none' )
+hi PreProc           ctermfg=167      guifg=#d75f5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi Type              ctermfg=138      guifg=#af8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
 
 " HTML:
-call s:HL( 'htmlItalic', 'Rose', '', 'none' )
-call s:HL( 'htmlArg', 'Dune', '', 'none' )
-"call s:HL( 'htmlTagName', '', '', 'none' )
-"call s:HL( 'htmlTag', '', '', 'none' )
-"call s:HL( 'htmlEndTag', '', '', 'none' )
-"call s:HL( 'htmlSpecialTagName', 'Mallow', '', 'none' )
+hi htmlItalic        ctermfg=167      guifg=#d75f5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi htmlArg           ctermfg=187      guifg=#dfdfaf      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
 
 " Diff:
-call s:HL( 'DiffAdd', 'Twilight', 'Lavender', 'none' )
-call s:HL( 'DiffChange', 'Twilight', 'Lilac', 'none' )
-call s:HL( 'DiffDelete', 'Twilight', 'Firecracker', 'none' )
-call s:HL( 'DiffText', 'Twilight', 'Heather', 'none' )
-
+hi DiffAdd           ctermfg=234      guifg=#1c1c1c      ctermbg=146      guibg=#afafd7      cterm=NONE     gui=NONE
+hi DiffChange        ctermfg=234      guifg=#1c1c1c      ctermbg=60       guibg=#5f5f87      cterm=NONE     gui=NONE
+hi DiffDelete        ctermfg=234      guifg=#1c1c1c      ctermbg=131      guibg=#af5f5f      cterm=NONE     gui=NONE 
+hi DiffText          ctermfg=234      guifg=#1c1c1c      ctermbg=103      guibg=#8787af      cterm=NONE     gui=NONE
 
 " Completion Menu:
-call s:HL( 'Pmenu', 'Day', 'Stone', 'none' )
-call s:HL( 'PmenuSel', 'Dune', 'Dusk', 'none' )
-call s:HL( 'PmenuSbar', '', 'Stone', 'none' )
-call s:HL( 'PmenuThumb', 'Flats', '', '' )
+hi Pmenu             ctermfg=236      guifg=#303030      ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
+hi PmenuSel          ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE    gui=NONE
+"FIXME
+hi PmenuSbar         ctermfg=NONE    guifg=NONE          ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
+hi PmenuThumb        ctermfg=144     guifg=#afaf87       ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
 
 
+"FIXME
 " Spelling:                             
-call s:HL( 'SpellBad', 'Firecracker', '', 'undercurl' )
-"call s:HL( 'SpellCap', '', '', '' )
-"call s:HL( 'SpellLocal', '', '', '' )
-"call s:HL( 'SpellRare', '', '', '' )
+hi SpellBad          ctermfg=131     guifg=#af5f5f       ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+"hi SpellCap
+"hi SpellLocal
+"hi SpellRare
+
+"hi htmlTagName
+"hi htmlTag
+"hi htmlEndTag
+"hi htmlSpecialTagName
+"hi Include
+"hi Define
+"hi Macro
+"hi PreCondit
+"hi StorageClass
+"hi Structure
+"hi Typedef
+"hi SpecialChar
+"hi Tag
+"hi Delimiter
+"hi SpecialComment
+"hi Debug
+"hi Conditional
+"hi Repeat
+"hi Label
+"hi Keyword
+"hi Exception
+"hi StringDelimiter
+"hi Character
+"hi Number
+"hi Boolean
+"hi Float
+"hi Ignore
+"hi VisualNOS
+"hi IncSearch
+"hi Cursor
+"hi CursorColumn
 
 
-"--------------------------------------------------------------------
-" CONFIGURABLE PARAMETERS:
-"--------------------------------------------------------------------
-
-
+"================================================================================
+" SUNSET:
+"================================================================================
 if g:sierra_Sunset
-    call s:HL( 'Normal', 'Stars', 'Sunset', 'none' )
-    call s:HL( 'LineNr', 'Slate', '', 'none' )
-    call s:HL( 'SignColumn', 'Marsh', 'Sunset', 'none' )      
-    call s:HL( 'NonText', 'Shade', '', '' )
-    call s:HL( 'VertSplit', 'Day', 'Twilight', 'none' )
-    call s:HL( 'CursorLine', '', 'Day', 'none' )
-    call s:HL( 'ColorColumn', '', 'Sunset', '' )
-    call s:HL( 'Comment', 'Slate', '', 'none' )
-    call s:HL( 'TabLineFill', '', 'Twilight', 'none' )
-    call s:HL( 'TabLine', 'Slate', 'Twilight', 'none' )
-    call s:HL( 'StatusLineNc', '', 'Twilight', 'none' )
-    call s:HL( 'Pmenu', 'Sunset', 'Stone', 'none' )
-    call s:HL( 'Error', 'Firecracker', 'Sunset', 'reverse' )
-    call s:HL( 'ErrorMsg', 'Firecracker', 'Sunset', 'reverse' )
-    call s:HL( 'FoldColumn', 'Oasis', 'Sunset', '' )
+    " Editor Settings:
+        hi Normal           ctermfg=188        guifg=#dfdfdf     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+        hi LineNr   ctermfg=243 guifg=#767676   ctermbg=NONE    guibg=NONE  cterm=NONE  gui=NONE
+        hi CursorLine   ctermfg=NONE    guifg=NONE  ctermbg=236 guibg=#303030   cterm=NONE gui=NONE
+
+    " Number Column:
+        hi SignColumn   ctermfg=108 guifg=#87af87   ctermbg=235 guibg=#262626 cterm=NONE gui=NONE
+        hi FoldColumn   ctermfg=109 guifg=#87afaf   ctermbg=235 guibg=#262626 cterm=NONE    gui=NONE
+    
+    " WindowTab Delimiters:
+        hi ColorColumn      ctermfg=NONE    guifg=NONE      ctermbg=236     guibg=#3a3a3a cterm=NONE gui=NONE
+        hi VertSplit    ctermfg=236 guifg=#303030   ctermbg=234 guibg=#1c1c1c   cterm=NONE gui=NONE
+        hi TabLineFill  ctermfg=NONE    guifg=NONE  ctermbg=234 guibg=#1c1c1c cterm=NONE    gui=NONE
+        hi TabLine      ctermfg=243     guifg=#767676   ctermbg=234 guibg=#1c1c1c   cterm=NONE gui=NONE
+
+    " Prompt Status:
+        hi StatusLineNc ctermfg=NONE    guifg=NONE  ctermbg=234 guibg=#1c1c1c   cterm=NONE  gui=NONE
+
+    " Visual Aid: 
+        hi NonText  ctermfg=237 guifg=#3a3a3a   ctermbg=NONE    guibg=NONE  cterm=NONE  gui=NONE
+        hi Error    ctermfg=131 guifg=#af5f5f   ctermbg=235 guibg=#262626   cterm=reverse   gui=reverse
+        hi ErrorMsg    ctermfg=131 guifg=#af5f5f   ctermbg=235 guibg=#262626   cterm=reverse   gui=reverse
+
+    " Language Constructs:
+        hi Comment  ctermfg=243 guifg=#767676   ctermbg=NONE    guibg=NONE  cterm=NONE  gui=NONE
+
+    " Completion Menu:
+        hi Pmenu    ctermfg=235 guifg=#262626   ctermbg=245 guibg=#8a8a8a   cterm=NONE  gui=NONE
 end
 
 
+"================================================================================
+" TWILIGHT:
+"================================================================================
 if g:sierra_Twilight 
-    call s:HL( 'Normal', 'Stars', 'Twilight', 'none' )
-    call s:HL( 'LineNr', 'Slate', '', 'none' )
-    call s:HL( 'SignColumn', 'Marsh', 'Twilight', 'none' )      
-    call s:HL( 'NonText', 'Shade', '', '' )
-    call s:HL( 'VertSplit', 'Day', 'Midnight', 'none' )
-    call s:HL( 'CursorLine', '', 'Sunset', 'none' )
-    call s:HL( 'ColorColumn', '', 'Sunset', '' )
-    call s:HL( 'Comment', 'Slate', '', 'none' )
-    call s:HL( 'TabLineFill', '', 'Midnight', 'none' )
-    call s:HL( 'TabLine', 'Slate', 'Midnight', 'none' )
-    call s:HL( 'StatusLineNc', '', 'Midnight', 'none' )
-    call s:HL( 'Pmenu', 'Twilight', 'Stone', 'none' )
-    call s:HL( 'Error', 'Firecracker', 'Twilight', 'reverse' )
-    call s:HL( 'ErrorMsg', 'Firecracker', 'Twilight', 'reverse' )
-    call s:HL( 'FoldColumn', 'Oasis', 'Twilight', '' )
+    " Editor Settings:
+        hi Normal   ctermfg=188 guifg=#dfdfdf   ctermbg=234 guibg=#1c1c1c   cterm=NONE  gui=NONE
+        hi LineNr   ctermfg=243 guifg=#767676   ctermbg=NONE    guibg=NONE  cterm=NONE  gui=NONE
+        hi CursorLine   ctermfg=NONE    guifg=NONE  ctermbg=235 guibg=#262626 cterm=NONE    gui=NONE
+
+    " Number Column:
+        hi SignColumn   ctermfg=108 guifg=#87af87   ctermbg=234 guibg=#1c1c1c   cterm=NONE  gui=NONE
+        hi FoldColumn   ctermfg=109 guifg=#87afaf   ctermbg=234 guibg=#1c1c1c   cterm=NONE  gui=NONE
+
+    " WindowTab Delimiters:
+        hi VertSplit    ctermfg=236 guifg=#303030   ctermbg=233     cterm=NONE  gui=NONE
+        hi ColorColumn  ctermfg=NONE    guifg=NONE  ctermbg=235 guibg=#262626   cterm=NONE  gui=NONE
+        hi TabLineFill  ctermfg=NONE    guifg=NONE  ctermbg=233 guibg=#121212   cterm=NONE  gui=NONE
+        hi TabLine      ctermfg=243     guifg=#767676   ctermbg=233 guibg=#121212   cterm=NONE  gui=NONE
+
+    " Prompt Status:
+        hi StatusLineNc     ctermfg=NONE    guifg=NONE  ctermbg=233 guibg=#121212  cterm=NONE   gui=NONE
+
+    " Visual Aid: 
+        hi NonText  ctermfg=237 guifg=#3a3a3a   ctermbg=NONE    guibg=NONE cterm=NONE   gui=NONE
+        hi Error    ctermfg=131 guifg=#af5f5f   ctermbg=234 guibg=#1c1c1c   cterm=reverse   gui=reverse
+        hi ErrorMsg    ctermfg=131 guifg=#af5f5f   ctermbg=234 guibg=#1c1c1c   cterm=reverse   gui=reverse
+
+    " Language Constructs:
+        hi Comment  ctermfg=243 guifg=#767676   ctermbg=NONE    guibg=NONE  cterm=NONE  gui=NONE
+
+    " Completion Menu:
+        hi Pmenu    ctermfg=234 guifg=#1c1c1c   ctermbg=245 guibg=#8a8a8a   cterm=NONE  gui=NONE
 end
 
 
+"================================================================================
+" MIDNIGHT:
+"================================================================================
 if g:sierra_Midnight
-    call s:HL( 'Normal', 'Stars', 'Midnight', 'none')
-    call s:HL( 'LineNr', 'Charcoal', '', 'none')
-    call s:HL( 'SignColumn', 'Marsh', 'Midnight', 'none' )      
-    call s:HL( 'NonText', 'Shade', '', '' )
-    call s:HL( 'VertSplit', 'Twilight', 'Pitch', 'none' )
-    call s:HL( 'CursorLine', '', 'Twilight', 'none' )
-    call s:HL( 'ColorColumn', '', 'Twilight', '' )
-    call s:HL( 'Comment', 'Charcoal', '', 'none' )
-    call s:HL( 'TabLineFill', '', 'Pitch', 'none' )
-    call s:HL( 'TabLine', 'Charcoal', 'Pitch', 'none' )
-    call s:HL( 'StatusLineNc', '','Pitch', 'none' )
-    call s:HL( 'Pmenu', 'Midnight', 'Stone', 'none' )
-    call s:HL( 'Error', 'Firecracker', 'Midnight', 'reverse' )
-    call s:HL( 'ErrorMsg', 'Firecracker', 'Midnight', 'reverse' )
-    call s:HL( 'FoldColumn', 'Oasis', 'Midnight', '' )
+    " Editor Settings:
+        hi Normal   ctermfg=188 guifg=#dfdfdf   ctermbg=233 guibg=#121212   cterm=NONE  gui=NONE
+        hi LineNr       ctermfg=242 guifg=#6c6c6c   ctermbg=NONE    guibg=NONE  cterm=NONE  gui=NONE
+        hi CursorLine   ctermfg=NONE    guifg=NONE  ctermbg=234 guibg=#1c1c1c   cterm=NONE  gui=NONE
+
+    " Number Column:
+        hi SignColumn   ctermfg=108 guifg=#87af87   ctermbg=233 guibg=#121212   cterm=NONE  gui=NONE
+        hi FoldColumn   ctermfg=109 guifg=#87afaf   ctermbg=233 guibg=#121212   cterm=NONE  gui=NONE
+ 
+    " WindowTab Delimiters:
+        hi VertSplit    ctermfg=234 guifg=#1c1c1c   ctermbg=232 guibg=#080808   cterm=NONE  gui=NONE
+        hi ColorColumn  ctermfg=NONE    guifg=NONE  ctermbg=234 guibg=#1c1c1c   cterm=NONE  gui=NONE
+        hi TabLineFill  ctermfg=NONE    guifg=NONE  ctermbg=232 guibg=#080808   cterm=NONE  gui=NONE
+
+    " Prompt Status:
+        hi StatusLineNc ctermfg=NONE    guifg=NONE  ctermbg=232 guibg=#080808   cterm=NONE  gui=NONE
+
+    " Visual Aid: 
+        hi NonText  ctermfg=237 guifg=#3a3a3a   ctermbg=NONE    guibg=NONE  cterm=NONE  gui=NONE
+        hi Error    ctermfg=131 guifg=#af5f5f   ctermbg=233 guibg=#121212   cterm=reverse  gui=reverse
+        hi ErrorMsg    ctermfg=131 guifg=#af5f5f   ctermbg=233 guibg=#121212   cterm=reverse  gui=reverse
+
+    " Language Constructs:
+        hi Comment  ctermfg=242 guifg=#6c6c6c   ctermbg=NONE    guibg=NONE  cterm=NONE  gui=NONE
+
+    " Completion Menu:
+        hi Pmenu    ctermfg=233 guifg=#121212   ctermbg=245 guibg=#8a8a8a   cterm=NONE  gui=NONE
 end
 
 
-" Pitch Mode: 
+"--------------------------------------------------------------------
+" PITCH:
+"--------------------------------------------------------------------
 if g:sierra_Pitch
-    call s:HL( 'Normal', 'Stars', 'Pitch', 'none')
-    call s:HL( 'LineNr', 'Graphite', '', 'none')
-    call s:HL( 'SignColumn', 'Marsh', 'Pitch', 'none' )      
-    call s:HL( 'NonText', 'Sunset', '', '' )
-    call s:HL( 'VertSplit', 'Twilight', 'Abyss', 'none' )
-    call s:HL( 'CursorLine', '', 'Midnight', 'none' )
-    call s:HL( 'ColorColumn', '', 'Midnight', '' )
-    call s:HL( 'Comment', 'Graphite', '', 'none' )
-    call s:HL( 'TabLineFill', '', 'Abyss', 'none' )
-    call s:HL( 'TabLine', 'Graphite', 'Abyss', 'none' )
-    call s:HL( 'StatusLineNc', '','Abyss', 'none' )
-    call s:HL( 'Pmenu', 'Pitch', 'Stone', 'none' )
-    call s:HL( 'Error', 'Firecracker', 'Pitch', 'reverse' )
-    call s:HL( 'ErrorMsg', 'Firecracker', 'Pitch', 'reverse' )
-    call s:HL( 'FoldColumn', 'Oasis', 'Pitch', '' )
+    " Editor Settings:
+        hi Normal   ctermfg=188 guifg=#dfdfdf   ctermbg=232 guibg=#080808   cterm=NONE  gui=NONE
+        hi LineNr   ctermfg=240 guifg=#585858   ctermbg=NONE    guibg=NONE  cterm=NONE  gui=NONE
+        hi CursorLine   ctermfg=NONE    guifg=NONE  ctermbg=233 guibg=#121212   cterm=NONE  gui=NONE
+
+    " Number Column:
+        hi SignColumn   ctermfg=108 guifg=#87af87   ctermbg=232 guibg=#080808   cterm=NONE  gui=NONE
+        hi FoldColumn   ctermfg=109 guifg=#87afaf   ctermbg=232 guibg=#080808   cterm=NONE  gui=NONE
+
+    " WindowTab Delimiters:
+        hi VertSplit    ctermfg=234 guifg=#1c1c1c   ctermbg=16  guibg=#000000   cterm=NONE  gui=NONE
+        hi ColorColumn  ctermfg=NONE    guifg=NONE  ctermbg=233 guibg=#121212   cterm=NONE  gui=NONE
+        hi TabLineFill  ctermfg=NONE    guifg=NONE  ctermbg=16  guibg=#000000   cterm=NONE  gui=NONE
+        hi TabLine      ctermfg=240     guifg=#585858   ctermbg=16  guibg=#000000   cterm=NONE  gui=NONE
+
+    " Prompt Status:
+        hi StatusLineNc ctermfg=NONE    guifg=NONE  ctermbg=16  guibg=#000000   cterm=NONE  gui=NONE
+
+    " Visual Aid: 
+        hi NonText  ctermfg=235 guifg=#262626   ctermbg=NONE    guibg=NONE  cterm=NONE  gui=NONE
+        hi Error    ctermfg=131 guifg=#af5f5f   ctermbg=16  guibg=#000000   cterm=reverse  gui=reverse
+        hi ErrorMsg    ctermfg=131 guifg=#af5f5f   ctermbg=16  guibg=#000000   cterm=reverse  gui=reverse
+
+    " Language Constructs:
+        hi Comment ctermfg=240  guifg=#585858   ctermbg=NONE    guibg=NONE  cterm=NONE  gui=NONE 
+
+    " Completion Menu:
+        hi Pmenu    ctermfg=16 guifg=#000000    ctermbg=245 guibg=#8a8a8a   cterm=NONE  gui=NONE
 end
 
 
-" Underline MatchParens:
+"================================================================================
+" NEVADA:
+"================================================================================
 if g:sierra_Nevada
-    call s:HL( 'MatchParen', 'Salt', 'Pitch', 'underline' )
+    " Visual Aid: 
+    hi MatchParen   ctermfg=231 guifg=#ffffff   ctermbg=16  guibg=#080808   cterm=underline gui=underline
 end
 
-" Turn CursorLine Off:
+
+"================================================================================
+" CLEAR SKIES:
+"================================================================================
 if g:sierra_Clear_Skies
+    " Editor Settings:
     hi CursorLine ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE
 end
 
+"================================================================================
+" STARGAZE:
+"================================================================================
+if g:sierra_Stargaze
+    "TODO
+end
 
-" Campfire Mode:
+"================================================================================
+" CAMPFIRE:
+"================================================================================
 if g:sierra_Campfire
     let sierra_Hour = strftime("%H") 
 
+    "TODO: Add Sunset
     if 7 <= sierra_Hour && sierra_Hour < 17
         let g:sierra_Twilight = 0
         let g:sierra_Midnight = 0

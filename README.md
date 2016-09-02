@@ -23,16 +23,16 @@ Sierra Settings
 ---------------
 There are several options that you can enable for sierra. You can activate them by adding each of the following variables to your .vimrc. Remember to place the variables before declaring `colorscheme sierra`.
 
-| Background Colors                  | Add to .vimrc                            | Screenshot                                                                |
+| Description                        | Add to .vimrc                            | Screenshot                                                                |
 |------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
-| ![](http://bit.ly/28YzZOF)         | `colorscheme sierra`                     | [example](http://bit.ly/1OcsXoW)|
-| ![](http://bit.ly/28YAo3o)         | `let g:sierra_Sunset = 1`                | [example](http://bit.ly/28Vckeo)|
-| ![](http://bit.ly/28WuA8s)         | `let g:sierra_Twilight = 1`              | [example](http://bit.ly/28iLTc7)|
-| ![](http://bit.ly/28U8st4)         | `let g:sierra_Midnight = 1`              | [example](http://bit.ly/1YdvFN4)|
-| ![](http://bit.ly/28VtEUF)         | `let g:sierra_Pitch = 1`                 | [example](http://bit.ly/1Ydv2Do)|
-| Cycles thru modes after 5pm        | `let g:sierra_Campfire = 1`              | [example](http://bit.ly/1Ydv2Do)|
-| Underline Matching Parens          | `let g:sierra_Nevada = 1`                | [example](http://bit.ly/1TY28XX)|
-| Removes CursorLine background      | `let g:sierra_Clear_Skies = 1`           | :(                              | 
+| light gray background              | `colorscheme sierra`                     | [Screenshot](http://bit.ly/1OcsXoW)|
+| medium gray background             | `let g:sierra_Sunset = 1`                | [Screenshot](http://bit.ly/28Vckeo)|
+| dark  gray background              | `let g:sierra_Twilight = 1`              | [Screenshot](http://bit.ly/28iLTc7)|
+| almost black background            | `let g:sierra_Midnight = 1`              | [Screenshot](http://bit.ly/1YdvFN4)|
+| black as pitch                     | `let g:sierra_Pitch = 1`                 | [Screenshot](http://bit.ly/1Ydv2Do)|
+| Cycles thru modes after 5pm        | `let g:sierra_Campfire = 1`              | [Screenshot](http://bit.ly/1Ydv2Do)|
+| Underline Matching Parens          | `let g:sierra_Nevada = 1`                | [Screenshot](http://bit.ly/1TY28XX)|
+| Removes CursorLine background      | `let g:sierra_Clear_Skies = 1`           | | 
 
 Moar Screenshots
 ----------------
