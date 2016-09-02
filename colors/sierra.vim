@@ -7,8 +7,8 @@
 "    ╚══════╝╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
 
 
-" A Terminal Vim colorscheme 
-" Author:       Alessandro Yorba 
+" A Terminal Vim colorscheme
+" Author:       Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Sierra
 " License:      MIT
 
@@ -16,19 +16,19 @@
 "COLOR PALETTE:
 "================================================================================
 
-"White:                   
+"White:
 "================================================================================
 "Salt           231      #ffffff      http://www.colorhexa.com/ffffff
 "Cloud          254      #e4e4e4      http://www.colorhexa.com/e4e4e4
 
-"Black:                   
+"Black:
 "================================================================================
 "Abyss          16       #000000      http://www.colorhexa.com/000000
 "Pitch          232      #080808      http://www.colorhexa.com/080808
 "Midnight       233      #121212      http://www.colorhexa.com/121212
 "Twilight       234      #1c1c1c      http://www.colorhexa.com/1c1c1c
 
-"Gray:                    
+"Gray:
 "================================================================================
 "Stars          188      #dfdfdf      http://www.colorhexa.com/dfdfdf
 "Sunset         235      #262626      http://www.colorhexa.com/262626
@@ -40,7 +40,7 @@
 "Slate          243      #767676      http://www.colorhexa.com/767676
 "Stone          245      #8a8a8a      http://www.colorhexa.com/8a8a8a
 
-"Red:                      
+"Red:
 "================================================================================
 "Dusk           95       #875f5f      http://www.colorhexa.com/875f5f
 "Firecracker    131      #af5f5f      http://www.colorhexa.com/af5f5f
@@ -112,24 +112,24 @@ if !exists("g:sierra_Sunset")
 endif
 
 
-if !exists("g:sierra_Twilight") 
+if !exists("g:sierra_Twilight")
     let g:sierra_Twilight = 0
-endif 
+endif
 
 
-if !exists("g:sierra_Midnight") 
+if !exists("g:sierra_Midnight")
     let g:sierra_Midnight = 0
 endif " }}}
 
 
-if !exists("g:sierra_Pitch") 
+if !exists("g:sierra_Pitch")
     let g:sierra_Pitch = 0
-endif 
+endif
 
 
-if !exists("g:sierra_Campfire") 
+if !exists("g:sierra_Campfire")
     let g:sierra_Campfire = 0
-endif 
+endif
 
 
 if !exists("g:sierra_Clear_Skies")
@@ -137,9 +137,9 @@ if !exists("g:sierra_Clear_Skies")
 endif
 
 
-if !exists("g:sierra_Nevada") 
+if !exists("g:sierra_Nevada")
     let g:sierra_Nevada = 0
-endif 
+endif
 
 if !exists("g:sierra_Stargaze")
     let g:sierra_Stargaze = 0
@@ -158,7 +158,7 @@ hi CursorLine       ctermfg=NONE       guifg=NONE        ctermbg=237      guibg=
 
 " Number Column:
 hi Folded           ctermfg=187        guifg=#dfdfaf     ctermbg=66       guibg=#5f8787      cterm=NONE     gui=NONE
-hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE 
+hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
 hi SignColumn       ctermfg=108        guifg=#87af87     ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
 
 
@@ -169,9 +169,9 @@ hi VertSplit        ctermfg=237        guifg=#3a3a3a     ctermbg=235      guibg=
 hi TabLine          ctermfg=243        guifg=#767676     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
 hi TabLineSel       ctermfg=235        guifg=#262626     ctermbg=144      guibg=#afaf87      cterm=NONE     gui=NONE
 
-" File Navigation: 
+" File Navigation:
 hi Directory        ctermfg=138       guifg=#af8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi Search           ctermfg=187       guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE 
+hi Search           ctermfg=187       guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
 
 
 " Prompt Status:
@@ -183,10 +183,10 @@ hi StatusLine        ctermfg=235      guifg=#262626      ctermbg=144      guibg=
 hi StatusLineNC      ctermfg=243      guifg=#767676      ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
 hi WildMenu          ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
 
-" Visual Aid: 
+" Visual Aid:
 hi NonText           ctermfg=239      guifg=#4e4e4e      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi SpecialKey        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE 
-hi Underlined        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE 
+hi SpecialKey        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi Underlined        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi WarningMsg        ctermfg=130      guifg=#af5f00      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi MatchParen        ctermfg=233      guifg=#121212      ctermbg=245      guibg=#8a8a8a      cterm=NONE     gui=NONE
 hi Visual            ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
@@ -221,7 +221,7 @@ hi htmlArg           ctermfg=187      guifg=#dfdfaf      ctermbg=NONE     guibg=
 " Diff:
 hi DiffAdd           ctermfg=234      guifg=#1c1c1c      ctermbg=146      guibg=#afafd7      cterm=NONE     gui=NONE
 hi DiffChange        ctermfg=234      guifg=#1c1c1c      ctermbg=60       guibg=#5f5f87      cterm=NONE     gui=NONE
-hi DiffDelete        ctermfg=234      guifg=#1c1c1c      ctermbg=131      guibg=#af5f5f      cterm=NONE     gui=NONE 
+hi DiffDelete        ctermfg=234      guifg=#1c1c1c      ctermbg=131      guibg=#af5f5f      cterm=NONE     gui=NONE
 hi DiffText          ctermfg=234      guifg=#1c1c1c      ctermbg=103      guibg=#8787af      cterm=NONE     gui=NONE
 
 " Completion Menu:
@@ -233,7 +233,7 @@ hi PmenuThumb        ctermfg=144     guifg=#afaf87       ctermbg=NONE     guibg=
 
 
 "FIXME
-" Spelling:                             
+" Spelling:
 hi SpellBad          ctermfg=131     guifg=#af5f5f       ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
 "hi SpellCap
 "hi SpellLocal
@@ -284,7 +284,7 @@ if g:sierra_Sunset
     " Number Column:
     hi SignColumn       ctermfg=108        guifg=#87af87     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
     hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
-    
+
     " WindowTab Delimiters:
     hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=236      guibg=#3a3a3a      cterm=NONE     gui=NONE
     hi VertSplit        ctermfg=236        guifg=#303030     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
@@ -294,7 +294,7 @@ if g:sierra_Sunset
     " Prompt Status:
     hi StatusLineNc     ctermfg=NONE       guifg=NONE        ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
 
-    " Visual Aid: 
+    " Visual Aid:
     hi NonText          ctermfg=237        guifg=#3a3a3a     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
     hi Error            ctermfg=131        guifg=#af5f5f     ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
     hi ErrorMsg         ctermfg=131        guifg=#af5f5f     ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
@@ -310,7 +310,7 @@ end
 "================================================================================
 " TWILIGHT:
 "================================================================================
-if g:sierra_Twilight 
+if g:sierra_Twilight
     " Editor Settings:
     hi Normal           ctermfg=188        guifg=#dfdfdf     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
     hi LineNr           ctermfg=243        guifg=#767676     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
@@ -329,7 +329,7 @@ if g:sierra_Twilight
     " Prompt Status:
     hi StatusLineNc     ctermfg=NONE       guifg=NONE        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
-    " Visual Aid: 
+    " Visual Aid:
     hi NonText          ctermfg=237        guifg=#3a3a3a     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
     hi Error            ctermfg=131        guifg=#af5f5f     ctermbg=234      guibg=#1c1c1c      cterm=reverse gui=reverse
     hi ErrorMsg         ctermfg=131        guifg=#af5f5f     ctermbg=234      guibg=#1c1c1c      cterm=reverse gui=reverse
@@ -354,7 +354,7 @@ if g:sierra_Midnight
     " Number Column:
     hi SignColumn       ctermfg=108        guifg=#87af87      ctermbg=233     guibg=#121212      cterm=NONE    gui=NONE
     hi FoldColumn       ctermfg=109        guifg=#87afaf      ctermbg=233     guibg=#121212      cterm=NONE    gui=NONE
- 
+
     " WindowTab Delimiters:
     hi VertSplit        ctermfg=234        guifg=#1c1c1c      ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
     hi ColorColumn      ctermfg=NONE       guifg=NONE         ctermbg=234     guibg=#1c1c1c      cterm=NONE    gui=NONE
@@ -363,7 +363,7 @@ if g:sierra_Midnight
     " Prompt Status:
     hi StatusLineNc     ctermfg=NONE       guifg=NONE         ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
 
-    " Visual Aid: 
+    " Visual Aid:
     hi NonText          ctermfg=237        guifg=#3a3a3a      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
     hi Error            ctermfg=131        guifg=#af5f5f      ctermbg=233     guibg=#121212      cterm=reverse gui=reverse
     hi ErrorMsg         ctermfg=131        guifg=#af5f5f      ctermbg=233     guibg=#121212      cterm=reverse gui=reverse
@@ -398,13 +398,13 @@ if g:sierra_Pitch
     " Prompt Status:
     hi StatusLineNc     ctermfg=NONE        guifg=NONE        ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
 
-    " Visual Aid: 
+    " Visual Aid:
     hi NonText          ctermfg=235         guifg=#262626     ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
     hi Error            ctermfg=131         guifg=#af5f5f     ctermbg=16      guibg=#000000      cterm=reverse gui=reverse
     hi ErrorMsg         ctermfg=131         guifg=#af5f5f     ctermbg=16      guibg=#000000      cterm=reverse gui=reverse
 
     " Language Constructs:
-    hi Comment          ctermfg=240         guifg=#585858     ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE 
+    hi Comment          ctermfg=240         guifg=#585858     ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
 
     " Completion Menu:
     hi Pmenu            ctermfg=16          guifg=#000000     ctermbg=245     guibg=#8a8a8a      cterm=NONE    gui=NONE
@@ -415,7 +415,7 @@ end
 " NEVADA:
 "================================================================================
 if g:sierra_Nevada
-    " Visual Aid: 
+    " Visual Aid:
     hi MatchParen       ctermfg=231         guifg=#ffffff     ctermbg=16      guibg=#080808      cterm=underline gui=underline
 end
 
@@ -439,7 +439,7 @@ end
 " CAMPFIRE:
 "================================================================================
 if g:sierra_Campfire
-    let sierra_Hour = strftime("%H") 
+    let sierra_Hour = strftime("%H")
 
     "TODO: Add Sunset
     if 7 <= sierra_Hour && sierra_Hour < 17
@@ -454,7 +454,7 @@ if g:sierra_Campfire
         let g:sierra_Twilight = 0
         let g:sierra_Midnight = 1
 
-    else 
+    else
         let g:sierra_Midnight = 0
         let g:sierra_Pitch = 1
 
