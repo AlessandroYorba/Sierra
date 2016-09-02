@@ -2,7 +2,7 @@ Sierra
 ------
 
 A Vim colorscheme. 
-![Screenshot](goo.gl/7x4jsi)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18198043/590d4f74-70af-11e6-893c-bc4e363abdf5.png)
 
 Installation
 ---------------
