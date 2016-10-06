@@ -2,43 +2,43 @@ Sierra
 ------
 
 A Vim colorscheme. 
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19173399/ff373be8-8bdb-11e6-9ef0-0ec46c7f0d5b.png)
 ```VimL
 "light gray background 
 colorscheme sierra
 ```
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18901612/5265773a-8501-11e6-892a-7bcd331e0c99.png)
 
 
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18901616/646b79a2-8501-11e6-8498-3ee5bab24a2b.png)
 ```VimL
 "medium gray background
 let g:sierra_Sunset = 1
 colorscheme sierra
 ```
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18901616/646b79a2-8501-11e6-8498-3ee5bab24a2b.png)
 
 
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18901624/6e592c98-8501-11e6-9f1b-7093f7e3ec2f.png)
 ```VimL
 "dark gray background
 let g:sierra_Twilight = 1
 colorscheme sierra
 ```
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18901624/6e592c98-8501-11e6-9f1b-7093f7e3ec2f.png)
 
 
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18901633/778976b0-8501-11e6-804c-bedb30139b19.png)
 ```VimL
 "Almost black background
 let g:sierra_Midnight = 1
 colorscheme sierra
 ```
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18901633/778976b0-8501-11e6-804c-bedb30139b19.png)
 
 
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18901636/7f762f8a-8501-11e6-8bf7-2c9bfdb3ccfd.png)
 ```VimL
 "Black background
 let g:sierra_Pitch = 1
 colorscheme sierra
 ```
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18901636/7f762f8a-8501-11e6-8bf7-2c9bfdb3ccfd.png)
 
 Installation
 ---------------
