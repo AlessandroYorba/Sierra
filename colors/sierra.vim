@@ -292,7 +292,7 @@ if g:sierra_Sunset
     hi TabLine          ctermfg=243        guifg=#767676     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
 
     " Prompt Status:
-    hi StatusLineNc     ctermfg=NONE       guifg=NONE        ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+    hi StatusLineNC     ctermfg=243        guifg=#767676     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
 
     " Visual Aid:
     hi NonText          ctermfg=237        guifg=#3a3a3a     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
@@ -327,7 +327,7 @@ if g:sierra_Twilight
     hi TabLine          ctermfg=243        guifg=#767676     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " Prompt Status:
-    hi StatusLineNc     ctermfg=NONE       guifg=NONE        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi StatusLineNC     ctermfg=234        guifg=#767676     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " Visual Aid:
     hi NonText          ctermfg=237        guifg=#3a3a3a     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
@@ -361,7 +361,7 @@ if g:sierra_Midnight
     hi TabLineFill      ctermfg=NONE       guifg=NONE         ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
 
     " Prompt Status:
-    hi StatusLineNc     ctermfg=NONE       guifg=NONE         ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
+    hi StatusLineNC     ctermfg=242       guifg=#6c6c6c         ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
 
     " Visual Aid:
     hi NonText          ctermfg=237        guifg=#3a3a3a      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
@@ -396,7 +396,7 @@ if g:sierra_Pitch
     hi TabLine          ctermfg=240         guifg=#585858     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
 
     " Prompt Status:
-    hi StatusLineNc     ctermfg=NONE        guifg=NONE        ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
+    hi StatusLineNC     ctermfg=240         guifg=#585858     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
 
     " Visual Aid:
     hi NonText          ctermfg=235         guifg=#262626     ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
@@ -418,7 +418,6 @@ if g:sierra_Nevada
     " Visual Aid:
     hi MatchParen       ctermfg=231         guifg=#ffffff     ctermbg=16      guibg=#080808      cterm=underline gui=underline
 end
-
 
 "================================================================================
 " CLEAR SKIES:
