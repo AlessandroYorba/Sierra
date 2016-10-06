@@ -327,7 +327,7 @@ if g:sierra_Twilight
     hi TabLine          ctermfg=243        guifg=#767676     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " Prompt Status:
-    hi StatusLineNC     ctermfg=234        guifg=#767676     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi StatusLineNC     ctermfg=243        guifg=#767676     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " Visual Aid:
     hi NonText          ctermfg=237        guifg=#3a3a3a     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
