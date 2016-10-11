@@ -1,53 +1,13 @@
 Sierra
 ------
-
 ###### Day 
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19173399/ff373be8-8bdb-11e6-9ef0-0ec46c7f0d5b.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19276323/dfcbd766-8f8a-11e6-915f-d1b21772cd23.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19276381/0944bb4e-8f8b-11e6-96a4-9112e85b43a7.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19276444/25fb072a-8f8b-11e6-9014-dca82ba47170.png)
 ```VimL
-"light gray background 
 colorscheme sierra
 ```
-
-
-
-###### Sunset 
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19173790/cc3d6430-8bde-11e6-8845-b6d2e74254f1.png)
-```VimL
-"medium gray background
-let g:sierra_Sunset = 1
-colorscheme sierra
-```
-
-
-
-###### Twilight 
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19173836/2e76d5d2-8bdf-11e6-9435-12e4fec91e97.png)
-```VimL
-"dark gray background
-let g:sierra_Twilight = 1
-colorscheme sierra
-```
-
-
-
-###### Midnight 
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19173897/aba88f8c-8bdf-11e6-82d6-a25e8a7b87df.png)
-```VimL
-"Almost black background
-let g:sierra_Midnight = 1
-colorscheme sierra
-```
-
-
-
-###### Pitch 
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19173933/fa7fa960-8bdf-11e6-932a-05f9a29b6705.png)
-```VimL
-"Black background
-let g:sierra_Pitch = 1
-colorscheme sierra
-```
-
 
 
 Installation
@@ -71,14 +31,14 @@ There are several options that you can enable for sierra. You can activate them 
 
 | Description                        | Add to .vimrc                            | Screenshot                                                                |
 |------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
-| light gray background              | `colorscheme sierra`                     | [Screenshot](http://bit.ly/1OcsXoW)|
-| medium gray background             | `let g:sierra_Sunset = 1`                | [Screenshot](http://bit.ly/28Vckeo)|
-| dark  gray background              | `let g:sierra_Twilight = 1`              | [Screenshot](http://bit.ly/28iLTc7)|
-| almost black background            | `let g:sierra_Midnight = 1`              | [Screenshot](http://bit.ly/1YdvFN4)|
-| black as pitch                     | `let g:sierra_Pitch = 1`                 | [Screenshot](http://bit.ly/1Ydv2Do)|
-| Cycles thru modes after 5pm        | `let g:sierra_Campfire = 1`              | [Screenshot](http://bit.ly/1Ydv2Do)|
-| Underline Matching Parens          | `let g:sierra_Nevada = 1`                | [Screenshot](http://bit.ly/1TY28XX)|
-| Removes CursorLine background      | `let g:sierra_Clear_Skies = 1`           | | 
+| light gray background              | `colorscheme sierra`                     | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19173399/ff373be8-8bdb-11e6-9ef0-0ec46c7f0d5b.png)|
+| medium gray background             | `let g:sierra_Sunset = 1`                | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19276663/fad7efda-8f8b-11e6-8d55-12670f4621b0.png)|
+| dark  gray background              | `let g:sierra_Twilight = 1`              | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19276839/8d434784-8f8c-11e6-8e96-5e15cbb6f515.png)|
+| almost black background            | `let g:sierra_Midnight = 1`              | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19277107/72aebaa6-8f8d-11e6-9d4c-37a1dcbec21b.png)|
+| black as pitch                     | `let g:sierra_Pitch = 1`                 | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19277162/a602172c-8f8d-11e6-9e6d-8c0b10129d27.png)|
+| Cycles thru modes after 5pm        | `let g:sierra_Campfire = 1`              | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19277296/09904304-8f8e-11e6-86de-854dd5332f7a.png)|
+| Underline Matching Parens          | `let g:sierra_Nevada = 1`                | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19277491/b1a6934a-8f8e-11e6-9793-e443725ff3b7.png)|
+| Removes CursorLine background      | `let g:sierra_Clear_Skies = 1`           | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19277630/31721068-8f8f-11e6-87c8-df7bff06f482.png)| 
 
 Moar Screenshots
 ----------------

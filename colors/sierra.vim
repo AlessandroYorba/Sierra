@@ -34,8 +34,10 @@
 "Sunset         235      #262626      http://www.colorhexa.com/262626
 "Day            236      #303030      http://www.colorhexa.com/303030
 "Shade          237      #3a3a3a      http://www.colorhexa.com/3a3a3a
+"Ash            238      #444444      http://www.colorhexa.com/444444
 "Pebble         239      #4e4e4e      http://www.colorhexa.com/4e4e4e
 "Graphite       240      #585858      http://www.colorhexa.com/585858
+"Fog            241      #626262      http://www.colorhexa.com/626262
 "Charcoal       242      #6c6c6c      http://www.colorhexa.com/6c6c6c
 "Slate          243      #767676      http://www.colorhexa.com/767676
 "Stone          245      #8a8a8a      http://www.colorhexa.com/8a8a8a
@@ -83,13 +85,6 @@
 "Bluebells      130     #af5f00       http://www.colorhexa.com/af5f00
 "Mallow         179     #dfaf5f       http://www.colorhexa.com/dfaf5f
 
-"TODO
-"let s:sierra.Shrub      = [ 'afaf5f', 143 ]
-"let s:sierra.Marigold   = [ 'ffff87', 228 ]
-"let s:sierra.Sunflower  = [ 'ffffaf', 229 ]
-"let s:sierra.Wildflower = [ 'dfff87', 192 ]
-"let s:sierra.Primrose   = [ 'dfdf87', 186 ]
-"let s:sierra.Aloe       = [ 'afff87', 156 ]
 
 set background=dark
 
@@ -227,9 +222,8 @@ hi DiffText          ctermfg=234      guifg=#1c1c1c      ctermbg=103      guibg=
 " Completion Menu:
 hi Pmenu             ctermfg=236      guifg=#303030      ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
 hi PmenuSel          ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE    gui=NONE
-"FIXME
-hi PmenuSbar         ctermfg=NONE    guifg=NONE          ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
-hi PmenuThumb        ctermfg=144     guifg=#afaf87       ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+hi PmenuSbar         ctermfg=245    guifg=#8a8a8a        ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
+hi PmenuThumb        ctermfg=245     guifg=#8a8a8a       ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
 
 
 "FIXME
@@ -278,7 +272,7 @@ hi SpellBad          ctermfg=131     guifg=#af5f5f       ctermbg=NONE     guibg=
 if g:sierra_Sunset
     " Editor Settings:
     hi Normal           ctermfg=188        guifg=#dfdfdf     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
-    hi LineNr           ctermfg=243        guifg=#767676     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+    hi LineNr           ctermfg=241        guifg=#626262     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
     hi CursorLine       ctermfg=NONE       guifg=NONE        ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
 
     " Number Column:
@@ -300,7 +294,7 @@ if g:sierra_Sunset
     hi ErrorMsg         ctermfg=131        guifg=#af5f5f     ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
 
     " Language Constructs:
-    hi Comment          ctermfg=243        guifg=#767676     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+    hi Comment          ctermfg=241        guifg=#626262     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
     " Completion Menu:
     hi Pmenu            ctermfg=235        guifg=#262626     ctermbg=245      guibg=#8a8a8a      cterm=NONE     gui=NONE
@@ -313,7 +307,7 @@ end
 if g:sierra_Twilight
     " Editor Settings:
     hi Normal           ctermfg=188        guifg=#dfdfdf     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
-    hi LineNr           ctermfg=243        guifg=#767676     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+    hi LineNr           ctermfg=239        guifg=#4e4e4e     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
     hi CursorLine       ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
 
     " Number Column:
@@ -324,7 +318,7 @@ if g:sierra_Twilight
     hi VertSplit        ctermfg=236        guifg=#303030     ctermbg=233      guibg=#262626      cterm=NONE    gui=NONE
     hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi TabLine          ctermfg=243        guifg=#767676     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi TabLine          ctermfg=239        guifg=#4e4e4e     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " Prompt Status:
     hi StatusLineNC     ctermfg=243        guifg=#767676     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
@@ -335,7 +329,7 @@ if g:sierra_Twilight
     hi ErrorMsg         ctermfg=131        guifg=#af5f5f     ctermbg=234      guibg=#1c1c1c      cterm=reverse gui=reverse
 
     " Language Constructs:
-    hi Comment          ctermfg=243        guifg=#767676     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi Comment          ctermfg=239        guifg=#4e4e4e     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
 
     " Completion Menu:
     hi Pmenu            ctermfg=234        guifg=#1c1c1c     ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
@@ -348,7 +342,7 @@ end
 if g:sierra_Midnight
     " Editor Settings:
     hi Normal           ctermfg=188        guifg=#dfdfdf      ctermbg=233     guibg=#121212      cterm=NONE    gui=NONE
-    hi LineNr           ctermfg=242        guifg=#6c6c6c      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
+    hi LineNr           ctermfg=238        guifg=#444444      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
     hi CursorLine       ctermfg=NONE       guifg=NONE         ctermbg=234     guibg=#1c1c1c      cterm=NONE    gui=NONE
 
     " Number Column:
@@ -369,7 +363,7 @@ if g:sierra_Midnight
     hi ErrorMsg         ctermfg=131        guifg=#af5f5f      ctermbg=233     guibg=#121212      cterm=reverse gui=reverse
 
     " Language Constructs:
-    hi Comment          ctermfg=242        guifg=#6c6c6c      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
+    hi Comment          ctermfg=238        guifg=#444444      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
 
     " Completion Menu:
     hi Pmenu            ctermfg=233        guifg=#121212      ctermbg=245     guibg=#8a8a8a      cterm=NONE    gui=NONE
@@ -382,7 +376,7 @@ end
 if g:sierra_Pitch
     " Editor Settings:
     hi Normal           ctermfg=188        guifg=#dfdfdf      ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
-    hi LineNr           ctermfg=240        guifg=#585858      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
+    hi LineNr           ctermfg=238        guifg=#444444      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
     hi CursorLine       ctermfg=NONE       guifg=NONE         ctermbg=233     guibg=#121212      cterm=NONE    gui=NONE
 
     " Number Column:
@@ -404,7 +398,7 @@ if g:sierra_Pitch
     hi ErrorMsg         ctermfg=131         guifg=#af5f5f     ctermbg=16      guibg=#000000      cterm=reverse gui=reverse
 
     " Language Constructs:
-    hi Comment          ctermfg=240         guifg=#585858     ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
+    hi Comment          ctermfg=238        guifg=#444444      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
 
     " Completion Menu:
     hi Pmenu            ctermfg=16          guifg=#000000     ctermbg=245     guibg=#8a8a8a      cterm=NONE    gui=NONE
@@ -440,19 +434,28 @@ end
 if g:sierra_Campfire
     let sierra_Hour = strftime("%H")
 
-    "TODO: Add Sunset
+    "Day: 7am - 5pm
     if 7 <= sierra_Hour && sierra_Hour < 17
+        let g:sierra_Sunset = 0
         let g:sierra_Twilight = 0
         let g:sierra_Midnight = 0
         let g:sierra_Pitch = 0
 
-    elseif 17 <= sierra_Hour && sierra_Hour < 20
+    "Sunset: 5pm - 7pm
+    elseif 17 <= sierra_Hour && sierra_Hour < 19
+        let g:sierra_Sunset = 1
+
+    "Twilight: 7pm - 9pm
+    elseif 19 <= sierra_Hour && sierra_Hour < 21
+        let g:sierra_Sunset = 0
         let g:sierra_Twilight = 1
 
-    elseif 20 <= sierra_Hour && sierra_Hour < 24
+    "Midnight: 9pm - 12am
+    elseif 21 <= sierra_Hour && sierra_Hour < 24
         let g:sierra_Twilight = 0
         let g:sierra_Midnight = 1
 
+    "Pitch: 12am - 7am
     else
         let g:sierra_Midnight = 0
         let g:sierra_Pitch = 1
