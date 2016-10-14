@@ -49,12 +49,14 @@
 "Evening        138      #af8787      http://www.colorhexa.com/af8787
 "Rose           167      #d75f5f      http://www.colorhexa.com/d75f5f
 "Bellflower     174      #d78787      http://www.colorhexa.com/d78787
+"Cherry         196      #ff0000     http://www.colorhexa.com/ff0000
 "Claret         210      #ff8787      http://www.colorhexa.com/ff8787
 "Daybreak       217      #ffafaf      http://www.colorhexa.com/ffafaf
 
 "Green:
 "================================================================================
 "Cactus         64       #5f8700      http://www.colorhexa.com/5f8700
+"Fern           65       #5f875f      http://www.colorhexa.com/5f875f
 "Sage           107      #87af5f      http://www.colorhexa.com/87af5f
 "Marsh          108      #87af87      http://www.colorhexa.com/87af87
 "Agave          114      #87d787      http://www.colorhexa.com/87d787
@@ -69,6 +71,7 @@
 "Lilac          60       #5f5f87      http://www.colorhexa.com/5f5f87
 "Lake           66       #5f8787      http://www.colorhexa.com/5f8787
 "Oasis          109      #87afaf      http://www.colorhexa.com/87afaf
+"Robin          111      #87afff     http://www.colorhexa.com/87afff
 "Nolana         152      #afd7d7      http://www.colorhexa.com/afd7d7
 
 "Blue:
@@ -84,6 +87,7 @@
 "================================================================================
 "Bluebells      130     #af5f00       http://www.colorhexa.com/af5f00
 "Mallow         179     #dfaf5f       http://www.colorhexa.com/dfaf5f
+"Honeystrand    208     #ff8700       http://www.colorhexa.com/ff8700
 
 
 set background=dark
@@ -216,8 +220,8 @@ hi htmlArg           ctermfg=187      guifg=#dfdfaf      ctermbg=NONE     guibg=
 " Diff:
 hi DiffAdd           ctermfg=234      guifg=#1c1c1c      ctermbg=146      guibg=#afafd7      cterm=NONE     gui=NONE
 hi DiffChange        ctermfg=234      guifg=#1c1c1c      ctermbg=60       guibg=#5f5f87      cterm=NONE     gui=NONE
-hi DiffDelete        ctermfg=234      guifg=#1c1c1c      ctermbg=131      guibg=#af5f5f      cterm=NONE     gui=NONE
 hi DiffText          ctermfg=234      guifg=#1c1c1c      ctermbg=103      guibg=#8787af      cterm=NONE     gui=NONE
+hi DiffDelete        ctermfg=234      guifg=#1c1c1c      ctermbg=131      guibg=#af5f5f      cterm=NONE     gui=NONE
 
 " Completion Menu:
 hi Pmenu             ctermfg=236      guifg=#303030      ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
@@ -226,12 +230,11 @@ hi PmenuSbar         ctermfg=245    guifg=#8a8a8a        ctermbg=245      guibg=
 hi PmenuThumb        ctermfg=245     guifg=#8a8a8a       ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
 
 
-"FIXME
 " Spelling:
-hi SpellBad          ctermfg=131     guifg=#af5f5f       ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
-"hi SpellCap
-"hi SpellLocal
-"hi SpellRare
+hi SpellBad         ctermfg=196     guifg=#ff0000     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
+hi SpellLocal       ctermfg=65      guifg=#5f875f     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
+hi SpellCap         ctermfg=111     guifg=#87afff     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
+hi SpellRare        ctermfg=208     guifg=#ff8700     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
 
 "hi htmlTagName
 "hi htmlTag
