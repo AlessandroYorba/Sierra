@@ -40,7 +40,7 @@ There are several options that you can enable for sierra. You can activate them 
 | Underline Matching Parens          | `let g:sierra_Nevada = 1`                | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19277491/b1a6934a-8f8e-11e6-9793-e443725ff3b7.png)|
 | Removes CursorLine background      | `let g:sierra_Clear_Skies = 1`           | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19277630/31721068-8f8f-11e6-87c8-df7bff06f482.png)| 
 
-TODO: improvements that I'm currently working on
+TODO: Improvements currently in development
 -----
 * Setting to remove certain UI colors within Sierra for Terminals that support image backgrounds / transparency
 * Rework Diff colors so that they are more inline with Sierra's palette 
