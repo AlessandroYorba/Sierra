@@ -54,5 +54,5 @@ The screenshots of Sierra were made and tested using a default Vi IMproved 7.4 i
 Related 
 -------
 Feedback, issues or suggestions?. Open an Issue [Sierra Issues](https://github.com/AlessandroYorba/Sierra/issues)! Also, if you like Sierra you might want to check out some of the other Vim themes that I'm working on:
-[Alduin](https://github.com/AlessandroYorba/Alduin)
-[Despacio](https://github.com/AlessandroYorba/Despacio)
+* [Alduin](https://github.com/AlessandroYorba/Alduin)
+* [Despacio](https://github.com/AlessandroYorba/Despacio)
