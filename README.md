@@ -1,6 +1,6 @@
 Sierra
 ------
-###### Day 
+###### Sierra version 4.0.0
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19173399/ff373be8-8bdb-11e6-9ef0-0ec46c7f0d5b.png)
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19276323/dfcbd766-8f8a-11e6-915f-d1b21772cd23.png)
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19276381/0944bb4e-8f8b-11e6-96a4-9112e85b43a7.png)
@@ -40,6 +40,11 @@ There are several options that you can enable for sierra. You can activate them 
 | Underline Matching Parens          | `let g:sierra_Nevada = 1`                | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19277491/b1a6934a-8f8e-11e6-9793-e443725ff3b7.png)|
 | Removes CursorLine background      | `let g:sierra_Clear_Skies = 1`           | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19277630/31721068-8f8f-11e6-87c8-df7bff06f482.png)| 
 
+TODO: improvements that I'm currently working on
+-----
+* Setting to remove certain UI colors within Sierra for Terminals that support image backgrounds / transparency
+* Rework Diff colors so that they are more inline with Sierra's palette 
+
 Moar Screenshots
 ----------------
 [Screenshots](https://github.com/AlessandroYorba/Sierra/issues/1)
@@ -48,6 +53,6 @@ The screenshots of Sierra were made and tested using a default Vi IMproved 7.4 i
 
 Related 
 -------
-Sierra is a derivative of Hans Fugal's [Desert](https://github.com/fugalh/desert.vim). 'Statements', 'Functions', and 'Variables' are colored in cooler hues while 'Constants', 'String', and 'Booleans' are set to warmer reds. 
-
-Please note that sierra is still brand new and I'm certain it will evolve over time. I'd love to hear from you guys if you have any feedback, suggestions or issues that you encounter. Just open an Issue ticket for any bugs or suggestions; and if sierra made your day, please leave a star! Also, if you like Sierra you might want to check out my other Vim theme [Alduin](https://github.com/AlessandroYorba/Alduin)
+Feedback, issues or suggestions?. Open an Issue [Sierra Issues](https://github.com/AlessandroYorba/Sierra/issues)! Also, if you like Sierra you might want to check out some of the other Vim themes that I'm working on:
+[Alduin](https://github.com/AlessandroYorba/Alduin)
+[Despacio](https://github.com/AlessandroYorba/Despacio)
