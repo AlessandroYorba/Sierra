@@ -71,7 +71,7 @@
 "Lilac          60       #5f5f87      http://www.colorhexa.com/5f5f87
 "Lake           66       #5f8787      http://www.colorhexa.com/5f8787
 "Oasis          109      #87afaf      http://www.colorhexa.com/87afaf
-"Robin          111      #87afff     http://www.colorhexa.com/87afff
+"Robin          111      #87afff      http://www.colorhexa.com/87afff
 "Nolana         152      #afd7d7      http://www.colorhexa.com/afd7d7
 
 "Blue:
@@ -118,7 +118,7 @@ endif
 
 if !exists("g:sierra_Midnight")
     let g:sierra_Midnight = 0
-endif " }}}
+endif
 
 
 if !exists("g:sierra_Pitch")
@@ -150,6 +150,7 @@ endif
 "================================================================================
 
 " Editor Settings:
+"TODO change normal foreground to Stars
 hi Normal           ctermfg=254        guifg=#e4e4e4     ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
 hi LineNr           ctermfg=243        guifg=#767676     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi CursorLineNR     ctermfg=187        guifg=#dfdfaf     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
@@ -183,7 +184,7 @@ hi StatusLineNC      ctermfg=243      guifg=#767676      ctermbg=235      guibg=
 hi WildMenu          ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
 
 " Visual Aid:
-hi NonText           ctermfg=239      guifg=#4e4e4e      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi NonText           ctermfg=243      guifg=#767676      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi SpecialKey        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi Underlined        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi WarningMsg        ctermfg=130      guifg=#af5f00      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
@@ -292,7 +293,7 @@ if g:sierra_Sunset
     hi StatusLineNC     ctermfg=243        guifg=#767676     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
 
     " Visual Aid:
-    hi NonText          ctermfg=237        guifg=#3a3a3a     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+    hi NonText          ctermfg=241        guifg=#626262     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
     hi Error            ctermfg=131        guifg=#af5f5f     ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
     hi ErrorMsg         ctermfg=131        guifg=#af5f5f     ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
 
@@ -327,7 +328,7 @@ if g:sierra_Twilight
     hi StatusLineNC     ctermfg=243        guifg=#767676     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " Visual Aid:
-    hi NonText          ctermfg=237        guifg=#3a3a3a     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi NonText          ctermfg=239        guifg=#4e4e4e     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
     hi Error            ctermfg=131        guifg=#af5f5f     ctermbg=234      guibg=#1c1c1c      cterm=reverse gui=reverse
     hi ErrorMsg         ctermfg=131        guifg=#af5f5f     ctermbg=234      guibg=#1c1c1c      cterm=reverse gui=reverse
 
@@ -361,7 +362,7 @@ if g:sierra_Midnight
     hi StatusLineNC     ctermfg=242       guifg=#6c6c6c         ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
 
     " Visual Aid:
-    hi NonText          ctermfg=237        guifg=#3a3a3a      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
+    hi NonText          ctermfg=238        guifg=#444444      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
     hi Error            ctermfg=131        guifg=#af5f5f      ctermbg=233     guibg=#121212      cterm=reverse gui=reverse
     hi ErrorMsg         ctermfg=131        guifg=#af5f5f      ctermbg=233     guibg=#121212      cterm=reverse gui=reverse
 
@@ -396,7 +397,7 @@ if g:sierra_Pitch
     hi StatusLineNC     ctermfg=240         guifg=#585858     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
 
     " Visual Aid:
-    hi NonText          ctermfg=235         guifg=#262626     ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
+    hi NonText          ctermfg=238        guifg=#444444      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
     hi Error            ctermfg=131         guifg=#af5f5f     ctermbg=16      guibg=#000000      cterm=reverse gui=reverse
     hi ErrorMsg         ctermfg=131         guifg=#af5f5f     ctermbg=16      guibg=#000000      cterm=reverse gui=reverse
 
