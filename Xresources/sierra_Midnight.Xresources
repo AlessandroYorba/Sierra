@@ -1,11 +1,11 @@
 ! special
-*.foreground:   #dfdfdf
+*.foreground:   #d7d7d7
 *.background:   #0f0f0f
-*.cursorColor:  #dddddd
+*.cursorColor:  #d7d7d7
 
 ! black
 *.color0:       #0f0f0f
-*.color8:       #555555
+*.color8:       #464646
 
 ! red
 *.color1:       #9e4a4d
