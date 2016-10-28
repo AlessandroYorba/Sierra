@@ -449,19 +449,28 @@ if g:sierra_Campfire
     "Sunset: 5pm - 7pm
     elseif 17 <= sierra_Hour && sierra_Hour < 19
         let g:sierra_Sunset = 1
+        let g:sierra_Twilight = 0
+        let g:sierra_Midnight = 0
+        let g:sierra_Pitch = 0
 
     "Twilight: 7pm - 9pm
     elseif 19 <= sierra_Hour && sierra_Hour < 21
         let g:sierra_Sunset = 0
         let g:sierra_Twilight = 1
+        let g:sierra_Midnight = 0
+        let g:sierra_Pitch = 0
 
     "Midnight: 9pm - 12am
     elseif 21 <= sierra_Hour && sierra_Hour < 24
+        let g:sierra_Sunset = 0
         let g:sierra_Twilight = 0
         let g:sierra_Midnight = 1
+        let g:sierra_Pitch = 0
 
     "Pitch: 12am - 7am
     else
+        let g:sierra_Sunset = 0
+        let g:sierra_Twilight = 0
         let g:sierra_Midnight = 0
         let g:sierra_Pitch = 1
 
