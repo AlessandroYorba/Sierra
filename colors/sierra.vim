@@ -103,39 +103,31 @@ endif
 " SET DEFAULT PARAMETERS:
 "================================================================================
 
-
 let g:colors_name="sierra"
-
 
 if !exists("g:sierra_Sunset")
     let g:sierra_Sunset = 0
 endif
 
-
 if !exists("g:sierra_Twilight")
     let g:sierra_Twilight = 0
 endif
-
 
 if !exists("g:sierra_Midnight")
     let g:sierra_Midnight = 0
 endif
 
-
 if !exists("g:sierra_Pitch")
     let g:sierra_Pitch = 0
 endif
-
 
 if !exists("g:sierra_Campfire")
     let g:sierra_Campfire = 0
 endif
 
-
 if !exists("g:sierra_Clear_Skies")
     let g:sierra_Clear_Skies = 0
 endif
-
 
 if !exists("g:sierra_Nevada")
     let g:sierra_Nevada = 0
@@ -145,55 +137,13 @@ if !exists("g:sierra_Stargaze")
     let g:sierra_Stargaze = 0
 endif
 
-
 "================================================================================
-" DAY:
+" SIERRA HIGHLIGHTING: 
 "================================================================================
-
-" Editor Settings:
-hi Normal           ctermfg=254        guifg=#e4e4e4     ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
-hi LineNr           ctermfg=241        guifg=#626262     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
-hi CursorLineNr     ctermfg=187        guifg=#dfdfaf     ctermbg=235     guibg=#262626         cterm=NONE     gui=NONE
-hi CursorLine       ctermfg=NONE       guifg=NONE        ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
-
-" Number Column:
-hi Folded           ctermfg=187        guifg=#dfdfaf     ctermbg=66       guibg=#5f8787      cterm=NONE     gui=NONE
-hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
-hi SignColumn       ctermfg=108        guifg=#87af87     ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
-
-
-" WindowTab Delimiters:
-hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
-hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
-hi VertSplit        ctermfg=237        guifg=#3a3a3a     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
-hi TabLine          ctermfg=243        guifg=#767676     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
-hi TabLineSel       ctermfg=235        guifg=#262626     ctermbg=144      guibg=#afaf87      cterm=NONE     gui=NONE
 
 " File Navigation:
-hi Directory        ctermfg=138       guifg=#af8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi Search           ctermfg=187       guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
-
-
-" Prompt Status:
-hi Title             ctermfg=174      guifg=#d78787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi ModeMsg           ctermfg=144      guifg=#afaf87      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi MoreMsg           ctermfg=179      guifg=#dfaf5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi Question          ctermfg=179      guifg=#dfaf5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi StatusLine        ctermfg=235      guifg=#262626      ctermbg=144      guibg=#afaf87      cterm=NONE     gui=NONE
-hi StatusLineNC      ctermfg=243      guifg=#767676      ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
-hi WildMenu          ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
-
-" Visual Aid:
-hi NonText           ctermfg=243      guifg=#767676      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi SpecialKey        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi Underlined        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi WarningMsg        ctermfg=130      guifg=#af5f00      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi MatchParen        ctermfg=233      guifg=#121212      ctermbg=245      guibg=#8a8a8a      cterm=NONE     gui=NONE
-hi Visual            ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
-hi Todo              ctermfg=144      guifg=#afaf87      ctermbg=234      guibg=#1c1c1c      cterm=italic   gui=italic
-hi Error             ctermfg=131      guifg=#af5f5f      ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
-hi ErrorMsg          ctermfg=131      guifg=#af5f5f      ctermbg=NONE      guibg=NONE      cterm=NONE  gui=NONE
-
+hi Directory         ctermfg=138      guifg=#af8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi Search            ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
 
 " Variable Types:
 hi Constant          ctermfg=210      guifg=#ff8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
@@ -201,22 +151,41 @@ hi String            ctermfg=217      guifg=#ffafaf      ctermbg=NONE     guibg=
 hi Identifier        ctermfg=109      guifg=#87afaf      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi Function          ctermfg=152      guifg=#afd7d7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
-
 " Language Constructs:
 hi Statement         ctermfg=66       guifg=#5f8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi Operator          ctermfg=230      guifg=#ffffdf      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi Comment           ctermfg=241      guifg=#626262      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi Special           ctermfg=179      guifg=#dfaf5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
 " C Like:
 hi PreProc           ctermfg=167      guifg=#d75f5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi Type              ctermfg=138      guifg=#af8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
-
 " HTML:
 hi htmlItalic        ctermfg=167      guifg=#d75f5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi htmlArg           ctermfg=230      guifg=#ffffdf      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
+" Prompt Status:
+hi WildMenu          ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
+hi Title             ctermfg=174      guifg=#d78787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi ModeMsg           ctermfg=174      guifg=#d78787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi MoreMsg           ctermfg=179      guifg=#dfaf5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi Question          ctermfg=179      guifg=#dfaf5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi StatusLine        ctermfg=235      guifg=#262626      ctermbg=144      guibg=#afaf87      cterm=NONE     gui=NONE
+
+" Visual Aid:
+hi Underlined        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi WarningMsg        ctermfg=130      guifg=#af5f00      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi MatchParen        ctermfg=233      guifg=#121212      ctermbg=245      guibg=#8a8a8a      cterm=NONE     gui=NONE
+hi Visual            ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
+hi Todo              ctermfg=144      guifg=#afaf87      ctermbg=234      guibg=#1c1c1c      cterm=reverse   gui=reverse
+hi ErrorMsg          ctermfg=131      guifg=#af5f5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi SpecialKey        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+
+" Number Column:
+hi Folded           ctermfg=187        guifg=#dfdfaf     ctermbg=66       guibg=#5f8787      cterm=NONE     gui=NONE
+
+" WindowTab Delimiters:
+hi TabLineSel       ctermfg=235        guifg=#262626     ctermbg=144      guibg=#afaf87      cterm=NONE     gui=NONE
 
 " Diff:
 hi DiffAdd           ctermfg=234      guifg=#1c1c1c      ctermbg=146      guibg=#afafd7      cterm=NONE     gui=NONE
@@ -225,11 +194,9 @@ hi DiffText          ctermfg=234      guifg=#1c1c1c      ctermbg=103      guibg=
 hi DiffDelete        ctermfg=234      guifg=#1c1c1c      ctermbg=131      guibg=#af5f5f      cterm=NONE     gui=NONE
 
 " Completion Menu:
-hi Pmenu             ctermfg=236      guifg=#303030      ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
 hi PmenuSel          ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE    gui=NONE
 hi PmenuSbar         ctermfg=245    guifg=#8a8a8a        ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
 hi PmenuThumb        ctermfg=245     guifg=#8a8a8a       ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
-
 
 " Spelling:
 hi SpellBad         ctermfg=196     guifg=#ff0000     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
@@ -269,6 +236,40 @@ hi SpellRare        ctermfg=208     guifg=#ff8700     ctermbg=NONE     guibg=NON
 "hi Cursor
 "hi CursorColumn
 
+"================================================================================
+" DAY:
+"================================================================================
+if 1
+    " Editor Settings:
+    hi Normal           ctermfg=254        guifg=#e4e4e4     ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
+    hi LineNr           ctermfg=241        guifg=#626262     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi CursorLineNr     ctermfg=187        guifg=#dfdfaf     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi CursorLine       ctermfg=NONE       guifg=NONE        ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
+
+    " Number Column:
+    hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
+    hi SignColumn       ctermfg=108        guifg=#87af87     ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
+
+    " WindowTab Delimiters:
+    hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
+    hi VertSplit        ctermfg=237        guifg=#3a3a3a     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi TabLine          ctermfg=243        guifg=#767676     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+
+    " Prompt Status:
+    hi StatusLineNC      ctermfg=243      guifg=#767676      ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+
+    " Visual Aid:
+    hi NonText           ctermfg=243      guifg=#767676      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+    hi Error             ctermfg=131      guifg=#af5f5f      ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
+
+    " Language Constructs:
+    hi Comment           ctermfg=241      guifg=#626262      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+
+    " Completion Menu:
+    hi Pmenu             ctermfg=236      guifg=#303030      ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
+
+end
 
 "================================================================================
 " SUNSET:
@@ -304,7 +305,6 @@ if g:sierra_Sunset
     hi Pmenu            ctermfg=235        guifg=#262626     ctermbg=245      guibg=#8a8a8a      cterm=NONE     gui=NONE
 end
 
-
 "================================================================================
 " TWILIGHT:
 "================================================================================
@@ -338,7 +338,6 @@ if g:sierra_Twilight
     " Completion Menu:
     hi Pmenu            ctermfg=234        guifg=#1c1c1c     ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
 end
-
 
 "================================================================================
 " MIDNIGHT:
@@ -374,10 +373,9 @@ if g:sierra_Midnight
     hi Pmenu            ctermfg=233        guifg=#121212      ctermbg=245     guibg=#8a8a8a      cterm=NONE    gui=NONE
 end
 
-
-"--------------------------------------------------------------------
+"================================================================================
 " PITCH:
-"--------------------------------------------------------------------
+"================================================================================
 if g:sierra_Pitch
     " Editor Settings:
     hi Normal           ctermfg=188        guifg=#dfdfdf      ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
@@ -408,7 +406,6 @@ if g:sierra_Pitch
     " Completion Menu:
     hi Pmenu            ctermfg=16          guifg=#000000     ctermbg=245     guibg=#8a8a8a      cterm=NONE    gui=NONE
 end
-
 
 "================================================================================
 " NEVADA:
