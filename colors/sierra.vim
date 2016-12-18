@@ -139,7 +139,7 @@ if !exists("g:sierra_Stargaze")
 endif
 
 "================================================================================
-" SIERRA HIGHLIGHTING: 
+" SIERRA HIGHLIGHTING:
 "================================================================================
 
 " File Navigation:
@@ -183,9 +183,6 @@ hi SpecialKey        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=
 
 " Number Column:
 hi Folded           ctermfg=187        guifg=#dfdfaf     ctermbg=66       guibg=#5f8787      cterm=NONE     gui=NONE
-
-" WindowTab Delimiters:
-hi TabLineSel       ctermfg=235        guifg=#262626     ctermbg=144      guibg=#afaf87      cterm=NONE     gui=NONE
 
 " Diff:
 hi DiffAdd           ctermfg=234      guifg=#1c1c1c      ctermbg=146      guibg=#afafd7      cterm=NONE     gui=NONE
@@ -255,6 +252,7 @@ if 1
     hi VertSplit        ctermfg=237        guifg=#3a3a3a     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
     hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
     hi TabLine          ctermfg=243        guifg=#767676     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi TabLineSel       ctermfg=230        guifg=#ffffdf     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
 
     " Prompt Status:
     hi StatusLineNC      ctermfg=243      guifg=#767676      ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
@@ -291,6 +289,7 @@ if g:sierra_Sunset
     hi VertSplit        ctermfg=236        guifg=#303030     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
     hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
     hi TabLine          ctermfg=240        guifg=#585858     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+    hi TabLineSel       ctermfg=230        guifg=#ffffdf     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
 
     " Prompt Status:
     hi StatusLineNC     ctermfg=240        guifg=#585858     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
@@ -326,6 +325,7 @@ if g:sierra_Twilight
     hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi TabLine          ctermfg=240        guifg=#585858     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi TabLineSel       ctermfg=230        guifg=#ffffdf     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " Prompt Status:
     hi StatusLineNC     ctermfg=240        guifg=#585858     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
@@ -360,7 +360,8 @@ if g:sierra_Midnight
     hi VertSplit        ctermfg=234        guifg=#1c1c1c      ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
     hi ColorColumn      ctermfg=NONE       guifg=NONE         ctermbg=234     guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi TabLineFill      ctermfg=NONE       guifg=NONE         ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
-    hi TabLine          ctermfg=240        guifg=#585858      ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi TabLine          ctermfg=240        guifg=#585858      ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
+    hi TabLineSel       ctermfg=230        guifg=#ffffdf      ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
 
     " Prompt Status:
     hi StatusLineNC     ctermfg=240        guifg=#585858      ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
@@ -396,6 +397,7 @@ if g:sierra_Pitch
     hi ColorColumn      ctermfg=NONE        guifg=NONE        ctermbg=233     guibg=#121212      cterm=NONE    gui=NONE
     hi TabLineFill      ctermfg=NONE        guifg=NONE        ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
     hi TabLine          ctermfg=240         guifg=#585858     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
+    hi TabLineSel       ctermfg=230         guifg=#ffffdf     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
 
     " Prompt Status:
     hi StatusLineNC     ctermfg=240        guifg=#585858     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
