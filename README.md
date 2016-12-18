@@ -1,7 +1,7 @@
 Sierra
 ------
 ###### Sierra version 4.0.0
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21293512/c9a53816-c4db-11e6-818f-adb3cc83f0cf.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21297595/9c8e334e-c537-11e6-8d4b-fea9a546c3c9.png)
 ```VimL
 colorscheme sierra
 ```
