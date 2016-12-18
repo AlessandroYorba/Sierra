@@ -142,8 +142,6 @@ endif
 " SIERRA HIGHLIGHTING:
 "================================================================================
 
-" Editor Settings:
-hi CursorLineNr      ctermfg=187      guifg=#dfdfaf      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
 " File Navigation:
 hi Directory         ctermfg=138      guifg=#af8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
@@ -236,7 +234,6 @@ hi SpellRare        ctermfg=208       guifg=#ff8700      ctermbg=NONE     guibg=
 "hi VisualNOS
 "hi IncSearch
 "hi Cursor
-"hi CursorColumn
 
 "================================================================================
 " DAY:
@@ -244,18 +241,19 @@ hi SpellRare        ctermfg=208       guifg=#ff8700      ctermbg=NONE     guibg=
 if 1
     " Editor Settings:
     hi Normal            ctermfg=254        guifg=#e4e4e4         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
-    hi LineNr            ctermfg=245        guifg=#8a8a8a         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi LineNr            ctermfg=245        guifg=#8a8a8a         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
-    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi StatusLineNC      ctermfg=245        guifg=#8a8a8a         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi VertSplit         ctermfg=245        guifg=#8a8a8a         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi TabLine           ctermfg=245        guifg=#8a8a8a         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
+    hi StatusLineNC      ctermfg=245        guifg=#8a8a8a         ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
+    hi VertSplit         ctermfg=245        guifg=#8a8a8a         ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
+    hi TabLine           ctermfg=245        guifg=#8a8a8a         ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
+    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
+    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
 
     " Language Constructs:
     hi Comment           ctermfg=245        guifg=#8a8a8a         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
@@ -274,18 +272,19 @@ end
 if g:sierra_Sunset
     " Editor Settings:
     hi Normal            ctermfg=188        guifg=#dfdfdf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-    hi LineNr            ctermfg=244        guifg=#808080         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi LineNr            ctermfg=244        guifg=#808080         ctermbg=234      guibg=#1c1c1c         cterm=NONE    gui=NONE
     hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
-    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
-    hi StatusLineNC      ctermfg=244        guifg=#808080         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
-    hi VertSplit         ctermfg=244        guifg=#808080         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
-    hi TabLine           ctermfg=244        guifg=#808080         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
-    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
-    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
+    hi StatusLineNC      ctermfg=244        guifg=#808080         ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
+    hi VertSplit         ctermfg=244        guifg=#808080         ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
+    hi TabLine           ctermfg=244        guifg=#808080         ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
+    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
+    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
 
     " Language Constructs:
     hi Comment           ctermfg=244        guifg=#808080         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
@@ -304,18 +303,19 @@ end
 if g:sierra_Twilight
     " Editor Settings:
     hi Normal            ctermfg=188        guifg=#dfdfdf         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-    hi LineNr            ctermfg=243        guifg=#767676         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi LineNr            ctermfg=243        guifg=#767676         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
-    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
-    hi StatusLineNC      ctermfg=243        guifg=#767676         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
-    hi VertSplit         ctermfg=243        guifg=#767676         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
-    hi TabLine           ctermfg=243        guifg=#767676         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
-    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
-    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
+    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
+    hi StatusLineNC      ctermfg=243        guifg=#767676         ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
+    hi VertSplit         ctermfg=243        guifg=#767676         ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
+    hi TabLine           ctermfg=243        guifg=#767676         ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
+    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
+    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
 
     " Language Constructs:
     hi Comment           ctermfg=243        guifg=#767676         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
@@ -334,8 +334,9 @@ end
 if g:sierra_Midnight
     " Editor Settings:
     hi Normal            ctermfg=188        guifg=#dfdfdf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi LineNr            ctermfg=242        guifg=#6c6c6c         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi LineNr            ctermfg=242        guifg=#6c6c6c         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=234      guibg=#121212      cterm=NONE    gui=NONE
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
 
@@ -363,8 +364,9 @@ end
 if g:sierra_Pitch
     " Editor Settings:
     hi Normal            ctermfg=188        guifg=#dfdfdf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
-    hi LineNr            ctermfg=241        guifg=#626262         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi LineNr            ctermfg=241        guifg=#626262         ctermbg=233      guibg=#121212         cterm=NONE    gui=NONE
     hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
