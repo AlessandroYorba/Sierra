@@ -171,7 +171,6 @@ hi Title             ctermfg=174      guifg=#d78787      ctermbg=NONE     guibg=
 hi ModeMsg           ctermfg=174      guifg=#d78787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi MoreMsg           ctermfg=179      guifg=#dfaf5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi Question          ctermfg=179      guifg=#dfaf5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi StatusLine        ctermfg=235      guifg=#262626      ctermbg=144      guibg=#afaf87      cterm=NONE     gui=NONE
 
 " Visual Aid:
 hi Underlined        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
@@ -259,6 +258,7 @@ if 1
 
     " Prompt Status:
     hi StatusLineNC      ctermfg=243      guifg=#767676      ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi StatusLine        ctermfg=230      guifg=#ffffdf      ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
 
     " Visual Aid:
     hi NonText           ctermfg=243      guifg=#767676      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
@@ -294,6 +294,7 @@ if g:sierra_Sunset
 
     " Prompt Status:
     hi StatusLineNC     ctermfg=240        guifg=#585858     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+    hi StatusLine       ctermfg=230        guifg=#ffffdf     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
 
     " Visual Aid:
     hi NonText          ctermfg=240        guifg=#585858     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
@@ -328,6 +329,7 @@ if g:sierra_Twilight
 
     " Prompt Status:
     hi StatusLineNC     ctermfg=240        guifg=#585858     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi StatusLine       ctermfg=230        guifg=#ffffdf     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " Visual Aid:
     hi NonText          ctermfg=239        guifg=#4e4e4e     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
@@ -358,10 +360,11 @@ if g:sierra_Midnight
     hi VertSplit        ctermfg=234        guifg=#1c1c1c      ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
     hi ColorColumn      ctermfg=NONE       guifg=NONE         ctermbg=234     guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi TabLineFill      ctermfg=NONE       guifg=NONE         ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
-    hi TabLine          ctermfg=240        guifg=#585858     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi TabLine          ctermfg=240        guifg=#585858      ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
 
     " Prompt Status:
-    hi StatusLineNC     ctermfg=240       guifg=#585858         ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
+    hi StatusLineNC     ctermfg=240        guifg=#585858      ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
+    hi StatusLine       ctermfg=230        guifg=#ffffdf      ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
 
     " Visual Aid:
     hi NonText          ctermfg=238        guifg=#444444      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
@@ -395,7 +398,8 @@ if g:sierra_Pitch
     hi TabLine          ctermfg=240         guifg=#585858     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
 
     " Prompt Status:
-    hi StatusLineNC     ctermfg=240         guifg=#585858     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
+    hi StatusLineNC     ctermfg=240        guifg=#585858     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
+    hi StatusLine       ctermfg=230        guifg=#ffffdf      ctermbg=16     guibg=#000000      cterm=NONE    gui=NONE
 
     " Visual Aid:
     hi NonText          ctermfg=238        guifg=#444444      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
