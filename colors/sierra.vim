@@ -88,6 +88,7 @@
 "================================================================================
 "Bluebells      130     #af5f00       http://www.colorhexa.com/af5f00
 "Mallow         179     #dfaf5f       http://www.colorhexa.com/dfaf5f
+"Cream          180     #dfaf87       http://www.colorhexa.com/dfaf87
 "Honeystrand    208     #ff8700       http://www.colorhexa.com/ff8700
 
 
@@ -154,7 +155,7 @@ hi Function          ctermfg=152      guifg=#afd7d7      ctermbg=NONE     guibg=
 " Language Constructs:
 hi Statement         ctermfg=66       guifg=#5f8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi Operator          ctermfg=230      guifg=#ffffdf      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi Special           ctermfg=179      guifg=#dfaf5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi Special           ctermfg=180      guifg=#dfaf87      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
 " C Like:
 hi PreProc           ctermfg=167      guifg=#d75f5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
