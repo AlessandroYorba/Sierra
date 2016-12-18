@@ -259,7 +259,7 @@ if 1
     hi StatusLine        ctermfg=230      guifg=#ffffdf      ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
 
     " Visual Aid:
-    hi NonText           ctermfg=243      guifg=#767676      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+    hi NonText           ctermfg=243      guifg=#767676      ctermbg=235      guibg=#262626         cterm=NONE     gui=NONE
     hi Error             ctermfg=131      guifg=#af5f5f      ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
 
     " Language Constructs:
@@ -296,7 +296,7 @@ if g:sierra_Sunset
     hi StatusLine       ctermfg=230        guifg=#ffffdf     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
 
     " Visual Aid:
-    hi NonText          ctermfg=240        guifg=#585858     ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+    hi NonText          ctermfg=240        guifg=#585858     ctermbg=234      guibg=#1c1c1c         cterm=NONE     gui=NONE
     hi Error            ctermfg=131        guifg=#af5f5f     ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
 
     " Language Constructs:
@@ -332,7 +332,7 @@ if g:sierra_Twilight
     hi StatusLine       ctermfg=230        guifg=#ffffdf     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " Visual Aid:
-    hi NonText          ctermfg=239        guifg=#4e4e4e     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi NonText          ctermfg=239        guifg=#4e4e4e     ctermbg=233      guibg=#121212         cterm=NONE    gui=NONE
     hi Error            ctermfg=131        guifg=#af5f5f     ctermbg=234      guibg=#1c1c1c      cterm=reverse gui=reverse
 
     " Language Constructs:
@@ -368,7 +368,7 @@ if g:sierra_Midnight
     hi StatusLine       ctermfg=230        guifg=#ffffdf      ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
 
     " Visual Aid:
-    hi NonText          ctermfg=238        guifg=#444444      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
+    hi NonText          ctermfg=238        guifg=#444444      ctermbg=232     guibg=#080808         cterm=NONE    gui=NONE
     hi Error            ctermfg=131        guifg=#af5f5f      ctermbg=233     guibg=#121212      cterm=reverse gui=reverse
 
     " Language Constructs:
@@ -400,11 +400,11 @@ if g:sierra_Pitch
     hi TabLineSel       ctermfg=230         guifg=#ffffdf     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
 
     " Prompt Status:
-    hi StatusLineNC     ctermfg=240        guifg=#585858     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
-    hi StatusLine       ctermfg=230        guifg=#ffffdf      ctermbg=16     guibg=#000000      cterm=NONE    gui=NONE
+    hi StatusLineNC     ctermfg=240        guifg=#585858     ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
+    hi StatusLine       ctermfg=230        guifg=#ffffdf      ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
 
     " Visual Aid:
-    hi NonText          ctermfg=238        guifg=#444444      ctermbg=NONE    guibg=NONE         cterm=NONE    gui=NONE
+    hi NonText          ctermfg=238        guifg=#444444      ctermbg=16      guibg=#000000         cterm=NONE    gui=NONE
     hi Error            ctermfg=131         guifg=#af5f5f     ctermbg=16      guibg=#000000      cterm=reverse gui=reverse
 
     " Language Constructs:
