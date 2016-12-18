@@ -144,7 +144,7 @@ endif
 
 " File Navigation:
 hi Directory         ctermfg=138      guifg=#af8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi Search            ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
+hi Search            ctermfg=187      guifg=#dfdfaf      ctermbg=66       guibg=#5f8787      cterm=NONE     gui=NONE
 
 " Variable Types:
 hi Constant          ctermfg=210      guifg=#ff8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
