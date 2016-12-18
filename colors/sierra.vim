@@ -248,7 +248,7 @@ if 1
     hi SignColumn       ctermfg=108        guifg=#87af87     ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
 
     " WindowTab Delimiters:
-    hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
+    hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
     hi VertSplit        ctermfg=237        guifg=#3a3a3a     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
     hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
     hi TabLine          ctermfg=243        guifg=#767676     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
@@ -285,7 +285,7 @@ if g:sierra_Sunset
     hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
 
     " WindowTab Delimiters:
-    hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=236      guibg=#3a3a3a      cterm=NONE     gui=NONE
+    hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
     hi VertSplit        ctermfg=236        guifg=#303030     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
     hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
     hi TabLine          ctermfg=240        guifg=#585858     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
@@ -322,7 +322,7 @@ if g:sierra_Twilight
 
     " WindowTab Delimiters:
     hi VertSplit        ctermfg=236        guifg=#303030     ctermbg=233      guibg=#262626      cterm=NONE    gui=NONE
-    hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi TabLine          ctermfg=240        guifg=#585858     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi TabLineSel       ctermfg=230        guifg=#ffffdf     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
@@ -358,7 +358,7 @@ if g:sierra_Midnight
 
     " WindowTab Delimiters:
     hi VertSplit        ctermfg=234        guifg=#1c1c1c      ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
-    hi ColorColumn      ctermfg=NONE       guifg=NONE         ctermbg=234     guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi ColorColumn      ctermfg=NONE       guifg=NONE         ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
     hi TabLineFill      ctermfg=NONE       guifg=NONE         ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
     hi TabLine          ctermfg=240        guifg=#585858      ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
     hi TabLineSel       ctermfg=230        guifg=#ffffdf      ctermbg=232     guibg=#080808      cterm=NONE    gui=NONE
@@ -394,7 +394,7 @@ if g:sierra_Pitch
 
     " WindowTab Delimiters:
     hi VertSplit        ctermfg=234         guifg=#1c1c1c     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
-    hi ColorColumn      ctermfg=NONE        guifg=NONE        ctermbg=233     guibg=#121212      cterm=NONE    gui=NONE
+    hi ColorColumn      ctermfg=NONE        guifg=NONE        ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
     hi TabLineFill      ctermfg=NONE        guifg=NONE        ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
     hi TabLine          ctermfg=240         guifg=#585858     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
     hi TabLineSel       ctermfg=230         guifg=#ffffdf     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
