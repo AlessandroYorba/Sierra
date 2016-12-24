@@ -5,6 +5,7 @@ Sierra
 ```VimL
 colorscheme sierra
 ```
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464772/1a31fa2a-c93d-11e6-91c5-94dd23bfb4fe.png)
 
 
 Installation
