@@ -1,7 +1,7 @@
 Sierra
 ------
 ###### Sierra version 4.0.0
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21297595/9c8e334e-c537-11e6-8d4b-fea9a546c3c9.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464766/fee125b6-c93c-11e6-9d7f-69d53a875c05.png)
 ```VimL
 colorscheme sierra
 ```
@@ -28,19 +28,11 @@ There are several options that you can enable for sierra. You can activate them 
 
 | Description                        | Add to .vimrc                            | Screenshot                                                                |
 |------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
-| light gray background              | `colorscheme sierra`                     | [Screenshot]()|
-| medium gray background             | `let g:sierra_Sunset = 1`                | [Screenshot]()|
-| dark  gray background              | `let g:sierra_Twilight = 1`              | [Screenshot]()|
-| almost black background            | `let g:sierra_Midnight = 1`              | [Screenshot]()|
-| black as pitch                     | `let g:sierra_Pitch = 1`                 | [Screenshot]()|
-| Cycles thru modes after 5pm        | `let g:sierra_Campfire = 1`              | [Screenshot]()|
-| Underline Matching Parens          | `let g:sierra_Nevada = 1`                | [Screenshot]()|
-| Removes CursorLine background      | `let g:sierra_Clear_Skies = 1`           | [Screenshot]()| 
-
-TODO: Improvements currently in development
------
-* Setting to remove certain UI colors within Sierra for Terminals that support image backgrounds / transparency
-* Rework Diff colors so that they are more inline with Sierra's palette 
+| light gray background              | `colorscheme sierra`                     | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464772/1a31fa2a-c93d-11e6-91c5-94dd23bfb4fe.png)|
+| medium gray background             | `let g:sierra_Sunset = 1`                | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464774/210b5f9e-c93d-11e6-8c22-7b265c39724d.png)|
+| dark  gray background              | `let g:sierra_Twilight = 1`              | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464777/352b41e2-c93d-11e6-90be-0f6ca1a0038e.png)|
+| almost black background            | `let g:sierra_Midnight = 1`              | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464780/3ce0cff6-c93d-11e6-8835-1d312f75efde.png)|
+| black as pitch                     | `let g:sierra_Pitch = 1`                 | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464782/48c28198-c93d-11e6-953f-3d96bf56ed80.png)|
 
 Moar Screenshots
 ----------------
@@ -51,5 +43,6 @@ The screenshots of Sierra were made and tested using a default Vi IMproved 7.4 i
 Related 
 -------
 Feedback, issues or suggestions?. Open an Issue [Sierra Issues](https://github.com/AlessandroYorba/Sierra/issues)! Also, if you like Sierra you might want to check out some of the other Vim themes that I'm working on:
-* [Alduin](https://github.com/AlessandroYorba/Alduin)
-* [Despacio](https://github.com/AlessandroYorba/Despacio)
+* ![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21464767/068e591e-c93d-11e6-937d-113b2f24337e.png) [Alduin](https://github.com/AlessandroYorba/Alduin)
+* ![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21464770/14f4e216-c93d-11e6-8389-1fae031d7c4f.png) [Despacio](https://github.com/AlessandroYorba/Despacio)
+* ![arcadiaPalette](https://cloud.githubusercontent.com/assets/11221489/21464768/0b5fcfb8-c93d-11e6-94f2-8dd3f779e2bf.png) [Arcadia](https://github.com/AlessandroYorba/Arcadia)
