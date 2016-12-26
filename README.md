@@ -44,6 +44,12 @@ The screenshots of Sierra were made and tested using a default Vi IMproved 7.4 i
 Related 
 -------
 Feedback, issues or suggestions?. Open an Issue [Sierra Issues](https://github.com/AlessandroYorba/Sierra/issues)! Also, if you like Sierra you might want to check out some of the other Vim themes that I'm working on:
-* ![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21464767/068e591e-c93d-11e6-937d-113b2f24337e.png) [Alduin](https://github.com/AlessandroYorba/Alduin)
-* ![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21464770/14f4e216-c93d-11e6-8389-1fae031d7c4f.png) [Despacio](https://github.com/AlessandroYorba/Despacio)
-* ![arcadiaPalette](https://cloud.githubusercontent.com/assets/11221489/21464768/0b5fcfb8-c93d-11e6-94f2-8dd3f779e2bf.png) [Arcadia](https://github.com/AlessandroYorba/Arcadia)
+
+Alduin  
+[![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21479336/69f87558-cb08-11e6-9c4d-cb74f78280b5.png)](https://github.com/AlessandroYorba/Alduin) 
+
+Arcadia    
+[![arcadiaPalette](https://cloud.githubusercontent.com/assets/11221489/21479337/6e09f6b2-cb08-11e6-8433-3c1a1276dffc.png)](https://github.com/AlessandroYorba/Arcadia) 
+
+Despacio    
+[![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21479340/71310d58-cb08-11e6-8fed-d629a9c0a5b1.png)](https://github.com/AlessandroYorba/Despacio)
