@@ -49,7 +49,7 @@ Alduin
 [![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21479336/69f87558-cb08-11e6-9c4d-cb74f78280b5.png)](https://github.com/AlessandroYorba/Alduin) 
 
 Arcadia    
-[![arcadiaPalette](https://cloud.githubusercontent.com/assets/11221489/21479337/6e09f6b2-cb08-11e6-8433-3c1a1276dffc.png)](https://github.com/AlessandroYorba/Arcadia) 
+[![arcadiaPalette](https://cloud.githubusercontent.com/assets/11221489/21535210/b07dac30-cd26-11e6-81ac-be2e37947565.png)](https://github.com/AlessandroYorba/Arcadia) 
 
 Despacio    
 [![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21479340/71310d58-cb08-11e6-8fed-d629a9c0a5b1.png)](https://github.com/AlessandroYorba/Despacio)
