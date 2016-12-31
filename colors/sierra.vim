@@ -145,7 +145,7 @@ endif
 
 " File Navigation:
 hi Directory         ctermfg=138      guifg=#af8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi Search            ctermfg=187      guifg=#dfdfaf      ctermbg=66       guibg=#5f8787      cterm=NONE     gui=NONE
+hi Search            ctermfg=230      guifg=#ffffdf      ctermbg=66       guibg=#5f8787      cterm=NONE     gui=NONE
 
 " Variable Types:
 hi Constant          ctermfg=210      guifg=#ff8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
@@ -167,7 +167,7 @@ hi htmlItalic        ctermfg=167      guifg=#d75f5f      ctermbg=NONE     guibg=
 hi htmlArg           ctermfg=230      guifg=#ffffdf      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
 " Prompt Status:
-hi WildMenu          ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
+hi WildMenu          ctermfg=230      guifg=#ffffdf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
 hi Title             ctermfg=174      guifg=#d78787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi ModeMsg           ctermfg=230      guifg=#ffffdf      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi MoreMsg           ctermfg=179      guifg=#dfaf5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
@@ -176,14 +176,13 @@ hi Question          ctermfg=179      guifg=#dfaf5f      ctermbg=NONE     guibg=
 " Visual Aid:
 hi Underlined        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi WarningMsg        ctermfg=131      guifg=#af5f5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi MatchParen        ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
-hi Visual            ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
+hi MatchParen        ctermfg=230      guifg=#ffffdf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
+hi Visual            ctermfg=230      guifg=#ffffdf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
 hi Todo              ctermfg=230      guifg=#ffffdf      ctermbg=234      guibg=#1c1c1c      cterm=reverse   gui=reverse
 hi ErrorMsg          ctermfg=167      guifg=#d75f5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi SpecialKey        ctermfg=110      guifg=#87afd7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
 " Number Column:
-hi Folded            ctermfg=187      guifg=#dfdfaf      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi FoldColumn        ctermfg=109      guifg=#87afaf      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 hi SignColumn        ctermfg=108      guifg=#87af87      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
