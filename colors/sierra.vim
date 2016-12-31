@@ -261,8 +261,11 @@ if 1
     " Completion Menu:
     hi Pmenu             ctermfg=236        guifg=#303030         ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
 
+    " Number Column:
+    hi Folded            ctermfg=245        guifg=#8a8a8a         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+
     " Visual Aid:
-    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
     hi Error             ctermfg=131        guifg=#af5f5f         ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
 end
 
@@ -291,6 +294,9 @@ if g:sierra_Sunset
 
     " Completion Menu:
     hi Pmenu             ctermfg=235        guifg=#262626         ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
+
+    " Number Column:
+    hi Folded            ctermfg=244        guifg=#808080         ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
 
     " Visual Aid:
     hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
@@ -323,6 +329,9 @@ if g:sierra_Twilight
     " Completion Menu:
     hi Pmenu            ctermfg=234        guifg=#1c1c1c          ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
 
+    " Number Column:
+    hi Folded            ctermfg=243        guifg=#767676         ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+
     " Visual Aid:
     hi NonText          ctermfg=239        guifg=#4e4e4e          ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi Error            ctermfg=131        guifg=#af5f5f          ctermbg=234      guibg=#1c1c1c      cterm=reverse gui=reverse
@@ -350,8 +359,12 @@ if g:sierra_Midnight
 
     " Language Constructs:
     hi Comment           ctermfg=242        guifg=#6c6c6c         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+
     " Completion Menu:
     hi Pmenu             ctermfg=233        guifg=#121212         ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
+
+    " Number Column:
+    hi Folded            ctermfg=242        guifg=#6c6c6c         ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
 
     " Visual Aid:
     hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
@@ -383,6 +396,9 @@ if g:sierra_Pitch
 
     " Completion Menu:
     hi Pmenu            ctermfg=16          guifg=#000000         ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
+
+    " Number Column:
+    hi Folded            ctermfg=241        guifg=#626262         ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
 
     " Visual Aid:
     hi NonText          ctermfg=239         guifg=#4e4e4e         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
