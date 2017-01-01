@@ -164,7 +164,8 @@ hi Type              ctermfg=138      guifg=#af8787      ctermbg=NONE     guibg=
 
 " HTML:
 hi htmlItalic        ctermfg=167      guifg=#d75f5f      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi htmlArg           ctermfg=230      guifg=#ffffdf      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi htmlArg           ctermfg=210      guifg=#ff8787      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi htmlStatement     ctermfg=152      guifg=#afd7d7      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
 " Prompt Status:
 hi WildMenu          ctermfg=230      guifg=#ffffdf      ctermbg=95       guibg=#875f5f      cterm=NONE     gui=NONE
@@ -193,7 +194,7 @@ hi DiffText          ctermfg=234      guifg=#1c1c1c      ctermbg=103      guibg=
 hi DiffDelete        ctermfg=234      guifg=#1c1c1c      ctermbg=131      guibg=#af5f5f      cterm=NONE     gui=NONE
 
 " Completion Menu:
-hi PmenuSel          ctermfg=187      guifg=#dfdfaf      ctermbg=95       guibg=#875f5f      cterm=NONE    gui=NONE
+hi PmenuSel          ctermfg=230      guifg=#ffffdf      ctermbg=95       guibg=#875f5f      cterm=NONE    gui=NONE
 hi PmenuSbar         ctermfg=245      guifg=#8a8a8a      ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
 hi PmenuThumb        ctermfg=245      guifg=#8a8a8a      ctermbg=245      guibg=#8a8a8a      cterm=NONE    gui=NONE
 
