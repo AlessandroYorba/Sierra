@@ -188,10 +188,10 @@ hi FoldColumn        ctermfg=109      guifg=#87afaf      ctermbg=NONE     guibg=
 hi SignColumn        ctermfg=108      guifg=#87af87      ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
 " Diff:
-hi DiffAdd           ctermfg=234      guifg=#1c1c1c      ctermbg=146      guibg=#afafd7      cterm=NONE     gui=NONE
-hi DiffChange        ctermfg=234      guifg=#1c1c1c      ctermbg=60       guibg=#5f5f87      cterm=NONE     gui=NONE
-hi DiffText          ctermfg=234      guifg=#1c1c1c      ctermbg=103      guibg=#8787af      cterm=NONE     gui=NONE
-hi DiffDelete        ctermfg=234      guifg=#1c1c1c      ctermbg=131      guibg=#af5f5f      cterm=NONE     gui=NONE
+hi DiffAdd           ctermfg=146      guifg=#afafd7      ctermbg=NONE      guibg=NONE        cterm=reverse  gui=reverse
+hi DiffChange        ctermfg=60       guifg=#5f5f87      ctermbg=NONE      guibg=NONE        cterm=reverse  gui=reverse
+hi DiffText          ctermfg=103      guifg=#8787af      ctermbg=NONE      guibg=NONE        cterm=reverse  gui=reverse
+hi DiffDelete        ctermfg=131      guifg=#af5f5f      ctermbg=NONE      guibg=NONE        cterm=reverse  gui=reverse
 
 " Completion Menu:
 hi PmenuSel          ctermfg=230      guifg=#ffffdf      ctermbg=95       guibg=#875f5f      cterm=NONE    gui=NONE
