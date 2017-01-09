@@ -1,7 +1,7 @@
 Sierra
 ------
 ###### Sierra version 4.0.0
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464766/fee125b6-c93c-11e6-9d7f-69d53a875c05.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21758850/8058cd2e-d5f4-11e6-875a-42e9a9ce7fcf.png)
 ```VimL
 colorscheme sierra
 ```
@@ -46,7 +46,10 @@ Related
 Feedback, issues or suggestions?. Open an Issue [Sierra Issues](https://github.com/AlessandroYorba/Sierra/issues)! Also, if you like Sierra you might want to check out some of the other Vim themes that I'm working on:
 
 Alduin  
-[![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21479336/69f87558-cb08-11e6-9c4d-cb74f78280b5.png)](https://github.com/AlessandroYorba/Alduin) 
+[![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21758855/842ef7f2-d5f4-11e6-8ce8-5da82c53cacf.png)](https://github.com/AlessandroYorba/Alduin) 
 
 Despacio    
-[![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21479340/71310d58-cb08-11e6-8fed-d629a9c0a5b1.png)](https://github.com/AlessandroYorba/Despacio)
+[![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21758858/8979f66c-d5f4-11e6-9cfe-5e9c775ca13a.png)](https://github.com/AlessandroYorba/Despacio)
+
+Sidonia
+[![sidoniaPalette](https://cloud.githubusercontent.com/assets/11221489/21758864/8d5e244c-d5f4-11e6-94c7-b6c9ca6cab2d.png)](https://github.com/AlessandroYorba/Sidonia)
