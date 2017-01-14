@@ -17,8 +17,6 @@ There are several options that you can enable for sierra. You can activate them 
 | dark  gray background              | `let g:sierra_Twilight = 1`              | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464777/352b41e2-c93d-11e6-90be-0f6ca1a0038e.png)|
 | almost black background            | `let g:sierra_Midnight = 1`              | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464780/3ce0cff6-c93d-11e6-8835-1d312f75efde.png)|
 | black as pitch                     | `let g:sierra_Pitch = 1`                 | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464782/48c28198-c93d-11e6-953f-3d96bf56ed80.png)|
----------------
-There are a few ways to install sierra. The first option is by using your favorite vim package manager and the second is by manual download.
 
 :open_file_folder: Installation
 ---------------
