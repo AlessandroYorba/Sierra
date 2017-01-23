@@ -140,8 +140,7 @@ highlight! Operator               guifg=#ffffdf  guibg=NONE     gui=NONE       c
 highlight! Constant               guifg=#ff8787  guibg=NONE     gui=NONE       ctermfg=210    ctermbg=NONE  cterm=NONE       
 highlight! String                 guifg=#ffafaf  guibg=NONE     gui=NONE       ctermfg=217    ctermbg=NONE  cterm=NONE       
 highlight! Function               guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152    ctermbg=NONE  cterm=NONE       
-highlight! Identifier             guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109    ctermbg=NONE  cterm=NONE       
-highlight! Statement              guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66     ctermbg=NONE  cterm=NONE       
+highlight! Statement              guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109    ctermbg=NONE  cterm=NONE       
 highlight! PreProc                guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE       
 highlight! Special                guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180    ctermbg=NONE  cterm=NONE       
 highlight! Title                  guifg=#d78787  guibg=NONE     gui=NONE       ctermfg=174    ctermbg=NONE  cterm=NONE       
@@ -169,6 +168,7 @@ highlight! link WildMenu          Visual
 highlight! link ModeMsg           Operator
 highlight! link htmlArg           Constant
 highlight! link FoldColumn        Identifier
+highlight! link Identifier        Function
 highlight! link htmlStatement     Function
 highlight! link htmlItalic        PreProc
 highlight! link ErrorMsg          PreProc
