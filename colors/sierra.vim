@@ -237,16 +237,16 @@ if g:sierra_Twilight
     highlight! StatusLineNC        guifg=#808080  guibg=#080808  gui=NONE  ctermfg=244   ctermbg=232    cterm=NONE
     highlight! TabLineFill         guifg=NONE     guibg=#080808  gui=NONE  ctermfg=NONE  ctermbg=232    cterm=NONE
 
-    highlight! link VertSplit     StatusLineNC
-    highlight! link TabLine       StatusLineNC
-    highlight! link Pmenu         StatusLineNC
-    highlight! link NonText       LineNr
-    highlight! link Folded        LineNr
-    highlight! link TabLineSel    StatusLine
-    highlight! link CursorLineNr  StatusLine
-    highlight! link PmenuSel      StatusLine
-    highlight! link CursorColumn  CursorLine
-    highlight! link ColorColumn   CursorLine
+    highlight! link VertSplit      StatusLineNC
+    highlight! link TabLine        StatusLineNC
+    highlight! link Pmenu          StatusLineNC
+    highlight! link NonText        LineNr
+    highlight! link Folded         LineNr
+    highlight! link TabLineSel     StatusLine
+    highlight! link CursorLineNr   StatusLine
+    highlight! link PmenuSel       StatusLine
+    highlight! link CursorColumn   CursorLine
+    highlight! link ColorColumn    CursorLine
 endif
 
 "================================================================================
@@ -261,16 +261,16 @@ if g:sierra_Midnight
     highlight! StatusLineNC        guifg=#808080  guibg=#303030  gui=NONE  ctermfg=244   ctermbg=236   cterm=NONE
     highlight! TabLineFill         guifg=NONE     guibg=NONE     gui=NONE  ctermfg=NONE  ctermbg=236   cterm=NONE
 
-    highlight! link VertSplit     StatusLineNC
-    highlight! link TabLine       StatusLineNC
-    highlight! link Pmenu         StatusLineNC
-    highlight! link NonText       LineNr
-    highlight! link Folded        LineNr
-    highlight! link TabLineSel    StatusLine
-    highlight! link CursorLineNr  StatusLine
-    highlight! link PmenuSel      StatusLine
-    highlight! link CursorColumn  CursorLine
-    highlight! link ColorColumn   CursorLine
+    highlight! link VertSplit      StatusLineNC
+    highlight! link TabLine        StatusLineNC
+    highlight! link Pmenu          StatusLineNC
+    highlight! link NonText        LineNr
+    highlight! link Folded         LineNr
+    highlight! link TabLineSel     StatusLine
+    highlight! link CursorLineNr   StatusLine
+    highlight! link PmenuSel       StatusLine
+    highlight! link CursorColumn   CursorLine
+    highlight! link ColorColumn    CursorLine
 endif
 
 "================================================================================
@@ -285,16 +285,16 @@ if g:sierra_Pitch
     highlight! StatusLineNC        guifg=#808080  guibg=#262626  gui=NONE  ctermfg=244   ctermbg=235   cterm=NONE
     highlight! TabLineFill         guifg=NONE     guibg=NONE     gui=NONE  ctermfg=NONE  ctermbg=235   cterm=NONE
 
-    highlight! link VertSplit     StatusLineNC
-    highlight! link TabLine       StatusLineNC
-    highlight! link Pmenu         StatusLineNC
-    highlight! link NonText       LineNr
-    highlight! link Folded        LineNr
-    highlight! link TabLineSel    StatusLine
-    highlight! link CursorLineNr  StatusLine
-    highlight! link PmenuSel      StatusLine
-    highlight! link CursorColumn  CursorLine
-    highlight! link ColorColumn   CursorLine
+    highlight! link VertSplit      StatusLineNC
+    highlight! link TabLine        StatusLineNC
+    highlight! link Pmenu          StatusLineNC
+    highlight! link NonText        LineNr
+    highlight! link Folded         LineNr
+    highlight! link TabLineSel     StatusLine
+    highlight! link CursorLineNr   StatusLine
+    highlight! link PmenuSel       StatusLine
+    highlight! link CursorColumn   CursorLine
+    highlight! link ColorColumn    CursorLine
 endif
 
 "================================================================================
