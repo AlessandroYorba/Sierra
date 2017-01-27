@@ -134,7 +134,6 @@ endif
 "================================================================================
 
 highlight! Type                   guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE       
-highlight! Operator               guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66     ctermbg=NONE  cterm=NONE       
 highlight! Constant               guifg=#ff8787  guibg=NONE     gui=NONE       ctermfg=210    ctermbg=NONE  cterm=NONE       
 highlight! String                 guifg=#ffafaf  guibg=NONE     gui=NONE       ctermfg=217    ctermbg=NONE  cterm=NONE       
 highlight! Function               guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152    ctermbg=NONE  cterm=NONE       
@@ -160,10 +159,11 @@ highlight! SpellLocal             guifg=#5f875f  guibg=NONE     gui=undercurl  c
 highlight! SpellCap               guifg=#87afff  guibg=NONE     gui=undercurl  ctermfg=111    ctermbg=NONE  cterm=undercurl  
 highlight! SpellRare              guifg=#ff8700  guibg=NONE     gui=undercurl  ctermfg=208    ctermbg=NONE  cterm=undercurl  
 
+highlight! link Operator          Statement
 highlight! link Directory         Type
 highlight! link MatchParen        Visual
 highlight! link WildMenu          Visual
-highlight! link ModeMsg           Operator
+highlight! link ModeMsg           Statement
 highlight! link htmlArg           Constant
 highlight! link FoldColumn        Identifier
 highlight! link Identifier        Function
