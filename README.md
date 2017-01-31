@@ -40,7 +40,7 @@ Download the .zip and copy `sierra.vim` to `~/.vim/colors` (on Windows `<your-vi
 Feedback, issues or suggestions?. Open an Issue [Sierra Issues](https://github.com/AlessandroYorba/Sierra/issues)! Also, if you like Sierra you might want to check out some of the other Vim themes that I'm working on:
 
 Alduin  
-[![alduinScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007521/1e4ecd60-dc28-11e6-8d72-f4bd3b479092.png)](https://github.com/AlessandroYorba/Alduin) 
+[![alduinScreenshot](https://cloud.githubusercontent.com/assets/11221489/22487665/20e650e2-e7c3-11e6-8b0e-402c5cd2a11f.png)](https://github.com/AlessandroYorba/Alduin) 
 
 Despacio    
 [![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007468/bb7ed162-dc27-11e6-9264-300032ffde63.png)](https://github.com/AlessandroYorba/Despacio)
