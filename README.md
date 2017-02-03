@@ -1,7 +1,7 @@
 Sierra
 ------
 ###### Sierra version 4.0.0
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22007463/af961856-dc27-11e6-84da-0b0a3597897c.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22610612/1d3cd830-ea1b-11e6-83f9-2042b70374fc.png)
 
 
 :rocket: Setup
@@ -43,10 +43,10 @@ Alduin
 [![alduinScreenshot](https://cloud.githubusercontent.com/assets/11221489/22487665/20e650e2-e7c3-11e6-8b0e-402c5cd2a11f.png)](https://github.com/AlessandroYorba/Alduin) 
 
 Despacio    
-[![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007468/bb7ed162-dc27-11e6-9264-300032ffde63.png)](https://github.com/AlessandroYorba/Despacio)
+[![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22610630/3216ad62-ea1b-11e6-8040-eff7eb2876b8.png)](https://github.com/AlessandroYorba/Despacio)
 
 Sidonia
-[![sidoniaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007475/d6c3ddb4-dc27-11e6-9f20-d3d5803faa3f.png)](https://github.com/AlessandroYorba/Sidonia)
+[![sidoniaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22610597/0b5257d0-ea1b-11e6-8f75-b6de3399f710.png)](https://github.com/AlessandroYorba/Sidonia)
 
 Monrovia
 [![monroviaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22258940/420a20ba-e218-11e6-8eb5-b2f1d7803819.png)](https://github.com/AlessandroYorba/Monrovia)
