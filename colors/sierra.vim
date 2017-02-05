@@ -158,6 +158,7 @@ highlight! SpellBad               guifg=#ff0000  guibg=NONE     gui=undercurl  c
 highlight! SpellLocal             guifg=#5f875f  guibg=NONE     gui=undercurl  ctermfg=65     ctermbg=NONE  cterm=undercurl  
 highlight! SpellCap               guifg=#87afff  guibg=NONE     gui=undercurl  ctermfg=111    ctermbg=NONE  cterm=undercurl  
 highlight! SpellRare              guifg=#ff8700  guibg=NONE     gui=undercurl  ctermfg=208    ctermbg=NONE  cterm=undercurl  
+highlight! CursorLineNr           guifg=#5f8787  guibg=NONE     gui=reverse    ctermfg=66     ctermbg=NONE cterm=reverse
 
 highlight! link Operator          Statement
 highlight! link Directory         Type
@@ -180,11 +181,11 @@ highlight! link PmenuThumb        PmenuSbar
 if 1
     highlight! Normal               guifg=#e4e4e4  guibg=#303030  gui=NONE     ctermfg=254   ctermbg=236   cterm=NONE
     highlight! CursorLine           guifg=NONE     guibg=#3a3a3a  gui=NONE     ctermfg=NONE  ctermbg=237   cterm=NONE
-    highlight! StatusLine           guifg=#eeeeee  guibg=#1c1c1c  gui=NONE     ctermfg=255   ctermbg=234   cterm=NONE
-    highlight! StatusLineNC         guifg=#8a8a8a  guibg=#1c1c1c  gui=NONE     ctermfg=245   ctermbg=234   cterm=NONE
-    highlight! TabLineFill          guifg=NONE     guibg=#1c1c1c  gui=NONE     ctermfg=NONE  ctermbg=234   cterm=NONE
+    highlight! StatusLine           guifg=#eeeeee  guibg=#262626  gui=NONE     ctermfg=255   ctermbg=235   cterm=NONE
+    highlight! StatusLineNC         guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
     highlight! Comment              guifg=#767676  guibg=NONE     gui=NONE     ctermfg=243   ctermbg=NONE  cterm=NONE
     highlight! SpecialComment       guifg=#767676  guibg=NONE     gui=reverse  ctermfg=243   ctermbg=NONE  cterm=reverse
+    highlight! TabLineFill          guifg=NONE     guibg=#262626  gui=NONE     ctermfg=NONE  ctermbg=235   cterm=NONE
 
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
@@ -193,7 +194,6 @@ if 1
     highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
-    highlight! link CursorLineNr    StatusLine
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
@@ -205,11 +205,11 @@ endif
 if g:sierra_Sunset
     highlight! Normal               guifg=#dfdfdf  guibg=#262626  gui=NONE     ctermfg=188   ctermbg=235   cterm=NONE
     highlight! CursorLine           guifg=NONE     guibg=#303030  gui=NONE     ctermfg=NONE  ctermbg=236   cterm=NONE
-    highlight! StatusLine           guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
-    highlight! StatusLineNC         guifg=#808080  guibg=#121212  gui=NONE     ctermfg=244   ctermbg=233   cterm=NONE
-    highlight! TabLineFill          guifg=NONE     guibg=#121212  gui=NONE     ctermfg=NONE  ctermbg=233   cterm=NONE
+    highlight! StatusLine           guifg=#eeeeee  guibg=#1c1c1c  gui=NONE     ctermfg=255   ctermbg=234   cterm=NONE
+    highlight! StatusLineNC         guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
     highlight! Comment              guifg=#6c6c6c  guibg=NONE     gui=NONE     ctermfg=242   ctermbg=NONE  cterm=NONE
     highlight! SpecialComment       guifg=#6c6c6c  guibg=NONE     gui=reverse  ctermfg=242   ctermbg=NONE  cterm=reverse
+    highlight! TabLineFill          guifg=NONE     guibg=#1c1c1c  gui=NONE     ctermfg=NONE  ctermbg=234   cterm=NONE
 
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
@@ -218,7 +218,6 @@ if g:sierra_Sunset
     highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
-    highlight! link CursorLineNr    StatusLine
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
@@ -230,11 +229,11 @@ endif
 if g:sierra_Twilight
     highlight! Normal               guifg=#dfdfdf  guibg=#1c1c1c  gui=NONE     ctermfg=188   ctermbg=234   cterm=NONE
     highlight! CursorLine           guifg=NONE     guibg=#262626  gui=NONE     ctermfg=NONE  ctermbg=235   cterm=NONE
-    highlight! StatusLine           guifg=#eeeeee  guibg=#080808  gui=NONE     ctermfg=255   ctermbg=232   cterm=NONE
-    highlight! StatusLineNC         guifg=#808080  guibg=#080808  gui=NONE     ctermfg=244   ctermbg=232   cterm=NONE
-    highlight! TabLineFill          guifg=NONE     guibg=#080808  gui=NONE     ctermfg=NONE  ctermbg=232   cterm=NONE
+    highlight! StatusLine           guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
+    highlight! StatusLineNC         guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
     highlight! Comment              guifg=#626262  guibg=NONE     gui=NONE     ctermfg=241   ctermbg=NONE  cterm=NONE
     highlight! SpecialComment       guifg=#626262  guibg=NONE     gui=reverse  ctermfg=241   ctermbg=NONE  cterm=reverse
+    highlight! TabLineFill          guifg=NONE     guibg=#121212  gui=NONE     ctermfg=NONE  ctermbg=233   cterm=NONE
 
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
@@ -243,7 +242,6 @@ if g:sierra_Twilight
     highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
-    highlight! link CursorLineNr    StatusLine
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
@@ -254,12 +252,12 @@ endif
 "================================================================================
 if g:sierra_Midnight
     highlight! Normal               guifg=#dfdfdf  guibg=#121212  gui=NONE     ctermfg=188   ctermbg=233   cterm=NONE
-    highlight! CursorLine           guifg=NONE     guibg=#1c1c1c  gui=NONE     ctermfg=NONE  ctermbg=234   cterm=NONE
-    highlight! StatusLine           guifg=#eeeeee  guibg=#303030  gui=NONE     ctermfg=255   ctermbg=236   cterm=NONE
-    highlight! StatusLineNC         guifg=#808080  guibg=#303030  gui=NONE     ctermfg=244   ctermbg=236   cterm=NONE
-    highlight! TabLineFill          guifg=NONE     guibg=NONE     gui=NONE     ctermfg=NONE  ctermbg=236   cterm=NONE
+    highlight! CursorLine           guifg=NONE     guibg=#080808  gui=NONE     ctermfg=NONE  ctermbg=232   cterm=NONE
+    highlight! StatusLine           guifg=#eeeeee  guibg=#1c1c1c  gui=none     ctermfg=255   ctermbg=234   cterm=none
+    highlight! StatusLineNC         guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
     highlight! Comment              guifg=#585858  guibg=NONE     gui=NONE     ctermfg=240   ctermbg=NONE  cterm=NONE
     highlight! SpecialComment       guifg=#585858  guibg=NONE     gui=reverse  ctermfg=240   ctermbg=NONE  cterm=reverse
+    highlight! TabLineFill          guifg=NONE     guibg=#1c1c1c  gui=NONE     ctermfg=NONE  ctermbg=234   cterm=NONE
 
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
@@ -268,7 +266,6 @@ if g:sierra_Midnight
     highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
-    highlight! link CursorLineNr    StatusLine
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
@@ -279,12 +276,12 @@ endif
 "================================================================================
 if g:sierra_Pitch
     highlight! Normal               guifg=#dfdfdf  guibg=#080808  gui=NONE     ctermfg=188   ctermbg=232   cterm=NONE
-    highlight! CursorLine           guifg=NONE     guibg=#121212  gui=NONE     ctermfg=NONE  ctermbg=233   cterm=NONE
-    highlight! StatusLine           guifg=#eeeeee  guibg=#262626  gui=NONE     ctermfg=255   ctermbg=235   cterm=NONE
-    highlight! StatusLineNC         guifg=#808080  guibg=#262626  gui=NONE     ctermfg=244   ctermbg=235   cterm=NONE
-    highlight! TabLineFill          guifg=NONE     guibg=NONE     gui=NONE     ctermfg=NONE  ctermbg=235   cterm=NONE
+    highlight! CursorLine           guifg=NONE     guibg=#000000  gui=NONE     ctermfg=NONE  ctermbg=16   cterm=NONE
+    highlight! StatusLine           guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
+    highlight! StatusLineNC         guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
     highlight! Comment              guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
     highlight! SpecialComment       guifg=#4e4e4e  guibg=NONE     gui=reverse  ctermfg=239   ctermbg=NONE  cterm=reverse
+    highlight! TabLineFill          guifg=NONE     guibg=NONE     gui=NONE     ctermfg=NONE  ctermbg=235   cterm=NONE
 
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
@@ -293,7 +290,6 @@ if g:sierra_Pitch
     highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
-    highlight! link CursorLineNr    StatusLine
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
@@ -303,7 +299,7 @@ endif
 " NEVADA:
 "================================================================================
 if g:sierra_Nevada
-    highlight! MatchParen         guifg=#ffffff  guibg=#080808  gui=underline  ctermfg=231  ctermbg=16  cterm=underline 
+    highlight! MatchParen         guifg=#ffffff  guibg=#000000  gui=underline  ctermfg=231  ctermbg=16  cterm=underline 
 endif
 
 "================================================================================

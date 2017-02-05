@@ -1,7 +1,7 @@
 Sierra
 ------
 ###### Sierra version 4.0.0
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22610612/1d3cd830-ea1b-11e6-83f9-2042b70374fc.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22623064/a2b658d2-eb02-11e6-90a5-143d52c1e837.png)
 
 
 :rocket: Setup
@@ -40,13 +40,13 @@ Download the .zip and copy `sierra.vim` to `~/.vim/colors` (on Windows `<your-vi
 Feedback, issues or suggestions?. Open an Issue [Sierra Issues](https://github.com/AlessandroYorba/Sierra/issues)! Also, if you like Sierra you might want to check out some of the other Vim themes that I'm working on:
 
 Alduin  
-[![alduinScreenshot](https://cloud.githubusercontent.com/assets/11221489/22487665/20e650e2-e7c3-11e6-8b0e-402c5cd2a11f.png)](https://github.com/AlessandroYorba/Alduin) 
+[![alduinScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623051/65f8a6d4-eb02-11e6-9fb4-9145ccb3e0fd.png)](https://github.com/AlessandroYorba/Alduin) 
 
 Despacio    
-[![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22610630/3216ad62-ea1b-11e6-8040-eff7eb2876b8.png)](https://github.com/AlessandroYorba/Despacio)
+[![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623053/75f7de88-eb02-11e6-8734-013212fdbd39.png)](https://github.com/AlessandroYorba/Despacio)
 
 Sidonia
-[![sidoniaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22610597/0b5257d0-ea1b-11e6-8f75-b6de3399f710.png)](https://github.com/AlessandroYorba/Sidonia)
+[![sidoniaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623063/95879450-eb02-11e6-9a19-5ae5355cd66f.png)](https://github.com/AlessandroYorba/Sidonia)
 
 Monrovia
-[![monroviaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22258940/420a20ba-e218-11e6-8eb5-b2f1d7803819.png)](https://github.com/AlessandroYorba/Monrovia)
+[![monroviaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623056/83c92602-eb02-11e6-841d-c2567eed134d.png)](https://github.com/AlessandroYorba/Monrovia)
