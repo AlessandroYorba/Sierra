@@ -190,7 +190,7 @@ if 1
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
-    highlight! link LineNr          Comment
+    highlight! link LineNr          StatusLineNC
     highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
@@ -214,7 +214,7 @@ if g:sierra_Sunset
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
-    highlight! link LineNr          Comment
+    highlight! link LineNr          StatusLineNC
     highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
@@ -238,7 +238,7 @@ if g:sierra_Twilight
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
-    highlight! link LineNr          Comment
+    highlight! link LineNr          StatusLineNC
     highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
@@ -262,7 +262,7 @@ if g:sierra_Midnight
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
-    highlight! link LineNr          Comment
+    highlight! link LineNr          StatusLineNC
     highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
@@ -286,7 +286,7 @@ if g:sierra_Pitch
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
-    highlight! link LineNr          Comment
+    highlight! link LineNr          StatusLineNC
     highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
