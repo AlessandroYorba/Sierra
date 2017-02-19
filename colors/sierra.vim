@@ -12,82 +12,6 @@
 " Script URL:   https://github.com/AlessandroYorba/Sierra
 " License:      MIT
 
-"================================================================================
-"COLOR PALETTE:
-"================================================================================
-
-"White:
-"================================================================================
-"Salt           231      #ffffff
-"Cloud          254      #e4e4e4
-
-"Black:
-"================================================================================
-"Abyss          16       #000000
-"Pitch          232      #080808
-"Midnight       233      #121212
-"Twilight       234      #1c1c1c
-
-"Gray:
-"================================================================================
-"Stars          188      #dfdfdf
-"Sunset         235      #262626
-"Day            236      #303030
-"Shade          237      #3a3a3a
-"Ash            238      #444444
-"Pebble         239      #4e4e4e
-"Graphite       240      #585858
-"Fog            241      #626262
-"Charcoal       242      #6c6c6c
-"Slate          243      #767676
-"Stone          245      #8a8a8a
-
-"Red:
-"================================================================================
-"Dusk           95       #875f5f
-"Firecracker    131      #af5f5f
-"Evening        138      #af8787
-"Rose           167      #d75f5f
-"Bellflower     174      #d78787
-"Cherry         196      #ff0000
-"Claret         210      #ff8787
-"Daybreak       217      #ffafaf
-
-"Green:
-"================================================================================
-"Cactus         64       #5f8700
-"Fern           65       #5f875f
-"Sage           107      #87af5f
-"Marsh          108      #87af87
-"Agave          114      #87d787
-
-"Yellow:
-"================================================================================
-"Flats          144      #afaf87
-
-"Cyan:
-"================================================================================
-"Lilac          60       #5f5f87
-"Lake           66       #5f8787
-"Oasis          109      #87afaf
-"Robin          111      #87afff
-"Nolana         152      #afd7d7
-
-"Blue:
-"================================================================================
-"Heather        103      #8787af
-"Azure          110      #87afd7
-
-"Purple:
-"================================================================================
-"Lavender       146      #afafd7
-
-"Orange:
-"================================================================================
-"Bluebells      130     #af5f00
-"Mallow         179     #dfaf5f
-"Cream          180     #dfaf87
-"Honeystrand    208     #ff8700
 
 set background=dark
 
@@ -128,6 +52,44 @@ endif
 
 if !exists("g:sierra_Campfire")
     let g:sierra_Campfire = 0
+endif
+
+"================================================================================
+" CAMPFIRE:
+"================================================================================
+if g:sierra_Campfire
+    let sierra_Hour = strftime("%H")
+    "Day: 7am - 5pm
+    if 7 <= sierra_Hour && sierra_Hour < 17
+        let g:sierra_Sunset = 0
+        let g:sierra_Twilight = 0
+        let g:sierra_Midnight = 0
+        let g:sierra_Pitch = 0
+    "Sunset: 5pm - 7pm
+    elseif 17 <= sierra_Hour && sierra_Hour < 19
+        let g:sierra_Sunset = 1
+        let g:sierra_Twilight = 0
+        let g:sierra_Midnight = 0
+        let g:sierra_Pitch = 0
+    "Twilight: 7pm - 9pm
+    elseif 19 <= sierra_Hour && sierra_Hour < 21
+        let g:sierra_Sunset = 0
+        let g:sierra_Twilight = 1
+        let g:sierra_Midnight = 0
+        let g:sierra_Pitch = 0
+    "Midnight: 9pm - 12am
+    elseif 21 <= sierra_Hour && sierra_Hour < 24
+        let g:sierra_Sunset = 0
+        let g:sierra_Twilight = 0
+        let g:sierra_Midnight = 1
+        let g:sierra_Pitch = 0
+    "Pitch: 12am - 7am
+    else
+        let g:sierra_Sunset = 0
+        let g:sierra_Twilight = 0
+        let g:sierra_Midnight = 0
+        let g:sierra_Pitch = 1
+    endif
 endif
 "================================================================================
 " SIERRA HIGHLIGHTING:
@@ -309,40 +271,3 @@ if g:sierra_Clear_Skies
     highlight! CursorLine         guifg=NONE  guibg=NONE  gui=NONE  ctermfg=NONE  ctermbg=NONE  cterm=NONE 
 endif
 
-"================================================================================
-" CAMPFIRE:
-"================================================================================
-if g:sierra_Campfire
-    let sierra_Hour = strftime("%H")
-    "Day: 7am - 5pm
-    if 7 <= sierra_Hour && sierra_Hour < 17
-        let g:sierra_Sunset = 0
-        let g:sierra_Twilight = 0
-        let g:sierra_Midnight = 0
-        let g:sierra_Pitch = 0
-    "Sunset: 5pm - 7pm
-    elseif 17 <= sierra_Hour && sierra_Hour < 19
-        let g:sierra_Sunset = 1
-        let g:sierra_Twilight = 0
-        let g:sierra_Midnight = 0
-        let g:sierra_Pitch = 0
-    "Twilight: 7pm - 9pm
-    elseif 19 <= sierra_Hour && sierra_Hour < 21
-        let g:sierra_Sunset = 0
-        let g:sierra_Twilight = 1
-        let g:sierra_Midnight = 0
-        let g:sierra_Pitch = 0
-    "Midnight: 9pm - 12am
-    elseif 21 <= sierra_Hour && sierra_Hour < 24
-        let g:sierra_Sunset = 0
-        let g:sierra_Twilight = 0
-        let g:sierra_Midnight = 1
-        let g:sierra_Pitch = 0
-    "Pitch: 12am - 7am
-    else
-        let g:sierra_Sunset = 0
-        let g:sierra_Twilight = 0
-        let g:sierra_Midnight = 0
-        let g:sierra_Pitch = 1
-    endif
-endif
