@@ -46,7 +46,7 @@ Despacio
 [![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623053/75f7de88-eb02-11e6-8734-013212fdbd39.png)](https://github.com/AlessandroYorba/Despacio)
 
 Sidonia
-[![sidoniaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623063/95879450-eb02-11e6-9a19-5ae5355cd66f.png)](https://github.com/AlessandroYorba/Sidonia)
+[![sidoniaScreenshot](https://cloud.githubusercontent.com/assets/11221489/23323874/81ed8f06-fa9f-11e6-8fb8-a5d283e7e04f.png)](https://github.com/AlessandroYorba/Sidonia)
 
 Monrovia
 [![monroviaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623056/83c92602-eb02-11e6-841d-c2567eed134d.png)](https://github.com/AlessandroYorba/Monrovia)
