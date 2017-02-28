@@ -1,43 +1,47 @@
 Sierra
 ------
 
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23392406/34afddd2-fd30-11e6-8ca9-9e3514497757.png)
-###### light gray background
 ```VimL
-colorscheme sierra
+"light gray background
+colorscheme sierra 
 ```
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23392406/34afddd2-fd30-11e6-8ca9-9e3514497757.png)
 
 
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23392414/48930d60-fd30-11e6-8e8f-223e1145c905.png)
-###### medium gray background
+
 ```VimL
+"medium gray background
 let g:sierra_Sunset = 1
 colorscheme sierra
 ```
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23392414/48930d60-fd30-11e6-8e8f-223e1145c905.png)
 
 
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23392429/5c5edb44-fd30-11e6-8b82-94805317f733.png)
-###### dark gray background
+
 ```VimL
+"dark gray background
 let g:sierra_Twilight = 1
 colorscheme sierra
 ```
-
-
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23392429/5c5edb44-fd30-11e6-8b82-94805317f733.png)
-###### almost black background
+
+
+
 ```VimL
+"almost black background
 let g:sierra_Midnight = 1
 colorscheme sierra
 ```
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23392429/5c5edb44-fd30-11e6-8b82-94805317f733.png)
 
 
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23392453/8cb112c6-fd30-11e6-8dd7-4d98b7ca5191.png)
-###### black background
+
 ```VimL
+"black background
 let g:sierra_Pitch = 1
 colorscheme sierra
 ```
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23392453/8cb112c6-fd30-11e6-8dd7-4d98b7ca5191.png)
 
 
 :octocat: Credits
