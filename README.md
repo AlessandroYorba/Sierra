@@ -29,7 +29,7 @@ colorscheme sierra
 let g:sierra_Midnight = 1
 colorscheme sierra
 ```
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23392429/5c5edb44-fd30-11e6-8b82-94805317f733.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23392442/71f17142-fd30-11e6-9b6b-970a9b78b51a.png)
 
 <br>
 ```VimL
