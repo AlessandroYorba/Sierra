@@ -14,7 +14,7 @@ let g:sierra_Sunset = 1
 colorscheme sierra 
 ```
 
-###### For The Darkest Grey Background [Screenshot](https://cloud.githubusercontent.com/assets/11221489/24882260/49872cd4-1df5-11e7-8876-6718d91544fe.png)
+###### For The Darkest Grey Background [Screenshot](https://cloud.githubusercontent.com/assets/11221489/24884655/466fa2a6-1dff-11e7-9b11-b5f6d069f89e.png)
 ```VimL
 let g:sierra_Twilight = 1
 colorscheme sierra 
