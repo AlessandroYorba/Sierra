@@ -1,6 +1,6 @@
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/24884378/f0017e86-1dfd-11e7-803b-f7502a8c2428.png)
 
-Set Up
+:space_invader: Set Up
 ------
 
 ###### Grey Background [Screenshot](https://cloud.githubusercontent.com/assets/11221489/24884378/f0017e86-1dfd-11e7-803b-f7502a8c2428.png)
