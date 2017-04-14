@@ -1,4 +1,4 @@
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/24884378/f0017e86-1dfd-11e7-803b-f7502a8c2428.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/25057059/bc9881f8-2121-11e7-9fe9-e57e696506ed.png)
 
 :space_invader: Set Up
 ------
@@ -31,9 +31,10 @@ colorscheme sierra
 let g:sierra_Pitch = 1
 colorscheme sierra 
 ```
-:milky_way: Sierra Nightly Build
-------------------------
-[Nightly Build](https://github.com/AlessandroYorba/Sierra/tree/nightly)
+
+:crescent_moon: Nightly Build
+----------------------------
+pre-release version [here](https://github.com/AlessandroYorba/Sierra/tree/nightly)
 
 :octocat: Special Thanks
 -----------------
