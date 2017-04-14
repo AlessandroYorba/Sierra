@@ -159,6 +159,7 @@ if 1
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
+    highlight! link VimCommentTitle SpecialComment
 endif
 
 "================================================================================
@@ -183,6 +184,7 @@ if g:sierra_Sunset
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
+    highlight! link VimCommentTitle SpecialComment
 endif
 
 "================================================================================
@@ -207,6 +209,7 @@ if g:sierra_Twilight
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
+    highlight! link VimCommentTitle SpecialComment
 endif
 
 "================================================================================
@@ -231,6 +234,7 @@ if g:sierra_Midnight
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
+    highlight! link VimCommentTitle SpecialComment
 endif
 
 "================================================================================
@@ -255,6 +259,7 @@ if g:sierra_Pitch
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
+    highlight! link VimCommentTitle SpecialComment
 endif
 
 "================================================================================
