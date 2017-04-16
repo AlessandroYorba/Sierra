@@ -158,7 +158,6 @@ highlight! Error                  guifg=#d75f5f  guibg=NONE     gui=reverse    c
 highlight! SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108    ctermbg=NONE  cterm=NONE
 highlight! Visual                 guifg=#eeeeee  guibg=#875f5f  gui=NONE       ctermfg=255    ctermbg=95    cterm=NONE
 highlight! Search                 guifg=#eeeeee  guibg=#5f8787  gui=NONE       ctermfg=255    ctermbg=66    cterm=NONE
-highlight! PmenuSbar              guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE   ctermbg=NONE  cterm=NONE
 highlight! DiffAdd                guifg=#afafd7  guibg=NONE     gui=reverse    ctermfg=146    ctermbg=NONE  cterm=reverse
 highlight! Todo                   guifg=#eeeeee  guibg=#1c1c1c  gui=reverse    ctermfg=255    ctermbg=234   cterm=reverse
 highlight! DiffChange             guifg=#5f5f87  guibg=NONE     gui=reverse    ctermfg=60     ctermbg=NONE  cterm=reverse
@@ -184,7 +183,6 @@ highlight! link Identifier        Function
 highlight! link htmlStatement     Function
 highlight! link MoreMsg           Question
 highlight! link SpecialKey        Underlined
-highlight! link PmenuThumb        PmenuSbar
 
 "================================================================================
 " DAY:
@@ -197,7 +195,9 @@ if 1
     highlight! Comment              guifg=#767676  guibg=NONE     gui=NONE     ctermfg=243   ctermbg=NONE  cterm=NONE
     highlight! SpecialComment       guifg=#767676  guibg=NONE     gui=reverse  ctermfg=243   ctermbg=NONE  cterm=reverse
     highlight! TabLineFill          guifg=NONE     guibg=#262626  gui=NONE     ctermfg=NONE  ctermbg=235   cterm=NONE
+    highlight! PmenuSbar            guifg=#262626  guibg=#262626  gui=NONE     ctermfg=235   ctermbg=235   cterm=NONE
 
+    highlight! link PmenuThumb      PmenuSbar
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
@@ -222,7 +222,9 @@ if g:sierra_Sunset
     highlight! Comment              guifg=#6c6c6c  guibg=NONE     gui=NONE     ctermfg=242   ctermbg=NONE  cterm=NONE
     highlight! SpecialComment       guifg=#6c6c6c  guibg=NONE     gui=reverse  ctermfg=242   ctermbg=NONE  cterm=reverse
     highlight! TabLineFill          guifg=NONE     guibg=#1c1c1c  gui=NONE     ctermfg=NONE  ctermbg=234   cterm=NONE
+    highlight! PmenuSbar            guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234   cterm=NONE
 
+    highlight! link PmenuThumb      PmenuSbar
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
@@ -247,7 +249,9 @@ if g:sierra_Twilight
     highlight! Comment              guifg=#626262  guibg=NONE     gui=NONE     ctermfg=241   ctermbg=NONE  cterm=NONE
     highlight! SpecialComment       guifg=#626262  guibg=NONE     gui=reverse  ctermfg=241   ctermbg=NONE  cterm=reverse
     highlight! TabLineFill          guifg=NONE     guibg=#121212  gui=NONE     ctermfg=NONE  ctermbg=233   cterm=NONE
+    highlight! PmenuSbar            guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233   cterm=NONE
 
+    highlight! link PmenuThumb      PmenuSbar
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
@@ -272,7 +276,9 @@ if g:sierra_Midnight
     highlight! Comment              guifg=#585858  guibg=NONE     gui=NONE     ctermfg=240   ctermbg=NONE  cterm=NONE
     highlight! SpecialComment       guifg=#585858  guibg=NONE     gui=reverse  ctermfg=240   ctermbg=NONE  cterm=reverse
     highlight! TabLineFill          guifg=NONE     guibg=#1c1c1c  gui=NONE     ctermfg=NONE  ctermbg=234   cterm=NONE
+    highlight! PmenuSbar            guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234   cterm=NONE
 
+    highlight! link PmenuThumb      PmenuSbar
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
@@ -297,7 +303,9 @@ if g:sierra_Pitch
     highlight! Comment              guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
     highlight! SpecialComment       guifg=#4e4e4e  guibg=NONE     gui=reverse  ctermfg=239   ctermbg=NONE  cterm=reverse
     highlight! TabLineFill          guifg=NONE     guibg=NONE     gui=NONE     ctermfg=NONE  ctermbg=235   cterm=NONE
+    highlight! PmenuSbar            guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233   cterm=NONE
 
+    highlight! link PmenuThumb      PmenuSbar
     highlight! link VertSplit       StatusLineNC
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
@@ -324,3 +332,4 @@ endif
 if g:sierra_Clear_Skies
     highlight! CursorLine         guifg=NONE  guibg=NONE  gui=NONE  ctermfg=NONE  ctermbg=NONE  cterm=NONE
 endif
+
