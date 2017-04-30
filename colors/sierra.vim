@@ -49,7 +49,7 @@
 "     Black         #303030      0      |      brBlack       #686868      8      |
 "     Red           #af5f5f      1      |      brRed         #af5f5f      9      |
 "     Green         #d75f5f      2      |      brGreen       #d75f5f      10     |
-"     Yellow        #87d7d7      3      |      brYellow      #87d7d7      11     |
+"     Yellow        #afd7d7      3      |      brYellow      #afd7d7      11     |
 "     Blue          #af8787      4      |      brBlue        #af8787      12     |
 "     Magenta       #dfaf87      5      |      brMagenta     #dfaf87      13     |
 "     Cyan          #ffafaf      6      |      brCyan        #ffafaf      14     |
@@ -146,7 +146,7 @@ endif
 highlight! Operator               guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
 highlight! Constant               guifg=#d78787  guibg=NONE     gui=NONE       ctermfg=174    ctermbg=NONE  cterm=NONE
 highlight! String                 guifg=#ffafaf  guibg=NONE     gui=NONE       ctermfg=217    ctermbg=NONE  cterm=NONE
-highlight! Function               guifg=#87d7d7  guibg=NONE     gui=NONE       ctermfg=116    ctermbg=NONE  cterm=NONE
+highlight! Function               guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152    ctermbg=NONE  cterm=NONE
 highlight! Statement              guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
 highlight! PreProc                guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
 highlight! Special                guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180    ctermbg=NONE  cterm=NONE
