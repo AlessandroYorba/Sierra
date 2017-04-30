@@ -1,4 +1,4 @@
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/25560956/a6c9233c-2d15-11e7-80ab-6ac9fd540a98.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/25560968/49fc156e-2d16-11e7-92c2-61add63d415b.png)
 
 :space_invader: Set Up
 ------
