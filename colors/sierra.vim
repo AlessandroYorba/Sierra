@@ -147,6 +147,7 @@ highlight! Operator               guifg=#af8787  guibg=NONE     gui=NONE       c
 highlight! Constant               guifg=#d78787  guibg=NONE     gui=NONE       ctermfg=174    ctermbg=NONE  cterm=NONE
 highlight! String                 guifg=#ffafaf  guibg=NONE     gui=NONE       ctermfg=217    ctermbg=NONE  cterm=NONE
 highlight! Function               guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152    ctermbg=NONE  cterm=NONE
+highlight! Identifier             guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152    ctermbg=NONE  cterm=NONE
 highlight! Statement              guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
 highlight! PreProc                guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
 highlight! Special                guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180    ctermbg=NONE  cterm=NONE
@@ -178,10 +179,8 @@ highlight! link WildMenu          Visual
 highlight! link ModeMsg           Statement
 highlight! link htmlArg           Constant
 highlight! link FoldColumn        Identifier
-highlight! link Identifier        Function
 highlight! link htmlStatement     Function
 highlight! link MoreMsg           Question
-highlight! link SpecialKey        Underlined
 
 "================================================================================
 " DAY:
