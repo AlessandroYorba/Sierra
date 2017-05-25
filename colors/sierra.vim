@@ -158,8 +158,8 @@ highlight! Error                  guifg=#d75f5f  guibg=NONE     gui=reverse    c
 highlight! SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108    ctermbg=NONE  cterm=NONE
 highlight! Visual                 guifg=#eeeeee  guibg=#875f5f  gui=NONE       ctermfg=255    ctermbg=95    cterm=NONE
 highlight! Search                 guifg=#eeeeee  guibg=#5f8787  gui=NONE       ctermfg=255    ctermbg=66    cterm=NONE
-highlight! DiffAdd                guifg=#afafd7  guibg=NONE     gui=reverse    ctermfg=146    ctermbg=NONE  cterm=reverse
 highlight! Todo                   guifg=#eeeeee  guibg=#1c1c1c  gui=reverse    ctermfg=255    ctermbg=234   cterm=reverse
+highlight! DiffAdd                guifg=#afafd7  guibg=NONE     gui=reverse    ctermfg=146    ctermbg=NONE  cterm=reverse
 highlight! DiffChange             guifg=#5f5f87  guibg=NONE     gui=reverse    ctermfg=60     ctermbg=NONE  cterm=reverse
 highlight! DiffText               guifg=#8787af  guibg=NONE     gui=reverse    ctermfg=103    ctermbg=NONE  cterm=reverse
 highlight! DiffDelete             guifg=#af5f5f  guibg=NONE     gui=reverse    ctermfg=131    ctermbg=NONE  cterm=reverse
@@ -169,11 +169,12 @@ highlight! SpellCap               guifg=#87afff  guibg=NONE     gui=undercurl  c
 highlight! SpellRare              guifg=#ff8700  guibg=NONE     gui=undercurl  ctermfg=208    ctermbg=NONE  cterm=undercurl
 highlight! SpecialComment         guifg=#5f8787  guibg=NONE     gui=reverse    ctermfg=66     ctermbg=NONE  cterm=reverse
 
-highlight! link Directory         PreProc
+highlight! link Directory         Operator
+highlight! link netrwExe          PreProc
 highlight! link Title             PreProc
 highlight! link htmlItalic        PreProc
 highlight! link ErrorMsg          PreProc
-highlight! link Type              PreProc
+highlight! link Type              Operator
 highlight! link MatchParen        Visual
 highlight! link WildMenu          Visual
 highlight! link ModeMsg           Statement
