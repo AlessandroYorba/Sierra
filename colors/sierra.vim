@@ -142,10 +142,12 @@ endif
 "================================================================================
 " SIERRA HIGHLIGHTING:
 "================================================================================
-highlight! Operator               guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
+highlight! Operator               guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
 highlight! Directory              guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
 
 highlight! Constant               guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131    ctermbg=NONE  cterm=NONE
+highlight! Label                  guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131    ctermbg=NONE  cterm=NONE
+
 highlight! htmlArg                guifg=#d78787  guibg=NONE     gui=NONE       ctermfg=174    ctermbg=NONE  cterm=NONE
 
 highlight! String                 guifg=#ffafaf  guibg=NONE     gui=NONE       ctermfg=217    ctermbg=NONE  cterm=NONE
@@ -157,7 +159,7 @@ highlight! cssTagName             guifg=#afd7d7  guibg=NONE     gui=NONE       c
 highlight! Identifier             guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109    ctermbg=NONE  cterm=NONE
 highlight! FoldColumn             guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152    ctermbg=NONE  cterm=NONE
 
-highlight! Statement              guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
+highlight! Statement              guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180    ctermbg=NONE  cterm=NONE
 highlight! ModeMsg                guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
 
 highlight! PreProc                guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
@@ -181,8 +183,9 @@ highlight! Todo                   guifg=#eeeeee  guibg=#1c1c1c  gui=reverse    c
 highlight! SpecialComment         guifg=#87afaf  guibg=NONE     gui=reverse    ctermfg=109     ctermbg=NONE  cterm=reverse
 highlight! VimCommentTitle        guifg=#87afaf  guibg=NONE     gui=reverse    ctermfg=109     ctermbg=NONE  cterm=reverse
 
+highlight! Boolean                guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
+highlight! Special                guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
 highlight! Type                   guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
-highlight! Special                guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180    ctermbg=NONE  cterm=NONE
 highlight! CursorLineNr           guifg=#5f8787  guibg=NONE     gui=reverse    ctermfg=66     ctermbg=NONE  cterm=reverse
 highlight! Underlined             guifg=#87afd7  guibg=NONE     gui=NONE       ctermfg=110    ctermbg=NONE  cterm=NONE
 highlight! WarningMsg             guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
