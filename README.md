@@ -3,36 +3,36 @@
 :space_invader: Set Up
 ------
 
-###### **Day Mode** - Grey Background
+###### Day Mode - Grey Background
 ```VimL
 colorscheme sierra 
 ```
 
-###### **Sunset Mode** - Dark Grey Background
+###### Sunset Mode - Dark Grey Background
 ```VimL
 let g:sierra_Sunset = 1
 colorscheme sierra 
 ```
 
-###### **Twilight Mode** - Darker Grey Background
+###### Twilight Mode - Darker Grey Background
 ```VimL
 let g:sierra_Twilight = 1
 colorscheme sierra 
 ```
 
-###### **Midnight Mode** - Almost Black Background
+###### Midnight Mode - Almost Black Background
 ```VimL
 let g:sierra_Midnight = 1
 colorscheme sierra 
 ```
 
-###### **Pitch Mode** - Black Background
+###### Pitch Mode - Black Background
 ```VimL
 let g:sierra_Pitch = 1
 colorscheme sierra 
 ```
 
-######  **Campfire Mode** - Automatically cycles thru modes depending on time of day
+######  Campfire Mode - Automatically cycles thru modes depending on time of day
 ```VimL
 let g:sierra_Campfire = 1
 colorscheme sierra 
