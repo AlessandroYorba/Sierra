@@ -146,12 +146,12 @@ highlight! Directory              guifg=#af8787  guibg=NONE     gui=NONE       c
 
 highlight! Label                  guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109    ctermbg=NONE  cterm=NONE
 highlight! Statement              guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109    ctermbg=NONE  cterm=NONE
+highlight! Identifier             guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109    ctermbg=NONE  cterm=NONE
 
 highlight! Function               guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152    ctermbg=NONE  cterm=NONE
 highlight! htmlStatement          guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152    ctermbg=NONE  cterm=NONE
 highlight! cssTagName             guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152    ctermbg=NONE  cterm=NONE
 
-highlight! Identifier             guifg=#5fafaf  guibg=NONE     gui=NONE       ctermfg=73    ctermbg=NONE  cterm=NONE
 highlight! FoldColumn             guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152    ctermbg=NONE  cterm=NONE
 
 highlight! PreProc                guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
@@ -166,8 +166,8 @@ highlight! WarningMsg             guifg=#d75f5f  guibg=NONE     gui=NONE       c
 highlight! Question               guifg=#dfaf5f  guibg=NONE     gui=NONE       ctermfg=179    ctermbg=NONE  cterm=NONE
 highlight! MoreMsg                guifg=#dfaf5f  guibg=NONE     gui=NONE       ctermfg=179    ctermbg=NONE  cterm=NONE
 
-highlight! Special                guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180    ctermbg=NONE  cterm=NONE
-highlight! Type                   guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180    ctermbg=NONE  cterm=NONE
+highlight! Special                guifg=#dfdfaf  guibg=NONE     gui=NONE       ctermfg=187    ctermbg=NONE  cterm=NONE
+highlight! StorageClass           guifg=#dfdfaf  guibg=NONE     gui=NONE       ctermfg=187    ctermbg=NONE  cterm=NONE
 
 highlight! Visual                 guifg=#eeeeee  guibg=#875f5f  gui=NONE       ctermfg=255    ctermbg=95    cterm=NONE
 highlight! MatchParen             guifg=#eeeeee  guibg=#875f5f  gui=NONE       ctermfg=255    ctermbg=95    cterm=NONE
@@ -183,8 +183,10 @@ highlight! Boolean                guifg=#87af87  guibg=NONE     gui=NONE       c
 highlight! Underlined             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108    ctermbg=NONE  cterm=NONE
 
 highlight! htmlArg                guifg=#d78787  guibg=NONE     gui=NONE       ctermfg=174    ctermbg=NONE  cterm=NONE
+highlight! Type                   guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180    ctermbg=NONE  cterm=NONE
 highlight! String                 guifg=#ffafaf  guibg=NONE     gui=NONE       ctermfg=217    ctermbg=NONE  cterm=NONE
 highlight! ModeMsg                guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
+highlight! Conditional            guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
 highlight! Constant               guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131    ctermbg=NONE  cterm=NONE
 highlight! Operator               guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
 highlight! CursorLineNr           guifg=#5f8787  guibg=NONE     gui=reverse    ctermfg=66     ctermbg=NONE  cterm=reverse
@@ -330,7 +332,7 @@ endif
 "================================================================================
 if g:sierra_Pitch
     highlight! Normal               guifg=#dfdfdf  guibg=#080808  gui=NONE     ctermfg=188   ctermbg=232   cterm=NONE
-    highlight! TabLineFill          guifg=NONE     guibg=NONE     gui=NONE     ctermfg=NONE  ctermbg=235   cterm=NONE
+    highlight! TabLineFill          guifg=NONE     guibg=#121212  gui=NONE     ctermfg=NONE  ctermbg=235   cterm=NONE
 
     highlight! CursorLine           guifg=NONE     guibg=#000000  gui=NONE     ctermfg=NONE  ctermbg=16    cterm=NONE
     highlight! CursorColumn         guifg=NONE     guibg=#000000  gui=NONE     ctermfg=NONE  ctermbg=16    cterm=NONE
