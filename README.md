@@ -44,14 +44,11 @@ pre-release version [here](https://github.com/AlessandroYorba/Sierra/tree/nightl
 
 :octocat: Special Thanks
 -----------------
-[Kaolin-Theme for Emacs by 0rdy](https://github.com/0rdy/kaolin-theme)<br>
+[Kaolin - Theme for Emacs by Ogden Webb](https://github.com/ogdenwebb/kaolin-theme)<br>
 [Sierra Airline Theme by Danilo Augusto](https://github.com/danilo-augusto)
 
 :octopus: Moar Colorschemes
 -------
 [Alduin](https://github.com/AlessandroYorba/Alduin)<br>
 [Despacio](https://github.com/AlessandroYorba/Despacio)<br>
-[Sidonia](https://github.com/AlessandroYorba/Sidonia)<br>
-[Monrovia](https://github.com/AlessandroYorba/Monrovia)<br>
 [Arcadia](https://github.com/AlessandroYorba/Arcadia)<br>
-[Absolute](https://github.com/AlessandroYorba/Absolute)
