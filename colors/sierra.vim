@@ -12,7 +12,7 @@
 
 
 " UPDATED:      October 10th, 2017
-" CHANGES MADE: Special HL, VimCommentTitle HL, Search HL, Underlined
+" CHANGES MADE: added campfire to setup notes
 
 
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
@@ -53,6 +53,10 @@
 
 "   "Matching Parens are underlined
 "   let g:sierra_Nevada = 1
+"   colorscheme sierra
+
+"   "Automatically cycles thru modes depending on time of night
+"   let g:sierra_Campfire = 1
 "   colorscheme sierra
 
 

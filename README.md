@@ -38,7 +38,7 @@ let g:sierra_Campfire = 1
 colorscheme sierra 
 ```
 
-:crescent_moon: Nightly Build
+:crescent_moon: Dev Build
 ----------------------------
 pre-release version [here](https://github.com/AlessandroYorba/Sierra/tree/nightly)
 
