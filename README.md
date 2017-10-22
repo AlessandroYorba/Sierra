@@ -1,4 +1,8 @@
-![Screenshot](https://user-images.githubusercontent.com/11221489/27158209-b93ebb70-511a-11e7-8164-e05597eb97b4.png)
+Sierra 
+-------
+![Screenshot](https://user-images.githubusercontent.com/11221489/31860102-f93be4ae-b6c9-11e7-93bc-debdb55e6b9b.png)
+
+![Screenshot](https://user-images.githubusercontent.com/11221489/31860103-0095b194-b6ca-11e7-909c-96235cfd2d4c.png)
 
 :space_invader: Set Up
 ------
