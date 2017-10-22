@@ -1,12 +1,15 @@
-![Screenshot](https://user-images.githubusercontent.com/11221489/27158209-b93ebb70-511a-11e7-8164-e05597eb97b4.png)
+Sierra 
+-------
+![Screenshot](https://user-images.githubusercontent.com/11221489/31866343-42d87366-b733-11e7-9e79-43fb8b2567f9.png)
+
+![Screenshot](https://user-images.githubusercontent.com/11221489/31866346-4d06c52c-b733-11e7-933a-ab5ae505e92c.png)
 
 :space_invader: Set Up
 ------
 
-###### Day Mode - Grey Background
-```VimL
-colorscheme sierra 
-```
+###### Modes 
+The default UI for Sierra is a dark grey UI. However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker or lighter versions that are available to you. To enable, add one of the following settings to your .vimrc 
+
 
 ###### Sunset Mode - Dark Grey Background
 ```VimL
