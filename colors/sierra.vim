@@ -12,7 +12,7 @@
 
 
 " UPDATED:      Nov 1st, 2017
-" CHANGES MADE: Removed VertSplit background
+" CHANGES MADE: Revised StorageClass
 
 
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
@@ -61,7 +61,7 @@
 
 
 " MATCHING TERMINAL:
-" The following table is designed to match the default colorscheme of sierra. 
+" The following table is designed to match the default colorscheme of sierra.
 " Please note that there are darker variants available that match the other color
 " settings for sierra_Sunset, sierra_Twilight, sierra_Midnight, sierra_Pitch.
 " All terminal themes for sierra can be found: https://github.com/AlessandroYorba/Sierra
@@ -206,7 +206,7 @@ highlight! MoreMsg                guifg=#dfaf5f  guibg=NONE     gui=NONE       c
 
 highlight! String                 guifg=#ffafaf  guibg=NONE     gui=NONE       ctermfg=217    ctermbg=NONE  cterm=NONE
 highlight! Special                guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
-highlight! StorageClass           guifg=#ffffdf  guibg=NONE     gui=NONE       ctermfg=230    ctermbg=NONE  cterm=NONE
+highlight! StorageClass           guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
 
 highlight! Visual                 guifg=#5f8787  guibg=NONE     gui=reverse    ctermfg=66     ctermbg=NONE  cterm=reverse
 highlight! MatchParen             guifg=#eeeeee  guibg=#875f5f  gui=NONE       ctermfg=255    ctermbg=95    cterm=NONE
