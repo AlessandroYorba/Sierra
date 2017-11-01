@@ -12,7 +12,7 @@
 
 
 " UPDATED:      Nov 1st, 2017
-" CHANGES MADE: revised Label HL, VertSplits
+" CHANGES MADE: revised VimCommentTitle
 
 
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
@@ -216,7 +216,7 @@ highlight! Search                 guifg=#dfdfaf  guibg=NONE     gui=reverse    c
 highlight! Todo                   guifg=#eeeeee  guibg=#1c1c1c  gui=reverse    ctermfg=255    ctermbg=234   cterm=reverse
 
 highlight! SpecialComment         guifg=#87afaf  guibg=NONE     gui=reverse    ctermfg=109     ctermbg=NONE cterm=reverse
-highlight! VimCommentTitle        guifg=#878787  guibg=NONE     gui=reverse    ctermfg=102     ctermbg=NONE cterm=reverse
+highlight! VimCommentTitle        guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249     ctermbg=NONE  cterm=reverse
 
 highlight! Boolean                guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
 highlight! Operator               guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
