@@ -12,7 +12,7 @@
 
 
 " UPDATED:      Nov 22, 2017
-" CHANGES MADE: Strings, Operator
+" CHANGES MADE: Wildmenu, CursorLineNr, Cursor, LineNr
 
 
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
@@ -146,13 +146,12 @@ highlight WarningMsg             guifg=#d75f5f  guibg=NONE     gui=NONE       ct
 highlight Question               guifg=#dfaf5f  guibg=NONE     gui=NONE       ctermfg=179    ctermbg=NONE  cterm=NONE
 highlight MoreMsg                guifg=#dfaf5f  guibg=NONE     gui=NONE       ctermfg=179    ctermbg=NONE  cterm=NONE
 
-"highlight String                 guifg=#ffafaf  guibg=NONE     gui=NONE       ctermfg=217    ctermbg=NONE  cterm=NONE
 highlight Special                guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
 highlight StorageClass           guifg=#dfdfaf  guibg=NONE     gui=NONE       ctermfg=187    ctermbg=NONE  cterm=NONE
 
 highlight Visual                 guifg=#5f8787  guibg=NONE     gui=reverse    ctermfg=66     ctermbg=NONE  cterm=reverse
 highlight MatchParen             guifg=#eeeeee  guibg=#875f5f  gui=NONE       ctermfg=255    ctermbg=95    cterm=NONE
-highlight WildMenu               guifg=#eeeeee  guibg=#875f5f  gui=NONE       ctermfg=255    ctermbg=95    cterm=NONE
+highlight WildMenu               guifg=#c6c6c6  guibg=NONE     gui=reverse    ctermfg=251  ctermbg=NONE  cterm=reverse
 
 highlight Search                 guifg=#dfdfaf  guibg=NONE     gui=reverse    ctermfg=187    ctermbg=NONE  cterm=reverse
 highlight Todo                   guifg=#eeeeee  guibg=#1c1c1c  gui=reverse    ctermfg=255    ctermbg=234   cterm=reverse
@@ -160,10 +159,8 @@ highlight Todo                   guifg=#eeeeee  guibg=#1c1c1c  gui=reverse    ct
 highlight SpecialComment         guifg=#87afaf  guibg=NONE     gui=reverse    ctermfg=109     ctermbg=NONE cterm=reverse
 highlight VimCommentTitle        guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249     ctermbg=NONE  cterm=reverse
 
-"highlight Boolean                guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
-"highlight Operator               guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
 highlight Operator               guifg=#b2b2b2  guibg=NONE     gui=NONE       ctermfg=249    ctermbg=NONE  cterm=NONE
-highlight String               guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
+highlight String                 guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
 
 highlight Underlined             guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180    ctermbg=NONE  cterm=NONE
 
@@ -173,7 +170,8 @@ highlight ModeMsg                guifg=#5f8787  guibg=NONE     gui=NONE       ct
 highlight Conditional            guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66     ctermbg=NONE  cterm=NONE
 highlight Constant               guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131    ctermbg=NONE  cterm=NONE
 highlight Label                  guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131    ctermbg=NONE  cterm=NONE
-highlight CursorLineNr           guifg=#5f8787  guibg=NONE     gui=reverse    ctermfg=66     ctermbg=NONE  cterm=reverse
+highlight CursorLineNr           guifg=#c6c6c6  guibg=NONE     gui=reverse    ctermfg=251   ctermbg=NONE  cterm=reverse
+highlight Cursor                 guifg=#000000  guibg=#ffffff  gui=NONE       ctermfg=16    ctermbg=231   cterm=NONE
 highlight Error                  guifg=#d75f5f  guibg=NONE     gui=reverse    ctermfg=167    ctermbg=NONE  cterm=reverse
 highlight SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108    ctermbg=NONE  cterm=NONE
 
@@ -205,7 +203,7 @@ if 1
     highlight VertSplit            guifg=#444444  guibg=#303030  gui=NONE     ctermfg=238   ctermbg=236   cterm=NONE
     highlight TabLine              guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
     highlight Pmenu                guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
-    highlight LineNr               guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
+    highlight LineNr               guifg=#4e4e4e  guibg=#262626  gui=NONE     ctermfg=239   ctermbg=235   cterm=NONE
 
     highlight NonText              guifg=#444444  guibg=NONE     gui=NONE     ctermfg=238   ctermbg=NONE  cterm=NONE
     highlight SpecialKey           guifg=#444444  guibg=NONE     gui=NONE     ctermfg=238   ctermbg=NONE  cterm=NONE
@@ -235,7 +233,7 @@ if g:sierra_Sunset
     highlight VertSplit            guifg=#3a3a3a  guibg=#262626  gui=NONE     ctermfg=237   ctermbg=235   cterm=NONE
     highlight TabLine              guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
     highlight Pmenu                guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
-    highlight LineNr               guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
+    highlight LineNr               guifg=#4e4e4e  guibg=#1c1c1c  gui=NONE     ctermfg=239   ctermbg=234   cterm=NONE
 
     highlight PmenuSbar            guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234   cterm=NONE
     highlight PmenuThumb           guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234   cterm=NONE
@@ -265,7 +263,7 @@ if g:sierra_Twilight
     highlight VertSplit            guifg=#303030  guibg=#1c1c1c  gui=NONE     ctermfg=236   ctermbg=234   cterm=NONE
     highlight TabLine              guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
     highlight Pmenu                guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
-    highlight LineNr               guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
+    highlight LineNr               guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
 
     highlight PmenuSbar            guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233   cterm=NONE
     highlight PmenuThumb           guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233   cterm=NONE
@@ -295,7 +293,7 @@ if g:sierra_Midnight
     highlight VertSplit            guifg=#262626  guibg=#121212  gui=NONE     ctermfg=235   ctermbg=233   cterm=NONE
     highlight TabLine              guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
     highlight Pmenu                guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
-    highlight LineNr               guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
+    highlight LineNr               guifg=#4e4e4e  guibg=#1c1c1c  gui=none     ctermfg=239   ctermbg=234   cterm=none
 
     highlight PmenuSbar            guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234   cterm=NONE
     highlight PmenuThumb           guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234   cterm=NONE
