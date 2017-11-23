@@ -11,8 +11,8 @@
 " License:      MIT
 
 
-" UPDATED:      Nov 6th, 2017
-" CHANGES MADE: Removed Campfire
+" UPDATED:      Nov 22, 2017
+" CHANGES MADE: Strings, Operator
 
 
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
@@ -146,7 +146,7 @@ highlight WarningMsg             guifg=#d75f5f  guibg=NONE     gui=NONE       ct
 highlight Question               guifg=#dfaf5f  guibg=NONE     gui=NONE       ctermfg=179    ctermbg=NONE  cterm=NONE
 highlight MoreMsg                guifg=#dfaf5f  guibg=NONE     gui=NONE       ctermfg=179    ctermbg=NONE  cterm=NONE
 
-highlight String                 guifg=#ffafaf  guibg=NONE     gui=NONE       ctermfg=217    ctermbg=NONE  cterm=NONE
+"highlight String                 guifg=#ffafaf  guibg=NONE     gui=NONE       ctermfg=217    ctermbg=NONE  cterm=NONE
 highlight Special                guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
 highlight StorageClass           guifg=#dfdfaf  guibg=NONE     gui=NONE       ctermfg=187    ctermbg=NONE  cterm=NONE
 
@@ -160,8 +160,10 @@ highlight Todo                   guifg=#eeeeee  guibg=#1c1c1c  gui=reverse    ct
 highlight SpecialComment         guifg=#87afaf  guibg=NONE     gui=reverse    ctermfg=109     ctermbg=NONE cterm=reverse
 highlight VimCommentTitle        guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249     ctermbg=NONE  cterm=reverse
 
-highlight Boolean                guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
-highlight Operator               guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
+"highlight Boolean                guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
+"highlight Operator               guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
+highlight Operator               guifg=#b2b2b2  guibg=NONE     gui=NONE       ctermfg=249    ctermbg=NONE  cterm=NONE
+highlight String               guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
 
 highlight Underlined             guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180    ctermbg=NONE  cterm=NONE
 
