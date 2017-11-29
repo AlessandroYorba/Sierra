@@ -1,8 +1,5 @@
 Sierra 
 -------
-![Screenshot](https://user-images.githubusercontent.com/11221489/31866343-42d87366-b733-11e7-9e79-43fb8b2567f9.png)
-
-![Screenshot](https://user-images.githubusercontent.com/11221489/31866346-4d06c52c-b733-11e7-933a-ab5ae505e92c.png)
 
 :space_invader: Set Up
 ------
@@ -49,3 +46,4 @@ pre-release version [here](https://github.com/AlessandroYorba/Sierra/tree/nightl
 [Alduin](https://github.com/AlessandroYorba/Alduin)<br>
 [Despacio](https://github.com/AlessandroYorba/Despacio)<br>
 [Arcadia](https://github.com/AlessandroYorba/Arcadia)<br>
+[Libertine](https://github.com/AlessandroYorba/Libertine)<br>
