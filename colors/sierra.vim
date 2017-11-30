@@ -1,4 +1,3 @@
-
 "    ███████╗██╗███████╗██████╗ ██████╗  █████╗
 "    ██╔════╝██║██╔════╝██╔══██╗██╔══██╗██╔══██╗
 "    ███████╗██║█████╗  ██████╔╝██████╔╝███████║
@@ -12,8 +11,8 @@
 " License:      MIT
 
 
-" UPDATED:      Nov 22, 2017
-" CHANGES MADE: reorganized code
+" UPDATED:      Nov 28, 2017
+" CHANGES MADE: Darker Comments
 
 
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
@@ -26,12 +25,12 @@
 
 
 " INSTALL INSTRUCTIONS:
-" Unix users, place alduin.vim in ~/.vim/colors
-" Windows users, place alduin.vim in  ~\vimfiles\colors
+" Unix users, place sierra.vim in ~/.vim/colors
+" Windows users, place sierra.vim in  ~\vimfiles\colors
 
 " SETUP AND CUSTOMIZATION:
 " To enable Sierra as your default colorscheme add the following  to your .vimrc:
-"   colorscheme alduin
+"   colorscheme sierra
 
 " There are several settings for Sierra that you can enable from within your .vimrc
 " Here are some descriptions and examples on how to enable them:
@@ -91,7 +90,7 @@
 "   White        #dfdfaf      7       |      brWhite      #dfdfaf      15      |
 "-------------------------------------|-----------------------------------------
 
-" DESPACIO:
+" SIERRA:
 set background=dark
 
 highlight clear
@@ -210,7 +209,8 @@ if 1
     highlight PmenuSbar            guifg=#262626  guibg=#262626  gui=NONE     ctermfg=235   ctermbg=235   cterm=NONE
     highlight PmenuThumb           guifg=#262626  guibg=#262626  gui=NONE     ctermfg=235   ctermbg=235   cterm=NONE
 
-    highlight Comment              guifg=#767676  guibg=NONE     gui=NONE     ctermfg=243   ctermbg=NONE  cterm=NONE
+    "highlight Comment              guifg=#767676  guibg=NONE     gui=NONE     ctermfg=243   ctermbg=NONE  cterm=NONE
+    highlight Comment           guifg=#626262  guibg=NONE     gui=NONE     ctermfg=241   ctermbg=NONE  cterm=NONE
     highlight Folded               guifg=#767676  guibg=NONE     gui=NONE     ctermfg=243   ctermbg=NONE  cterm=NONE
 endif
 
@@ -240,7 +240,8 @@ if g:sierra_Sunset
     highlight NonText              guifg=#3a3a3a  guibg=NONE     gui=NONE     ctermfg=237   ctermbg=NONE  cterm=NONE
     highlight SpecialKey           guifg=#3a3a3a  guibg=NONE     gui=NONE     ctermfg=237   ctermbg=NONE  cterm=NONE
 
-    highlight Comment              guifg=#6c6c6c  guibg=NONE     gui=NONE     ctermfg=242   ctermbg=NONE  cterm=NONE
+    "highlight Comment              guifg=#6c6c6c  guibg=NONE     gui=NONE     ctermfg=242   ctermbg=NONE  cterm=NONE
+    highlight Comment           guifg=#585858  guibg=NONE     gui=NONE     ctermfg=240   ctermbg=NONE  cterm=NONE
     highlight Folded               guifg=#6c6c6c  guibg=NONE     gui=NONE     ctermfg=242   ctermbg=NONE  cterm=NONE
 endif
 
@@ -270,7 +271,8 @@ if g:sierra_Twilight
     highlight NonText              guifg=#303030  guibg=NONE     gui=NONE     ctermfg=236   ctermbg=NONE  cterm=NONE
     highlight SpecialKey           guifg=#303030  guibg=NONE     gui=NONE     ctermfg=236   ctermbg=NONE  cterm=NONE
 
-    highlight Comment              guifg=#626262  guibg=NONE     gui=NONE     ctermfg=241   ctermbg=NONE  cterm=NONE
+    "highlight Comment              guifg=#626262  guibg=NONE     gui=NONE     ctermfg=241   ctermbg=NONE  cterm=NONE
+    highlight Comment           guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
     highlight Folded               guifg=#626262  guibg=NONE     gui=NONE     ctermfg=241   ctermbg=NONE  cterm=NONE
 endif
 
@@ -300,7 +302,8 @@ if g:sierra_Midnight
     highlight NonText              guifg=#262626  guibg=NONE     gui=NONE     ctermfg=235   ctermbg=NONE  cterm=NONE
     highlight SpecialKey           guifg=#262626  guibg=NONE     gui=NONE     ctermfg=235   ctermbg=NONE  cterm=NONE
 
-    highlight Comment              guifg=#585858  guibg=NONE     gui=NONE     ctermfg=240   ctermbg=NONE  cterm=NONE
+    "highlight Comment              guifg=#585858  guibg=NONE     gui=NONE     ctermfg=240   ctermbg=NONE  cterm=NONE
+    highlight Comment           guifg=#444444  guibg=NONE     gui=NONE     ctermfg=238   ctermbg=NONE  cterm=NONE
     highlight Folded               guifg=#585858  guibg=NONE     gui=NONE     ctermfg=240   ctermbg=NONE  cterm=NONE
 endif
 
@@ -330,7 +333,8 @@ if g:sierra_Pitch
     highlight NonText              guifg=#1c1c1c  guibg=NONE     gui=NONE     ctermfg=234   ctermbg=NONE  cterm=NONE
     highlight SpecialKey           guifg=#1c1c1c  guibg=NONE     gui=NONE     ctermfg=234   ctermbg=NONE  cterm=NONE
 
-    highlight Comment              guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
+    "highlight Comment              guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
+    highlight Comment           guifg=#3a3a3a  guibg=NONE     gui=NONE     ctermfg=237   ctermbg=NONE  cterm=NONE
     highlight Folded               guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
 endif
 
