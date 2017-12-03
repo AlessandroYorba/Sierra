@@ -1,6 +1,4 @@
-Sierra 
--------
-
+![screenshot](https://user-images.githubusercontent.com/11221489/33523824-f33f5ad8-d7c4-11e7-922c-d4af2a161a8f.png)
 :space_invader: Set Up
 ------
 
