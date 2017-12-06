@@ -1,5 +1,7 @@
 ![screenshot](https://user-images.githubusercontent.com/11221489/33523824-f33f5ad8-d7c4-11e7-922c-d4af2a161a8f.png)
 
+![screenshot](https://user-images.githubusercontent.com/11221489/33582377-cceacae8-d909-11e7-9642-b9c8f847675a.png)
+
 :space_invader: Set Up
 ------
 The default UI for Sierra is grey. However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker versions available. [screenshots of all modes](https://github.com/AlessandroYorba/Sierra/issues/1).
