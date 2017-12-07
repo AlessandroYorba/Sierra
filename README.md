@@ -1,35 +1,35 @@
-![screenshot](https://user-images.githubusercontent.com/11221489/33523824-f33f5ad8-d7c4-11e7-922c-d4af2a161a8f.png)
+![Grey](https://user-images.githubusercontent.com/11221489/33703267-42eba748-dadc-11e7-93dc-b039a1cad701.png)
 
-![screenshot](https://user-images.githubusercontent.com/11221489/33582377-cceacae8-d909-11e7-9642-b9c8f847675a.png)
+![Black](https://user-images.githubusercontent.com/11221489/33703391-bddc3080-dadc-11e7-8a55-cbb06283d2c0.png)
 
 :space_invader: Set Up
 ------
 The default UI for Sierra is grey. However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker versions available. [screenshots of all modes](https://github.com/AlessandroYorba/Sierra/issues/1).
 
-###### [Grey](https://user-images.githubusercontent.com/11221489/33523824-f33f5ad8-d7c4-11e7-922c-d4af2a161a8f.png)
+###### [Grey](https://user-images.githubusercontent.com/11221489/33703267-42eba748-dadc-11e7-93dc-b039a1cad701.png)
 ```
 colorscheme sierra
 ```
 
-###### [Dark Grey](https://user-images.githubusercontent.com/11221489/33581965-cf8767b8-d907-11e7-92ef-3c3625eb9ee5.png)
+###### [Dark Grey](https://user-images.githubusercontent.com/11221489/33703312-6cc088d6-dadc-11e7-9a1f-98bf32a37204.png)
 ```
 let g:sierra_Sunset = 1
 colorscheme sierra 
 ```
 
-###### [Darkest Grey](https://user-images.githubusercontent.com/11221489/33582162-c4faad22-d908-11e7-8275-cee8c84498e9.png)
+###### [Darkest Grey](https://user-images.githubusercontent.com/11221489/33703339-86624f5e-dadc-11e7-8eea-60d2de23e2c8.png)
 ```
 let g:sierra_Twilight = 1
 colorscheme sierra 
 ```
 
-###### [Almost Black](https://user-images.githubusercontent.com/11221489/33582297-61ea7b1c-d909-11e7-9989-f39f3a774a67.png)
+###### [Almost Black](https://user-images.githubusercontent.com/11221489/33703367-a7d13bdc-dadc-11e7-9a44-1b8aa6b7779b.png)
 ```
 let g:sierra_Midnight = 1
 colorscheme sierra 
 ```
 
-###### [Black](https://user-images.githubusercontent.com/11221489/33582377-cceacae8-d909-11e7-9642-b9c8f847675a.png)
+###### [Black](https://user-images.githubusercontent.com/11221489/33703391-bddc3080-dadc-11e7-8a55-cbb06283d2c0.png)
 ```
 let g:sierra_Pitch = 1
 colorscheme sierra 
