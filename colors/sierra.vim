@@ -9,7 +9,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Sierra
 "
-" UPDATED:      Dec 6, 2017
+" UPDATED:      Dec 13, 2017
 " LATEST CHANGES: Brighter Comments for Midnight and Pitch
 "
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
@@ -134,11 +134,10 @@ highlight cssClassName           guifg=#d75f5f  guibg=NONE     gui=NONE       ct
 highlight cssIdentifier          guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
 
 "DIFF
-highlight DiffAdd                guifg=#afafd7  guibg=NONE     gui=reverse    ctermfg=146    ctermbg=NONE  cterm=reverse
-highlight DiffChange             guifg=#5f5f87  guibg=NONE     gui=reverse    ctermfg=60     ctermbg=NONE  cterm=reverse
-highlight DiffText               guifg=#8787af  guibg=NONE     gui=reverse    ctermfg=103    ctermbg=NONE  cterm=reverse
-highlight DiffDelete             guifg=#af5f5f  guibg=NONE     gui=reverse    ctermfg=131    ctermbg=NONE  cterm=reverse
-
+highlight DiffAdd               guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30   ctermbg=NONE  cterm=reverse
+highlight DiffText              guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30   ctermbg=NONE  cterm=reverse
+highlight DiffChange            guifg=#005f5f  guibg=NONE     gui=reverse    ctermfg=23   ctermbg=NONE  cterm=reverse
+highlight DiffDelete            guifg=#af5f5f  guibg=NONE     gui=reverse    ctermfg=131   ctermbg=NONE  cterm=reverse
 "SPELLING
 highlight SpellBad               guifg=#ff0000  guibg=NONE     gui=undercurl  ctermfg=196    ctermbg=NONE  cterm=undercurl
 highlight SpellLocal             guifg=#5f875f  guibg=NONE     gui=undercurl  ctermfg=65     ctermbg=NONE  cterm=undercurl
