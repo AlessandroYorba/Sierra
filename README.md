@@ -49,4 +49,3 @@ pre-release version [here](https://github.com/AlessandroYorba/Sierra/tree/nightl
 [Alduin](https://github.com/AlessandroYorba/Alduin)<br>
 [Despacio](https://github.com/AlessandroYorba/Despacio)<br>
 [Arcadia](https://github.com/AlessandroYorba/Arcadia)<br>
-[Libertine](https://github.com/AlessandroYorba/Libertine)<br>
