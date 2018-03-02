@@ -9,12 +9,11 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Sierra
 "
-" UPDATED:      Dec 13, 2017
-" LATEST CHANGES: Brighter Comments for Midnight and Pitch
+" UPDATED:      March 2, 2018
+" LATEST CHANGES: Removed Airline Support
 "
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
 " Kaolin For Emacs:      ogdenwebb              https://github.com/ogdenwebb
-" Airline Theme:         Danilo Augusto         https://github.com/danilo-augusto
 "
 " SUPPORTED ENVIRONMENTS:
 " 256 color terminals, Gui versions of vim, and Termguicolors versions of vim
@@ -303,7 +302,7 @@ if g:sierra_Nevada
 endif
 
 " LICENSE:
-" Copyright (c) 2017 Alessandro Yorba
+" Copyright (c) 2018 Alessandro Yorba
 "
 " Permission is hereby granted, free of charge, to any person obtaining a copy
 " of this software and associated documentation files (the "Software"), to deal
