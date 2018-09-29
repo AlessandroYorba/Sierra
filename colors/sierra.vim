@@ -9,8 +9,8 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Sierra
 "
-" UPDATED:      March 2, 2018
-" LATEST CHANGES: Removed Airline Support
+" UPDATED:      Sept 29, 2018
+" LATEST CHANGES: Add Number, Revised Pmenu, Revised Diffs, VimCommentTitle
 "
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
 " Kaolin For Emacs:      ogdenwebb              https://github.com/ogdenwebb
@@ -118,6 +118,7 @@ highlight Identifier             guifg=#87afaf  guibg=NONE     gui=NONE       ct
 highlight Statement              guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109    ctermbg=NONE  cterm=NONE
 highlight Constant               guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131    ctermbg=NONE  cterm=NONE
 highlight Type                   guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
+highlight Number                 guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180    ctermbg=NONE  cterm=NONE
 highlight Label                  guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131    ctermbg=NONE  cterm=NONE
 highlight String                 guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
 highlight Special                guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
@@ -133,9 +134,9 @@ highlight cssClassName           guifg=#d75f5f  guibg=NONE     gui=NONE       ct
 highlight cssIdentifier          guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
 
 "DIFF
-highlight DiffAdd               guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30   ctermbg=NONE  cterm=reverse
-highlight DiffText              guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30   ctermbg=NONE  cterm=reverse
-highlight DiffChange            guifg=#005f5f  guibg=NONE     gui=reverse    ctermfg=23   ctermbg=NONE  cterm=reverse
+highlight DiffAdd               guifg=#87afaf  guibg=NONE     gui=reverse    ctermfg=109   ctermbg=NONE  cterm=reverse
+highlight DiffText              guifg=#87afaf  guibg=NONE     gui=reverse    ctermfg=109   ctermbg=NONE  cterm=reverse
+highlight DiffChange            guifg=#5f8787  guibg=NONE     gui=reverse    ctermfg=66    ctermbg=NONE  cterm=reverse
 highlight DiffDelete            guifg=#af5f5f  guibg=NONE     gui=reverse    ctermfg=131   ctermbg=NONE  cterm=reverse
 "SPELLING
 highlight SpellBad               guifg=#ff0000  guibg=NONE     gui=undercurl  ctermfg=196    ctermbg=NONE  cterm=undercurl
@@ -145,12 +146,12 @@ highlight SpellRare              guifg=#ff8700  guibg=NONE     gui=undercurl  ct
 
 "WINDOW UI
 highlight MoreMsg                guifg=#dfaf5f  guibg=NONE     gui=NONE       ctermfg=179    ctermbg=NONE  cterm=NONE
-highlight SpecialComment         guifg=#87afaf  guibg=NONE     gui=reverse    ctermfg=109    ctermbg=NONE  cterm=reverse
-highlight VimCommentTitle        guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249    ctermbg=NONE  cterm=reverse
+highlight SpecialComment         guifg=#767676  guibg=NONE     gui=reverse    ctermfg=243    ctermbg=NONE  cterm=reverse
+highlight VimCommentTitle        guifg=#767676  guibg=NONE     gui=reverse    ctermfg=243    ctermbg=NONE  cterm=reverse
 highlight Underlined             guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180    ctermbg=NONE  cterm=NONE
 highlight FoldColumn             guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152    ctermbg=NONE  cterm=NONE
 highlight Todo                   guifg=#eeeeee  guibg=#1c1c1c  gui=reverse    ctermfg=255    ctermbg=234   cterm=reverse
-highlight Visual                 guifg=#5f8787  guibg=NONE     gui=reverse    ctermfg=66     ctermbg=NONE  cterm=reverse
+highlight Visual                 guifg=#dfdfdf  guibg=#875f5f  gui=NONE       ctermfg=188   ctermbg=95    cterm=NONE
 highlight Question               guifg=#dfaf5f  guibg=NONE     gui=NONE       ctermfg=179    ctermbg=NONE  cterm=NONE
 highlight Search                 guifg=#dfdfaf  guibg=NONE     gui=reverse    ctermfg=187    ctermbg=NONE  cterm=reverse
 highlight MatchParen             guifg=#eeeeee  guibg=#875f5f  gui=NONE       ctermfg=255    ctermbg=95    cterm=NONE
@@ -175,7 +176,7 @@ if 1
 	highlight StatusLine        guifg=#eeeeee  guibg=#262626  gui=NONE     ctermfg=255   ctermbg=235   cterm=NONE
 	highlight StatusLineNC      guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
     highlight Pmenu             guifg=#767676  guibg=#3a3a3a  gui=NONE     ctermfg=243   ctermbg=237   cterm=NONE
-    highlight PmenuSel          guifg=#eeeeee  guibg=#5f8787  gui=NONE     ctermfg=255   ctermbg=66   cterm=NONE
+    highlight PmenuSel          guifg=#eeeeee  guibg=#3a3a3a  gui=NONE     ctermfg=255   ctermbg=237   cterm=NONE
     highlight PmenuSbar         guifg=#3a3a3a  guibg=#3a3a3a  gui=NONE     ctermfg=237   ctermbg=237   cterm=NONE
     highlight PmenuThumb        guifg=#3a3a3a  guibg=#3a3a3a  gui=NONE     ctermfg=237   ctermbg=237   cterm=NONE
     highlight TabLine           guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
@@ -201,7 +202,7 @@ if g:sierra_Sunset
     highlight StatusLine        guifg=#eeeeee  guibg=#1c1c1c  gui=NONE     ctermfg=255   ctermbg=234   cterm=NONE
     highlight StatusLineNC      guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
     highlight Pmenu             guifg=#6c6c6c  guibg=#303030  gui=NONE     ctermfg=242   ctermbg=236   cterm=NONE
-    highlight PmenuSel          guifg=#eeeeee  guibg=#5f8787  gui=NONE     ctermfg=255   ctermbg=66   cterm=NONE
+    highlight PmenuSel          guifg=#eeeeee  guibg=#303030  gui=NONE     ctermfg=255   ctermbg=236   cterm=NONE
     highlight PmenuSbar         guifg=#303030  guibg=#303030  gui=NONE     ctermfg=236   ctermbg=236   cterm=NONE
     highlight PmenuThumb        guifg=#303030  guibg=#303030  gui=NONE     ctermfg=236   ctermbg=236   cterm=NONE
     highlight TabLine           guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
@@ -227,7 +228,7 @@ if g:sierra_Twilight
     highlight StatusLine        guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
     highlight StatusLineNC      guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
     highlight Pmenu             guifg=#626262  guibg=#262626  gui=NONE     ctermfg=241   ctermbg=235   cterm=NONE
-    highlight PmenuSel          guifg=#eeeeee  guibg=#5f8787  gui=NONE     ctermfg=255   ctermbg=66   cterm=NONE
+    highlight PmenuSel          guifg=#eeeeee  guibg=#262626  gui=NONE     ctermfg=255   ctermbg=235   cterm=NONE
     highlight PmenuSbar         guifg=#262626  guibg=#262626  gui=NONE     ctermfg=235   ctermbg=235   cterm=NONE
     highlight PmenuThumb        guifg=#262626  guibg=#262626  gui=NONE     ctermfg=235   ctermbg=235   cterm=NONE
     highlight TabLine           guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
@@ -253,7 +254,7 @@ if g:sierra_Midnight
     highlight StatusLine        guifg=#eeeeee  guibg=#1c1c1c  gui=none     ctermfg=255   ctermbg=234   cterm=none
     highlight StatusLineNC      guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
     highlight Pmenu             guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
-    highlight PmenuSel          guifg=#eeeeee  guibg=#5f8787  gui=none     ctermfg=255   ctermbg=66   cterm=none
+    highlight PmenuSel          guifg=#eeeeee  guibg=#1c1c1c  gui=none     ctermfg=255   ctermbg=234   cterm=none
     highlight PmenuSbar         guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234   cterm=NONE
     highlight PmenuThumb        guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234   cterm=NONE
     highlight TabLine           guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
@@ -279,7 +280,7 @@ if g:sierra_Pitch
     highlight StatusLine        guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
     highlight StatusLineNC      guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
     highlight Pmenu             guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
-    highlight PmenuSel          guifg=#eeeeee  guibg=#5f8787  gui=NONE     ctermfg=255   ctermbg=66   cterm=NONE
+    highlight PmenuSel          guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
     highlight PmenuSbar         guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233   cterm=NONE
     highlight PmenuThumb        guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233   cterm=NONE
     highlight TabLine           guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
