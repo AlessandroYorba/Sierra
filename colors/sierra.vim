@@ -9,8 +9,8 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Sierra
 "
-" UPDATED:      Sept 29, 2018
-" LATEST CHANGES: StatusLineTerm, StatusLineTermNC
+" UPDATED:      Oct 1, 2018
+" LATEST CHANGES: Number, Search
 "
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
 " Kaolin For Emacs:      ogdenwebb              https://github.com/ogdenwebb
@@ -118,7 +118,7 @@ highlight Identifier             guifg=#87afaf  guibg=NONE     gui=NONE       ct
 highlight Statement              guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109    ctermbg=NONE  cterm=NONE
 highlight Constant               guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131    ctermbg=NONE  cterm=NONE
 highlight Type                   guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
-highlight Number                 guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180    ctermbg=NONE  cterm=NONE
+highlight Number                 guifg=#d78787  guibg=NONE     gui=NONE       ctermfg=174    ctermbg=NONE  cterm=NONE
 highlight Label                  guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131    ctermbg=NONE  cterm=NONE
 highlight String                 guifg=#dfafaf  guibg=NONE     gui=NONE       ctermfg=181    ctermbg=NONE  cterm=NONE
 highlight Special                guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
@@ -153,7 +153,7 @@ highlight FoldColumn             guifg=#afd7d7  guibg=NONE     gui=NONE       ct
 highlight Todo                   guifg=#eeeeee  guibg=#1c1c1c  gui=reverse    ctermfg=255    ctermbg=234   cterm=reverse
 highlight Visual                 guifg=#dfdfdf  guibg=#875f5f  gui=NONE       ctermfg=188   ctermbg=95    cterm=NONE
 highlight Question               guifg=#dfaf5f  guibg=NONE     gui=NONE       ctermfg=179    ctermbg=NONE  cterm=NONE
-highlight Search                 guifg=#dfdfaf  guibg=NONE     gui=reverse    ctermfg=187    ctermbg=NONE  cterm=reverse
+highlight Search                 guifg=#87af87  guibg=NONE     gui=reverse    ctermfg=108    ctermbg=NONE  cterm=reverse
 highlight MatchParen             guifg=#eeeeee  guibg=#875f5f  gui=NONE       ctermfg=255    ctermbg=95    cterm=NONE
 highlight Error                  guifg=#d75f5f  guibg=NONE     gui=reverse    ctermfg=167    ctermbg=NONE  cterm=reverse
 highlight ErrorMsg               guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
