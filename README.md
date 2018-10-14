@@ -14,25 +14,25 @@ colorscheme sierra
 :milky_way: Change Background Colors
 ------
 
-###### [Dark Grey Background]()
+###### Dark Grey Background
 ```VimL
 let g:sierra_Sunset = 1
 colorscheme sierra 
 ```
 
-###### [Even Darker Grey Background]()
+###### Even Darker Grey Background
 ```VimL
 let g:sierra_Twilight = 1
 colorscheme sierra 
 ```
 
-###### [Almost Black Background]()
+###### Almost Black Background
 ```VimL
 let g:sierra_Midnight = 1
 colorscheme sierra 
 ```
 
-###### [Black Background]()
+###### Black Background
 ```VimL
 let g:sierra_Pitch = 1
 colorscheme sierra 
