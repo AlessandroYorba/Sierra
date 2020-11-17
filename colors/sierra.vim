@@ -2,7 +2,7 @@
 "SCRIPT: https://github.com/AlessandroYorba/Sierra
 "
 "UPDATED: November 16th, 2020
-"CHANGES: In Process of refactor
+"CHANGES: fixed netrwExe, Search, Visual
 "
 "SUPPORT:
 " 256 color terminals, Gui versions of vim, and Termguicolors versions of vim
@@ -69,6 +69,7 @@ let g:terminal_ansi_colors = [
 
 highlight! Grey guifg=#b2b2b2 guibg=NONE gui=NONE ctermfg=249 ctermbg=NONE cterm=NONE
 highlight! Grey_Reverse guifg=#767676 guibg=NONE gui=reverse ctermfg=243 ctermbg=NONE cterm=reverse
+highlight! Silver_Reverse guifg=#c6c6c6 guibg=NONE gui=reverse ctermfg=251 ctermbg=NONE cterm=reverse
 highlight! Cyan guifg=#afd7d7 guibg=NONE gui=NONE ctermfg=152 ctermbg=NONE cterm=NONE
 highlight! Dark_Cyan guifg=#5f8787 guibg=NONE gui=NONE ctermfg=66 ctermbg=NONE cterm=NONE
 highlight! Dark_Cyan_Reverse guifg=#5f8787 guibg=NONE gui=reverse ctermfg=66 ctermbg=NONE cterm=reverse
@@ -95,7 +96,6 @@ highlight! link Statement Medium_Cyan
 highlight! link Conditional Dark_Cyan
 
 highlight! link DiffChange Dark_Cyan_Reverse
-highlight! link Search Dark_Cyan_Reverse
 
 highlight! link DiffAdd Medium_Cyan_Reverse
 highlight! link DiffText Medium_Cyan_Reverse
@@ -119,10 +119,10 @@ highlight! link diffIdentical Red
 highlight! link diffIsA Red
 highlight! link diffNoEOL Red
 highlight! link diffOnly Red
+highlight! link netrwExe Red
 
 highlight! link Error Red_Reverse
 highlight! link ErrorMsg Red_Reverse
-highlight! link netrwExe Red_Reverse
 
 highlight! link Label Dark_Red
 highlight! link Constant Dark_Red
@@ -143,12 +143,15 @@ highlight! link SpecialComment Grey_Reverse
 highlight! link VimCommentTitle Grey_Reverse
 highlight! link vimCommentTitle Grey_Reverse
 
+highlight! link WildMenu Silver_Reverse
+highlight! link Visual Silver_Reverse
+highlight! link Search Silver_Reverse
+
 highlight! link DiffDelete Dark_Red_Reverse
 highlight! link diffChanged Dark_Red_Reverse
 highlight! link diffFile Dark_Red_Reverse
 highlight! link diffIndexLine Dark_Red_Reverse
 highlight! link diffRemoved Dark_Red_Reverse
-highlight! link Visual Dark_Red_Reverse
 
 highlight! link MoreMsg Orange
 highlight! link Question Orange
@@ -157,7 +160,6 @@ highlight! link Question Orange
 
 highlight Underlined guifg=#dfaf87 guibg=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE
 highlight MatchParen guifg=#eeeeee guibg=#875f5f gui=NONE ctermfg=255 ctermbg=95 cterm=NONE
-highlight WildMenu guifg=#c6c6c6 guibg=NONE gui=reverse ctermfg=251 ctermbg=NONE cterm=reverse
 highlight ModeMsg guifg=#dfdfdf guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
 highlight Todo guifg=#eeeeee guibg=#1c1c1c gui=reverse ctermfg=255 ctermbg=234 cterm=reverse
 highlight SignColumn guifg=#87af87 guibg=NONE gui=NONE ctermfg=108 ctermbg=NONE cterm=NONE
