@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Sierra
 "
-"UPDATED: Fri 20th, 2020
-"CHANGES: Made Dark Grey Background as default
+"UPDATED: Thurs Nov 26th, 2020
+"CHANGES: Dark_Purple added
 "
 "SUPPORT:
 " 256 color terminals, Gui versions of vim, and Termguicolors versions of vim
@@ -77,18 +77,21 @@ highlight! Dark_Red guifg=#af5f5f guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE c
 highlight! Red_Reverse guifg=#d75f5f guibg=NONE gui=reverse ctermfg=167 ctermbg=NONE cterm=reverse
 highlight! Red guifg=#d75f5f guibg=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE
 highlight! Orange guifg=#dfaf5f guibg=NONE gui=NONE ctermfg=179 ctermbg=NONE cterm=NONE
+highlight! Dark_Purple guifg=#875f5f guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
 highlight! Purple guifg=#af8787 guibg=NONE gui=NONE ctermfg=138 ctermbg=NONE cterm=NONE
 
+"TODO:
 highlight! link FoldColumn Cyan
 highlight! link cssTagName Cyan
-highlight! link vimFunction Cyan
 highlight! link vimUserFunc Cyan
+highlight! link Function Cyan
+highlight! link vimFunction Cyan
 
-highlight! link Identifier Medium_Cyan
 highlight! link vimAutoEventList Medium_Cyan
-highlight! link Statement Medium_Cyan
 
-highlight! link Conditional Dark_Cyan
+"highlight! link Identifier Medium_Cyan
+"highlight! link Conditional Dark_Cyan
+"highlight! link Statement Medium_Cyan
 
 highlight! link DiffChange Dark_Cyan_Reverse
 
@@ -96,7 +99,12 @@ highlight! link DiffAdd Medium_Cyan_Reverse
 highlight! link DiffText Medium_Cyan_Reverse
 highlight! link diffAdded Medium_Cyan_Reverse
 
-highlight! link Function Red
+"TESTING:
+highlight! link Statement Dark_Purple
+highlight! link Identifier Dark_Purple
+highlight! link Conditional Dark_Purple
+
+
 highlight! link htmlEndTag Red
 highlight! link Type Red
 highlight! link vimAutoCmdSfxList Red
@@ -152,7 +160,6 @@ highlight! link MoreMsg Orange
 highlight! link Question Orange
 "TODO:
 
-
 highlight Underlined guifg=#dfaf87 guibg=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE
 highlight MatchParen guifg=#eeeeee guibg=#875f5f gui=NONE ctermfg=255 ctermbg=95 cterm=NONE
 highlight ModeMsg guifg=#dfdfdf guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
@@ -162,7 +169,9 @@ highlight SignColumn guifg=#87af87 guibg=NONE gui=NONE ctermfg=108 ctermbg=NONE 
 "DARKER GRAY BACKGROUND
 if 1
 	"COLORS
-	highlight Normal guifg=#dfdfdf guibg=#262626 gui=NONE ctermfg=188 ctermbg=235 cterm=NONE
+	"highlight Normal guifg=#dfdfdf guibg=#262626 gui=NONE ctermfg=188 ctermbg=235 cterm=NONE
+	"TESTING:
+	highlight Normal guifg=#d0d0d0 guibg=#262626 gui=NONE ctermfg=252 ctermbg=235 cterm=NONE
 	highlight Comment guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
 
 	"WINDOW UI
@@ -201,7 +210,9 @@ endif
 "DARKER GRAY BACKGROUND
 if g:sierra_Twilight
 	"COLORS
-	highlight Normal guifg=#dfdfdf guibg=#1c1c1c gui=NONE ctermfg=188 ctermbg=234 cterm=NONE
+	"highlight Normal guifg=#dfdfdf guibg=#1c1c1c gui=NONE ctermfg=188 ctermbg=234 cterm=NONE
+	"TESTING:
+	highlight Normal guifg=#d0d0d0 guibg=#1c1c1c gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
 	highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 
 	"WINDOW UI
@@ -240,7 +251,9 @@ endif
 "ALMOST BLACK BACKGROUND
 if g:sierra_Midnight
 	"COLORS
-	highlight Normal guifg=#dfdfdf guibg=#121212 gui=NONE ctermfg=188 ctermbg=233 cterm=NONE
+	"highlight Normal guifg=#dfdfdf guibg=#121212 gui=NONE ctermfg=188 ctermbg=233 cterm=NONE
+	"TESTING:
+	highlight Normal guifg=#d0d0d0 guibg=#121212 gui=NONE ctermfg=252 ctermbg=233 cterm=NONE
 	highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 
 	"WINDOW UI
@@ -279,7 +292,9 @@ endif
 "BLACK BACKGROUND
 if g:sierra_Pitch
 	"COLORS
-	highlight Normal guifg=#dfdfdf guibg=#080808 gui=NONE ctermfg=188 ctermbg=232 cterm=NONE
+	"highlight Normal guifg=#dfdfdf guibg=#080808 gui=NONE ctermfg=188 ctermbg=232 cterm=NONE
+	"TESTING:
+	highlight Normal guifg=#d0d0d0 guibg=#080808 gui=NONE ctermfg=252 ctermbg=232 cterm=NONE
 	highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 
 	"WINDOW UI
