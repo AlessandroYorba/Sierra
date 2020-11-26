@@ -2,7 +2,7 @@
 "SCRIPT: https://github.com/AlessandroYorba/Sierra
 "
 "UPDATED: Thurs Nov 26th, 2020
-"CHANGES: Dark_Purple added
+"CHANGES: Dark_Purple added, New Normal Foreground
 "
 "SUPPORT:
 " 256 color terminals, Gui versions of vim, and Termguicolors versions of vim
@@ -80,7 +80,6 @@ highlight! Orange guifg=#dfaf5f guibg=NONE gui=NONE ctermfg=179 ctermbg=NONE cte
 highlight! Dark_Purple guifg=#875f5f guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
 highlight! Purple guifg=#af8787 guibg=NONE gui=NONE ctermfg=138 ctermbg=NONE cterm=NONE
 
-"TODO:
 highlight! link FoldColumn Cyan
 highlight! link cssTagName Cyan
 highlight! link vimUserFunc Cyan
@@ -88,10 +87,6 @@ highlight! link Function Cyan
 highlight! link vimFunction Cyan
 
 highlight! link vimAutoEventList Medium_Cyan
-
-"highlight! link Identifier Medium_Cyan
-"highlight! link Conditional Dark_Cyan
-"highlight! link Statement Medium_Cyan
 
 highlight! link DiffChange Dark_Cyan_Reverse
 
@@ -169,8 +164,6 @@ highlight SignColumn guifg=#87af87 guibg=NONE gui=NONE ctermfg=108 ctermbg=NONE 
 "DARKER GRAY BACKGROUND
 if 1
 	"COLORS
-	"highlight Normal guifg=#dfdfdf guibg=#262626 gui=NONE ctermfg=188 ctermbg=235 cterm=NONE
-	"TESTING:
 	highlight Normal guifg=#d0d0d0 guibg=#262626 gui=NONE ctermfg=252 ctermbg=235 cterm=NONE
 	highlight Comment guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
 
@@ -210,8 +203,6 @@ endif
 "DARKER GRAY BACKGROUND
 if g:sierra_Twilight
 	"COLORS
-	"highlight Normal guifg=#dfdfdf guibg=#1c1c1c gui=NONE ctermfg=188 ctermbg=234 cterm=NONE
-	"TESTING:
 	highlight Normal guifg=#d0d0d0 guibg=#1c1c1c gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
 	highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 
@@ -251,8 +242,6 @@ endif
 "ALMOST BLACK BACKGROUND
 if g:sierra_Midnight
 	"COLORS
-	"highlight Normal guifg=#dfdfdf guibg=#121212 gui=NONE ctermfg=188 ctermbg=233 cterm=NONE
-	"TESTING:
 	highlight Normal guifg=#d0d0d0 guibg=#121212 gui=NONE ctermfg=252 ctermbg=233 cterm=NONE
 	highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 
@@ -292,8 +281,6 @@ endif
 "BLACK BACKGROUND
 if g:sierra_Pitch
 	"COLORS
-	"highlight Normal guifg=#dfdfdf guibg=#080808 gui=NONE ctermfg=188 ctermbg=232 cterm=NONE
-	"TESTING:
 	highlight Normal guifg=#d0d0d0 guibg=#080808 gui=NONE ctermfg=252 ctermbg=232 cterm=NONE
 	highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 
