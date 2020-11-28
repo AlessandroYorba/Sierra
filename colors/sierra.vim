@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Sierra
 "
-"UPDATED: Thurs Nov 26th, 2020
-"CHANGES: Dark_Purple added, New Normal Foreground
+"UPDATED: Thurs Nov 28th, 2020
+"CHANGES: Identifier is now Cyan
 "
 "SUPPORT:
 " 256 color terminals, Gui versions of vim, and Termguicolors versions of vim
@@ -85,6 +85,7 @@ highlight! link cssTagName Cyan
 highlight! link vimUserFunc Cyan
 highlight! link Function Cyan
 highlight! link vimFunction Cyan
+highlight! link Identifier Cyan
 
 highlight! link vimAutoEventList Medium_Cyan
 
@@ -94,20 +95,19 @@ highlight! link DiffAdd Medium_Cyan_Reverse
 highlight! link DiffText Medium_Cyan_Reverse
 highlight! link diffAdded Medium_Cyan_Reverse
 
-"TESTING:
 highlight! link Statement Dark_Purple
-highlight! link Identifier Dark_Purple
 highlight! link Conditional Dark_Purple
 
 
 highlight! link htmlEndTag Red
+highlight! link htmlTag Red
+highlight! link htmlItalic Red
+highlight! link htmlStatement Red
 highlight! link Type Red
 highlight! link vimAutoCmdSfxList Red
 highlight! link PreProc Red
 highlight! link cssClassName Red
 highlight! link cssIdentifier Red
-highlight! link htmlItalic Red
-highlight! link htmlStatement Red
 highlight! link Title Red
 highlight! link WarningMsg Red
 highlight! link diffBDiffer Red
