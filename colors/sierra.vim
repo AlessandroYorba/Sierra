@@ -117,18 +117,22 @@ highlight! Red_Reverse guifg=#d75f5f guibg=NONE gui=reverse ctermfg=167 ctermbg=
 highlight! link Error Red_Reverse
 highlight! link ErrorMsg Red_Reverse
 
+"RED_DARK:
 highlight! Red_Dark guifg=#af5f5f guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
 highlight! link Label Red_Dark
 highlight! link Constant Red_Dark
 
+"RED_MEDIUM:
 highlight! Red_Medium guifg=#d78787 guibg=NONE gui=NONE ctermfg=174 ctermbg=NONE cterm=NONE
 highlight! link htmlArg Red_Medium
 highlight! link Number Red_Medium
 highlight! link Type Red_Medium
 
+"RED_LIGHT:
 highlight! Red_Light guifg=#dfafaf guibg=NONE gui=NONE ctermfg=181 ctermbg=NONE cterm=NONE
 highlight! link String Red_Light
 
+"RED_DARK_REVERSE:
 highlight! Red_Dark_Reverse guifg=#af5f5f guibg=NONE gui=reverse ctermfg=131 ctermbg=NONE cterm=reverse
 highlight! link DiffDelete Red_Dark_Reverse
 highlight! link diffChanged Red_Dark_Reverse
@@ -142,6 +146,7 @@ highlight! link Special Purple
 highlight! link vimCmdSep Purple
 highlight! link Directory Purple
 
+"PURPLE_DARK:
 highlight! Purple_Dark guifg=#875f5f guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
 
 "GREY:
@@ -151,11 +156,13 @@ highlight! link Statement Grey
 highlight! link StorageClass Grey
 highlight! link Conditional Grey
 
+"GREY_REVERSE:
 highlight! Grey_Reverse guifg=#767676 guibg=NONE gui=reverse ctermfg=243 ctermbg=NONE cterm=reverse
 highlight! link SpecialComment Grey_Reverse
 highlight! link VimCommentTitle Grey_Reverse
 highlight! link vimCommentTitle Grey_Reverse
 
+"GREY_LIGHT:
 highlight! Grey_Light_Reverse guifg=#c6c6c6 guibg=NONE gui=reverse ctermfg=251 ctermbg=NONE cterm=reverse
 highlight! link WildMenu Grey_Light_Reverse
 highlight! link Visual Grey_Light_Reverse
@@ -377,7 +384,7 @@ if g:sierra_Nevada
 endif
 
 "LICENSE:
-"Copyright (c) 2020 Alessandro Yorba
+"Copyright (c) 2022 Alessandro Yorba
 "
 "Permission is hereby granted, free of charge, to any person obtaining a copy
 "of this software and associated documentation files (the "Software"), to deal
