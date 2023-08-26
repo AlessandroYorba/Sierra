@@ -159,7 +159,9 @@ highlight! link vimCommentTitle Grey_Reverse
 highlight! Grey_Light_Reverse guifg=#c6c6c6 guibg=NONE gui=reverse ctermfg=251 ctermbg=NONE cterm=reverse
 highlight! link WildMenu Grey_Light_Reverse
 highlight! link Visual Grey_Light_Reverse
-highlight! link Search Grey_Light_Reverse
+highlight! link Search Grey_Reverse
+highlight! link CurSearch Grey_Light_Reverse
+highlight! link IncSearch Grey_Light_Reverse
 
 
 "ORANGE:
